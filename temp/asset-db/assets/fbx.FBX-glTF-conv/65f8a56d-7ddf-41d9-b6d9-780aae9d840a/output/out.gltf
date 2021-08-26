@@ -1,0 +1,143 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 180,
+      "max": [
+        0.29294562339782715,
+        0.2881178557872772,
+        0.8894236087799072
+      ],
+      "min": [
+        -0.29294562339782715,
+        -0.2977733612060547,
+        -0.001950995298102498
+      ],
+      "name": "Box022/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 180,
+      "name": "Box022/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 180,
+      "name": "Box022/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 522,
+      "name": "Box022/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5760,
+      "byteStride": 32,
+      "name": "Box022",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2088,
+      "byteOffset": 5760
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 7848,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/trees01.jpg",
+          "relativeFileName": "trees01.jpg"
+        }
+      },
+      "name": "trees01",
+      "uri": "trees01.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "trees01",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box022",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Box022",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        1.1146800518035889,
+        1.1146800518035889,
+        1.1146800518035889
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "trees01",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

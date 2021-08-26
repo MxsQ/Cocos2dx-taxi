@@ -1,0 +1,558 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1221,
+      "max": [
+        0.31902989745140076,
+        0.6423859000205994,
+        0.4741285741329193
+      ],
+      "min": [
+        -0.31902986764907837,
+        -0.6418932676315308,
+        0.07705934345722198
+      ],
+      "name": "taxi08/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1221,
+      "name": "taxi08/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1221,
+      "name": "taxi08/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 3072,
+      "name": "taxi08/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 20,
+      "max": [
+        0.25659194588661194,
+        0.05075962096452713,
+        0.06442102044820786
+      ],
+      "min": [
+        -0.25681445002555847,
+        -0.05075959488749504,
+        -0.06442096084356308
+      ],
+      "name": "light01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 20,
+      "name": "light01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 20,
+      "name": "light01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 54,
+      "name": "light01/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.043696384876966476,
+        0.10832381248474121,
+        0.1094377338886261
+      ],
+      "min": [
+        -0.04369627311825752,
+        -0.1083238273859024,
+        -0.10943777114152908
+      ],
+      "name": "tyre01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 120,
+      "name": "tyre01/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.043696314096450806,
+        0.10832390189170837,
+        0.10943779349327087
+      ],
+      "min": [
+        -0.043696459382772446,
+        -0.10832380503416061,
+        -0.1094377264380455
+      ],
+      "name": "tyre02/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre02/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre02/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 120,
+      "name": "tyre02/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.04251917451620102,
+        0.105405293405056,
+        0.10648944228887558
+      ],
+      "min": [
+        -0.04251936823129654,
+        -0.10540591925382614,
+        -0.10648957639932632
+      ],
+      "name": "tyre03/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre03/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre03/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 120,
+      "name": "tyre03/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.042519062757492065,
+        0.105405293405056,
+        0.10648956149816513
+      ],
+      "min": [
+        -0.042519181966781616,
+        -0.10540587455034256,
+        -0.10648946464061737
+      ],
+      "name": "tyre04/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre04/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 66,
+      "name": "tyre04/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 120,
+      "name": "tyre04/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 39072,
+      "byteStride": 32,
+      "name": "taxi08",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12288,
+      "byteOffset": 39072
+    },
+    {
+      "buffer": 0,
+      "byteLength": 640,
+      "byteOffset": 51360,
+      "byteStride": 32,
+      "name": "light01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 52000
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 52216,
+      "byteStride": 32,
+      "name": "tyre01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 54328
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 54808,
+      "byteStride": 32,
+      "name": "tyre02",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 56920
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 57400,
+      "byteStride": 32,
+      "name": "tyre03",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 59512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 59992,
+      "byteStride": 32,
+      "name": "tyre04",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 62104
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 62584,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08Black.jpg",
+          "relativeFileName": "taxi08Black.jpg"
+        }
+      },
+      "name": "贴图 #26",
+      "uri": "taxi08Black.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #32",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "taxi08",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "light01",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre01",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre02",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre03",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre04",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "taxi08",
+      "rotation": [
+        -0.7071067690849304,
+        6.181723932741079e-08,
+        6.181723932741079e-08,
+        0.7071067690849304
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        5.527335256161336e-10
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "light01",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        0.001542589976452291,
+        0.2780055105686188,
+        0.5540357828140259
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "tyre01",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        -0.23937109112739563,
+        0.10800039768218994,
+        0.334984689950943
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "tyre02",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        0.24149245023727417,
+        0.10800038278102875,
+        0.33498433232307434
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "tyre03",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        -0.23247277736663818,
+        0.10394351184368134,
+        -0.38968217372894287
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "tyre04",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        0.23459282517433167,
+        0.10394351184368134,
+        -0.3896826505661011
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #26",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

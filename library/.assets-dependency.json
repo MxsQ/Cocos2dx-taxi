@@ -1,0 +1,18 @@
+{
+  "path": {
+    "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.FBX@baf1c": [
+      "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.jpg"
+    ],
+    "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05.FBX@733e8": [
+      "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Green.jpg"
+    ],
+    "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.FBX@a96a6": [
+      "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.jpg"
+    ]
+  },
+  "uuid": {
+    "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/Materials_plane01/plane01.mtl": [
+      "1baf0fc9-befa-459c-8bdd-af1a450a0319"
+    ]
+  }
+}
