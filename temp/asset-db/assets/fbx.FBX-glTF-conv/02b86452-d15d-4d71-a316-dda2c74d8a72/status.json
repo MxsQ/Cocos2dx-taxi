@@ -1,11 +1,11 @@
 {
   "version": "2.0.14",
-  "sourceTimeStamp": 1620284357000,
+  "sourceTimeStamp": 1629985344200.051,
   "outputTimeStamps": {
-    "girl02.png": 1629800545897.1897,
-    "log.json": 1629800545935.6125,
-    "out.bin": 1629800545923.8215,
-    "out.gltf": 1629800545934.5935,
-    ".fbm/5D0F18DC/girl01.fbm/girl02.png": 1629800545876.0571
+    "girl02.png": 1630042432178.7478,
+    "log.json": 1630042432254.9282,
+    "out.bin": 1630042432215.112,
+    "out.gltf": 1630042432253.2693,
+    ".fbm/5D0F18DC/girl01.fbm/girl02.png": 1630042432155.7974
   }
 }

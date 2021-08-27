@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, Vec3, Enum, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _temp, _crd, ccclass, property, ROAD_POINT_TYPE, ROAD_MOVE_TYPE, RoadPoint;
+  var _cclegacy, _decorator, Component, Node, Vec3, Enum, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _class3, _temp, _crd, ccclass, property, ROAD_POINT_TYPE, ROAD_MOVE_TYPE, RoadPoint;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -48,6 +48,7 @@ System.register(["cc"], function (_export, _context) {
       (function (ROAD_MOVE_TYPE) {
         ROAD_MOVE_TYPE[ROAD_MOVE_TYPE["LINE"] = 1] = "LINE";
         ROAD_MOVE_TYPE[ROAD_MOVE_TYPE["CURVE"] = 2] = "CURVE";
+        ROAD_MOVE_TYPE[ROAD_MOVE_TYPE["BEND"] = 3] = "BEND";
       })(ROAD_MOVE_TYPE || (ROAD_MOVE_TYPE = {}));
 
       Enum(ROAD_MOVE_TYPE);
@@ -89,7 +90,7 @@ System.register(["cc"], function (_export, _context) {
         visible: function visible() {
           return this.type === ROAD_POINT_TYPE.AI_START;
         }
-      }), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
+      }), _dec(_class = (_class2 = (_temp = _class3 = /*#__PURE__*/function (_Component) {
         _inheritsLoose(RoadPoint, _Component);
 
         function RoadPoint() {
@@ -123,7 +124,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         return RoadPoint;
-      }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "type", [_dec2], {
+      }(Component), _defineProperty(_class3, "RoadPointType", ROAD_POINT_TYPE), _defineProperty(_class3, "RoadMoveType", ROAD_MOVE_TYPE), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "type", [_dec2], {
         configurable: true,
         enumerable: true,
         writable: true,

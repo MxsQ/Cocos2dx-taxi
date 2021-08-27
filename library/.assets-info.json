@@ -1,1785 +1,1785 @@
 {
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio.meta": {
-    "time": 1629800545470.6624
+    "time": 1629985344158.7615
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music.meta": {
-    "time": 1629800545470.923
+    "time": 1629985344159.3547
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music/background.mp3.meta": {
-    "time": 1629800545484.4836
+    "time": 1629985344161.9275
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound.meta": {
-    "time": 1629800545471.1274
+    "time": 1629985344162.184
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/click.mp3.meta": {
-    "time": 1629800545482.8472
+    "time": 1629985344162.8523
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/crash.mp3.meta": {
-    "time": 1629800545481.781
+    "time": 1629985344163.7383
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/getMoney.mp3.meta": {
-    "time": 1629800545484.227
+    "time": 1629985344164.6616
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/inCar.mp3.meta": {
-    "time": 1629800545481.4995
+    "time": 1629985344165.5972
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/newOrder.mp3.meta": {
-    "time": 1629800545492.7034
+    "time": 1629985344166.4827
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/start.mp3.meta": {
-    "time": 1629800545492.979
+    "time": 1629985344167.0015
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/stop.mp3.meta": {
-    "time": 1629800545493.1943
+    "time": 1629985344167.5457
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting1.mp3.meta": {
-    "time": 1629800545498.6836
+    "time": 1629985344168.126
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting2.mp3.meta": {
-    "time": 1629800545499.571
+    "time": 1629985344168.6821
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/win.mp3.meta": {
-    "time": 1629800545533.1443
+    "time": 1629985344169.2993
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model.meta": {
-    "time": 1629800545493.928
+    "time": 1629985344170.2896
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars.meta": {
-    "time": 1629800545494.1594
+    "time": 1629985344170.5413
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi.meta": {
-    "time": 1629800545497.4053
+    "time": 1629985344170.7239
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.FBX.meta": {
-    "time": 1629800545693.562
+    "time": 1629985344171.9539
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02.FBX.meta": {
-    "time": 1629800545668.4604
+    "time": 1629985344173.7603
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03.FBX.meta": {
-    "time": 1629800545689.276
+    "time": 1629985344176.3132
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04.FBX.meta": {
-    "time": 1629800545721.0396
+    "time": 1629985344178.4895
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05.FBX.meta": {
-    "time": 1629800545745.0574
+    "time": 1629985344182.718
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06.FBX.meta": {
-    "time": 1629800545880.9197
+    "time": 1629985344185.3938
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07.FBX.meta": {
-    "time": 1629800545916.747
+    "time": 1629985344188.6375
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08.FBX.meta": {
-    "time": 1629800545868.8086
+    "time": 1629985344191.7317
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck.meta": {
-    "time": 1629800545721.7083
+    "time": 1629985344193.3428
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck01.FBX.meta": {
-    "time": 1629800545812.7417
+    "time": 1629985344193.9646
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02.FBX.meta": {
-    "time": 1629800545925.4226
+    "time": 1629985344195.5728
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer.meta": {
-    "time": 1629800545813.296
+    "time": 1629985344197.8218
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1.meta": {
-    "time": 1629800545813.842
+    "time": 1629985344198.2173
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01.fbx.meta": {
-    "time": 1629800546043.936
+    "time": 1629985344200.4358
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01@walk.FBX.meta": {
-    "time": 1629800546087.7397
+    "time": 1629985344203.0432
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2.meta": {
-    "time": 1629800545881.6814
+    "time": 1629985344203.353
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01.FBX.meta": {
-    "time": 1629800546093.2126
+    "time": 1629985344204.3384
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01@walk.FBX.meta": {
-    "time": 1629800546147.7046
+    "time": 1629985344207.096
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect.meta": {
-    "time": 1629800545926.047
+    "time": 1629985344207.3616
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin.meta": {
-    "time": 1629800545926.6829
+    "time": 1629985344207.6501
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.FBX.meta": {
-    "time": 1629800546087.3218
+    "time": 1629985344208.4956
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailGas.meta": {
-    "time": 1629800546044.618
+    "time": 1629985344209.2732
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailLine.meta": {
-    "time": 1629800546045.3372
+    "time": 1629985344210.0886
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house.meta": {
-    "time": 1629800546046.084
+    "time": 1629985344210.6738
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house01.FBX.meta": {
-    "time": 1629800546177.0457
+    "time": 1629985344211.2537
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house02.FBX.meta": {
-    "time": 1629800546188.3857
+    "time": 1629985344212.5444
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane.meta": {
-    "time": 1629800546088.8762
+    "time": 1629985344213.333
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/plane01.FBX.meta": {
-    "time": 1629880310813.5154
+    "time": 1629985344215.0527
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road.meta": {
-    "time": 1629800546095.0237
+    "time": 1629985344215.6938
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.FBX.meta": {
-    "time": 1629800546216.7366
+    "time": 1629985344216.217
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road02.FBX.meta": {
-    "time": 1629800546246.1753
+    "time": 1629985344217.1602
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road03.FBX.meta": {
-    "time": 1629800546317.43
+    "time": 1629985344218.2437
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road04.FBX.meta": {
-    "time": 1629800546273.9446
+    "time": 1629985344219.4795
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road05.FBX.meta": {
-    "time": 1629800546303.7727
+    "time": 1629985344220.207
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road06.FBX.meta": {
-    "time": 1629800546337.318
+    "time": 1629985344220.906
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road07.FBX.meta": {
-    "time": 1629800546347.9185
+    "time": 1629985344221.7002
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road08.FBX.meta": {
-    "time": 1629800546381.321
+    "time": 1629985344222.43
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign.meta": {
-    "time": 1629800546304.46
+    "time": 1629985344222.7039
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/end.FBX.meta": {
-    "time": 1629800546402.2866
+    "time": 1629985344223.3347
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign01.FBX.meta": {
-    "time": 1629800546409.6487
+    "time": 1629985344224.8955
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign02.FBX.meta": {
-    "time": 1629800546435.2957
+    "time": 1629985344225.5886
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/start.FBX.meta": {
-    "time": 1629800546455.5234
+    "time": 1629985344226.4128
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree.meta": {
-    "time": 1629800546381.8303
+    "time": 1629985344227.0486
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone01.FBX.meta": {
-    "time": 1629800546489.39
+    "time": 1629985344227.7332
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone02.FBX.meta": {
-    "time": 1629800546511.4998
+    "time": 1629985344228.9836
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/tree01.FBX.meta": {
-    "time": 1629800546520.6326
+    "time": 1629985344229.936
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/tree02.FBX.meta": {
-    "time": 1629800546535.6404
+    "time": 1629985344230.7646
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures.meta": {
-    "time": 1629800546456.4924
+    "time": 1629985344243.3752
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI.meta": {
-    "time": 1629800546457.0989
+    "time": 1629985344243.797
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common.meta": {
-    "time": 1629800546457.693
+    "time": 1629985344244.1216
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily.meta": {
-    "time": 1629800546459.1006
+    "time": 1629985344252.2864
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight.meta": {
-    "time": 1629800546459.8103
+    "time": 1629985344256.1238
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head.meta": {
-    "time": 1629800546460.5044
+    "time": 1629985344268.1758
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home.meta": {
-    "time": 1629800546461.3342
+    "time": 1629985344269.5225
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading.meta": {
-    "time": 1629800546462.1226
+    "time": 1629985344280.5518
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar.meta": {
-    "time": 1629800546462.6885
+    "time": 1629985344282.1797
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank.meta": {
-    "time": 1629800546463.2148
+    "time": 1629985344285.1626
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set.meta": {
-    "time": 1629800546463.8567
+    "time": 1629985344287.3442
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop.meta": {
-    "time": 1629800546464.3462
+    "time": 1629985344289.821
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect.meta": {
-    "time": 1629800546464.7446
+    "time": 1629985344292.165
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold.meta": {
-    "time": 1629800546465.0989
+    "time": 1629985344292.8708
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.jpg.meta": {
-    "time": 1629800546484.8237
+    "time": 1629985344172.6501
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02Blue.jpg.meta": {
-    "time": 1629800546498.5852
+    "time": 1629985344174.269
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02Gray.jpg.meta": {
-    "time": 1629800546503.839
+    "time": 1629985344174.94
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03Orange.jpg.meta": {
-    "time": 1629800546513.3955
+    "time": 1629985344176.9836
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03Purple.jpg.meta": {
-    "time": 1629800546521.9407
+    "time": 1629985344177.5273
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Light.png.meta": {
-    "time": 1629800546530.1472
+    "time": 1629985344178.8728
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Red.jpg.meta": {
-    "time": 1629800546532.571
+    "time": 1629985344179.7358
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Yellow.jpg.meta": {
-    "time": 1629800546538.3997
+    "time": 1629985344180.76
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Green.jpg.meta": {
-    "time": 1629800546537.8452
+    "time": 1629985344183.708
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Light.png.meta": {
-    "time": 1629800546546.9856
+    "time": 1629985344184.0942
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Red.png.meta": {
-    "time": 1629800546551.2043
+    "time": 1629985344184.6475
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Gray.jpg.meta": {
-    "time": 1629800546553.538
+    "time": 1629985344186.3557
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Light.png.meta": {
-    "time": 1629800546555.6272
+    "time": 1629985344186.798
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Purple.jpg.meta": {
-    "time": 1629800546559.1294
+    "time": 1629985344187.6382
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07Black.jpg.meta": {
-    "time": 1629800546563.153
+    "time": 1629985344189.574
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07Light.png.meta": {
-    "time": 1629800546566.1187
+    "time": 1629985344189.9702
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07White.jpg.meta": {
-    "time": 1629800546568.6768
+    "time": 1629985344190.647
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08Black.jpg.meta": {
-    "time": 1629800546570.7454
+    "time": 1629985344192.304
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08Gray.jpg.meta": {
-    "time": 1629800546571.9004
+    "time": 1629985344193.096
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck01.jpg.meta": {
-    "time": 1629800546578.6116
+    "time": 1629985344194.5413
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Blue.jpg.meta": {
-    "time": 1629800546580.6052
+    "time": 1629985344196.1418
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Pink.jpg.meta": {
-    "time": 1629800546583.27
+    "time": 1629985344196.7793
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Silvery.jpg.meta": {
-    "time": 1629800546585.472
+    "time": 1629985344197.3423
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01.jpg.meta": {
-    "time": 1629800546584.8882
+    "time": 1629985344201.0674
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01.jpg.meta": {
-    "time": 1629800546592.281
+    "time": 1629985344205.0967
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.jpg.meta": {
-    "time": 1629800546593.943
+    "time": 1629985344209.0837
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailGas/TrailModule01.png.meta": {
-    "time": 1629800546598.633
+    "time": 1629985344209.9094
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailLine/TrailModule02.png.meta": {
-    "time": 1629800546597.1821
+    "time": 1629985344210.4985
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house01.jpg.meta": {
-    "time": 1629800546598.3782
+    "time": 1629985344211.731
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house02.jpg.meta": {
-    "time": 1629800546603.9417
+    "time": 1629985344213.0308
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/plane01.jpg.meta": {
-    "time": 1629800546604.9294
+    "time": 1629985344215.515
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.jpg.meta": {
-    "time": 1629800546608.232
+    "time": 1629985344216.6067
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road02.jpg.meta": {
-    "time": 1629800546609.43
+    "time": 1629985344217.5466
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road03.jpg.meta": {
-    "time": 1629800546611.243
+    "time": 1629985344218.6096
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/end.jpg.meta": {
-    "time": 1629800546615.7847
+    "time": 1629985344223.8132
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign.jpg.meta": {
-    "time": 1629800546615.1956
+    "time": 1629985344224.1968
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/start.jpg.meta": {
-    "time": 1629800546619.35
+    "time": 1629985344226.8381
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone01.png.meta": {
-    "time": 1629800546619.128
+    "time": 1629985344228.2998
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone02.png.meta": {
-    "time": 1629800546618.8984
+    "time": 1629985344229.4077
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/trees01.jpg.meta": {
-    "time": 1629800546625.2651
+    "time": 1629985344231.4998
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnBlue.png.meta": {
-    "time": 1629800546625.4993
+    "time": 1629985344244.79
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnGray.png.meta": {
-    "time": 1629800546630.7595
+    "time": 1629985344245.3533
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnRed.png.meta": {
-    "time": 1629800546630.5
+    "time": 1629985344245.9768
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnYellow.png.meta": {
-    "time": 1629800546630.9707
+    "time": 1629985344246.6145
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconClose.png.meta": {
-    "time": 1629800546634.6155
+    "time": 1629985344247.1968
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconClose02.png.meta": {
-    "time": 1629800546634.9233
+    "time": 1629985344247.9695
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconGold.png.meta": {
-    "time": 1629800546642.1128
+    "time": 1629985344248.8308
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle1.png.meta": {
-    "time": 1629800546641.7378
+    "time": 1629985344249.4297
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle2.png.meta": {
-    "time": 1629800546640.2393
+    "time": 1629985344249.9268
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle8.png.meta": {
-    "time": 1629800546646.8308
+    "time": 1629985344250.5686
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonTitle01.png.meta": {
-    "time": 1629800546647.6675
+    "time": 1629985344251.0483
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonTitle02.png.meta": {
-    "time": 1629800546651.3843
+    "time": 1629985344251.6277
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/rankxImg03.png.meta": {
-    "time": 1629800546651.842
+    "time": 1629985344252.0688
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyBtn01.png.meta": {
-    "time": 1629800546651.634
+    "time": 1629985344252.9429
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg01.png.meta": {
-    "time": 1629800546654.201
+    "time": 1629985344253.5918
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg02.png.meta": {
-    "time": 1629800546657.0588
+    "time": 1629985344254.284
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg03.png.meta": {
-    "time": 1629800546662.8198
+    "time": 1629985344254.762
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImgGet.png.meta": {
-    "time": 1629800546664.8042
+    "time": 1629985344255.205
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImgLight.png.meta": {
-    "time": 1629800546663.8845
+    "time": 1629985344255.935
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox1a.png.meta": {
-    "time": 1629800546666.9285
+    "time": 1629985344256.7605
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2a.png.meta": {
-    "time": 1629800546668.397
+    "time": 1629985344257.3076
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2b.png.meta": {
-    "time": 1629800546671.5913
+    "time": 1629985344257.9392
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2c.png.meta": {
-    "time": 1629800546672.6228
+    "time": 1629985344258.4045
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox3a.png.meta": {
-    "time": 1629800546673.6284
+    "time": 1629985344258.8135
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox3b.png.meta": {
-    "time": 1629800546679.746
+    "time": 1629985344259.233
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxGold.png.meta": {
-    "time": 1629800546678.3962
+    "time": 1629985344259.6296
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxGold02.png.meta": {
-    "time": 1629800546683.6953
+    "time": 1629985344259.9675
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxHead.png.meta": {
-    "time": 1629800546684.3699
+    "time": 1629985344260.3254
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxTalk.png.meta": {
-    "time": 1629800546685.9067
+    "time": 1629985344260.7021
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgCircle.png.meta": {
-    "time": 1629800546688.382
+    "time": 1629985344261.0928
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgFont01.png.meta": {
-    "time": 1629800546689.0625
+    "time": 1629985344261.4875
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgFont02.png.meta": {
-    "time": 1629800546692.3337
+    "time": 1629985344261.9238
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgGift.png.meta": {
-    "time": 1629800546693.206
+    "time": 1629985344262.3264
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgGold.png.meta": {
-    "time": 1629800546694.4768
+    "time": 1629985344262.8389
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgHand.png.meta": {
-    "time": 1629800546696.8218
+    "time": 1629985344263.2217
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLight.png.meta": {
-    "time": 1629800546697.939
+    "time": 1629985344264.3752
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLineRed.png.meta": {
-    "time": 1629800546700.6404
+    "time": 1629985344264.816
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLineYellow.png.meta": {
-    "time": 1629800546701.2908
+    "time": 1629985344265.2756
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgStar.png.meta": {
-    "time": 1629800546702.6824
+    "time": 1629985344265.6956
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightLineGray.png.meta": {
-    "time": 1629800546704.943
+    "time": 1629985344266.1123
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightLineRed.png.meta": {
-    "time": 1629800546705.7356
+    "time": 1629985344266.507
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightShieldImg01.png.meta": {
-    "time": 1629800546708.9048
+    "time": 1629985344267.3826
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightShieldImg02.png.meta": {
-    "time": 1629800546709.9226
+    "time": 1629985344267.993
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head/head1.png.meta": {
-    "time": 1629800546722.3687
+    "time": 1629985344268.654
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head/head2.png.meta": {
-    "time": 1629800546725.7493
+    "time": 1629985344269.1633
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBarGold01.png.meta": {
-    "time": 1629800546712.1895
+    "time": 1629985344269.956
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBarGold02.png.meta": {
-    "time": 1629800546714.4304
+    "time": 1629985344270.325
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxAD.png.meta": {
-    "time": 1629800546716.5505
+    "time": 1629985344270.6873
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxArrow.png.meta": {
-    "time": 1629800546719.9546
+    "time": 1629985344271.0627
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame.jpg.meta": {
-    "time": 1629800546724.1401
+    "time": 1629985344271.4614
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame02.png.meta": {
-    "time": 1629800546726.475
+    "time": 1629985344271.9348
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame03.png.meta": {
-    "time": 1629800546728.7424
+    "time": 1629985344272.5876
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGold.png.meta": {
-    "time": 1629800546730.5476
+    "time": 1629985344273.2314
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxOnline01.png.meta": {
-    "time": 1629800546732.2637
+    "time": 1629985344273.6165
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxOnline02.png.meta": {
-    "time": 1629800546733.3784
+    "time": 1629985344274.0396
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconArrow.png.meta": {
-    "time": 1629800546734.26
+    "time": 1629985344274.5452
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconCar.png.meta": {
-    "time": 1629800546737.4465
+    "time": 1629985344274.9985
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconDaily.png.meta": {
-    "time": 1629800546738.4875
+    "time": 1629985344275.5222
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconGame.png.meta": {
-    "time": 1629800546741.0996
+    "time": 1629985344276.0847
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconGold.png.meta": {
-    "time": 1629800546741.9768
+    "time": 1629985344276.6233
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconLottery.png.meta": {
-    "time": 1629800546744.2
+    "time": 1629985344277.0073
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconRank.png.meta": {
-    "time": 1629800546749.7366
+    "time": 1629985344277.5383
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconService.png.meta": {
-    "time": 1629800546751.0916
+    "time": 1629985344278.0503
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconSet.png.meta": {
-    "time": 1629800546754.4255
+    "time": 1629985344278.5469
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeImgGame.png.meta": {
-    "time": 1629800546758.7249
+    "time": 1629985344279.179
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeImgPoint.png.meta": {
-    "time": 1629800546758.352
+    "time": 1629985344279.658
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeLogo.png.meta": {
-    "time": 1629800546761.782
+    "time": 1629985344280.3596
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingBg.jpg.meta": {
-    "time": 1629800546763.7615
+    "time": 1629985344281.1362
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingBg01.jpg.meta": {
-    "time": 1629800546766.4558
+    "time": 1629985344281.9922
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar01.png.meta": {
-    "time": 1629800546768.7913
+    "time": 1629985344282.6309
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar02.png.meta": {
-    "time": 1629800546770.1929
+    "time": 1629985344283.077
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar03.png.meta": {
-    "time": 1629800546772.1465
+    "time": 1629985344283.5193
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar04.png.meta": {
-    "time": 1629800546772.409
+    "time": 1629985344283.9785
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/singleColor.png.meta": {
-    "time": 1629800546777.252
+    "time": 1629985344284.3687
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/singleColorBlack.png.meta": {
-    "time": 1629800546780.296
+    "time": 1629985344284.966
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBox01.png.meta": {
-    "time": 1629800546781.7344
+    "time": 1629985344285.5864
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBox02.png.meta": {
-    "time": 1629800546786.2502
+    "time": 1629985344285.9495
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBoxNumber.png.meta": {
-    "time": 1629800546784.9424
+    "time": 1629985344286.3352
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankIconArrow.png.meta": {
-    "time": 1629800546789.979
+    "time": 1629985344286.7444
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankImgLine.png.meta": {
-    "time": 1629800546796.4463
+    "time": 1629985344287.1367
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg01.png.meta": {
-    "time": 1629800546797.5955
+    "time": 1629985344287.8037
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg02.png.meta": {
-    "time": 1629800546800.5715
+    "time": 1629985344288.2197
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg03.png.meta": {
-    "time": 1629800546800.3142
+    "time": 1629985344288.8237
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setIocnMusic.png.meta": {
-    "time": 1629800546804.0234
+    "time": 1629985344289.242
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setIocnShake.png.meta": {
-    "time": 1629800546808.6199
+    "time": 1629985344289.6172
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopBoxChoose.png.meta": {
-    "time": 1629800546808.3552
+    "time": 1629985344290.4788
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopIconGet.png.meta": {
-    "time": 1629800546812.216
+    "time": 1629985344290.8594
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopPoint01.png.meta": {
-    "time": 1629800546813.2275
+    "time": 1629985344291.3337
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopPoint02.png.meta": {
-    "time": 1629800546817.3157
+    "time": 1629985344291.9243
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/light.png.meta": {
-    "time": 1629800546821.789
+    "time": 1629985344292.64
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00001.png.meta": {
-    "time": 1629800546819.8613
+    "time": 1629985344293.427
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00002.png.meta": {
-    "time": 1629800546823.1016
+    "time": 1629985344293.9038
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00003.png.meta": {
-    "time": 1629800546823.3572
+    "time": 1629985344294.5564
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00004.png.meta": {
-    "time": 1629800546827.7615
+    "time": 1629985344295.3335
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00005.png.meta": {
-    "time": 1629800546829.1025
+    "time": 1629985344296.1592
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00006.png.meta": {
-    "time": 1629800546831.9949
+    "time": 1629985344297.3245
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00007.png.meta": {
-    "time": 1629800546833.2239
+    "time": 1629985344298.2263
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00008.png.meta": {
-    "time": 1629800546833.4866
+    "time": 1629985344298.9133
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00009.png.meta": {
-    "time": 1629800546836.6934
+    "time": 1629985344299.6926
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00010.png.meta": {
-    "time": 1629800546837.8276
+    "time": 1629985344300.3367
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00011.png.meta": {
-    "time": 1629800546839.4639
+    "time": 1629985344301.142
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00012.png.meta": {
-    "time": 1629800546841.4812
+    "time": 1629985344301.7253
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/commonIconCoin.png.meta": {
-    "time": 1629800546840.6304
+    "time": 1629985344302.3445
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio": {
-    "time": 1629800545391.7788,
+    "time": 1629985344162.2385,
     "uuid": "5da3ae3f-6fa9-4d5e-bce6-59e50396821f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music": {
-    "time": 1629800545391.3965,
+    "time": 1629985344161.6643,
     "uuid": "a80f7f5c-41c4-4f66-acdc-8d4cadf2b1c1",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound": {
-    "time": 1629800545394.7322,
+    "time": 1629985344169.098,
     "uuid": "9d040e12-bdc4-4ece-a60e-493cee86cfc3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/inCar.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344165.173,
     "uuid": "d2287ee7-e790-4cc6-9ffb-7015dc08821d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/crash.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344163.4272,
     "uuid": "58b5447d-d0a9-47ce-b3ba-13b4af0a6519",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/click.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344162.4631,
     "uuid": "34970795-0470-45c7-9035-8421cffafb79",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/getMoney.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344164.2888,
     "uuid": "cc21d7c4-9482-4b53-b44c-d27fa6b76d03",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music/background.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344161.5625,
     "uuid": "d965d8d7-2723-4155-80c0-d62cd4a9c9a9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/newOrder.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344166.2195,
     "uuid": "9ee929e0-198c-42c5-b35b-5ea00059613e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/start.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344166.7751,
     "uuid": "2a285f8c-f6f5-48a5-8c4e-92c94cf60f5c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/stop.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344167.351,
     "uuid": "db6d2599-ab60-4c54-89fc-67cd6f092436",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model": {
-    "time": 1629800545417.2837,
+    "time": 1629985344227.1052,
     "uuid": "debc1170-4a88-496a-8921-d5a342f71436",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars": {
-    "time": 1629800545403.1658,
+    "time": 1629985344193.3972,
     "uuid": "ff973ef4-b640-4cb2-9ef0-c390ba98e3fe",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi": {
-    "time": 1629800545402.932,
+    "time": 1629985344192.8608,
     "uuid": "fcfa52bd-4ce7-4d49-b913-aba67cd8f3aa",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting1.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344167.9072,
     "uuid": "69290fd4-1ecc-4025-9d74-a4e777377aec",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting2.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344168.4868,
     "uuid": "f8802356-394a-4394-94ad-86f0f301e947",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/win.mp3": {
-    "time": 1620284357000,
+    "time": 1629985344169.0027,
     "uuid": "d8959d6a-88d2-4f46-82c2-15f205049eac",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344173.3984,
     "uuid": "8a7c783b-a45e-4dde-b96c-f9bb7d742b9a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344175.964,
     "uuid": "c3fffd52-ed9c-4804-979c-1b08aa87b335",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344171.5647,
     "uuid": "e097d4b5-9f5e-4804-bd54-22398e25ffde",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344178.2656,
     "uuid": "3b0a812a-ca1a-40da-a990-d5b7881b7dc6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck": {
-    "time": 1629800545404.8018,
+    "time": 1629985344197.1948,
     "uuid": "c1cc7b04-c796-49f4-a2b0-f923245d5461",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344182.295,
     "uuid": "e0465be7-1b80-421c-9c36-04294a591107",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344193.746,
     "uuid": "ff18d2e1-90c8-4da0-956b-7910bbce723e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer": {
-    "time": 1629800545406.4343,
+    "time": 1629985344203.4067,
     "uuid": "c3723c6a-0147-41d5-89dd-7f4e37c24399",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1": {
-    "time": 1629800545406.1677,
+    "time": 1629985344202.7583,
     "uuid": "522ad0ba-b840-44c9-a6db-c4f46bc6c0ea",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344191.4165,
     "uuid": "ea19c654-7eed-4645-9d57-8494d0d1ef25",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344185.1812,
     "uuid": "dd6e5615-5248-44b0-b7c5-2859df338b12",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2": {
-    "time": 1629800545407.185,
+    "time": 1629985344206.837,
     "uuid": "fcc2ffc3-bd8c-4ede-8b56-88d108343fa5",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344188.3582,
     "uuid": "96114f45-57d1-4c60-bb54-60b9651900ea",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344195.2085,
     "uuid": "67f3d329-b194-4998-a56d-5cd4c6e97710",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect": {
-    "time": 1629800545409.3088,
+    "time": 1629985344210.141,
     "uuid": "c5319514-667d-4d38-ac41-d0969b891bcc",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin": {
-    "time": 1629800545408.3657,
+    "time": 1629985344208.8762,
     "uuid": "4827a01a-33c1-4c52-ba2e-3f792f1df77a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01.fbx": {
-    "time": 1620284357000,
+    "time": 1629985344200.051,
     "uuid": "02b86452-d15d-4d71-a316-dda2c74d8a72",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailGas": {
-    "time": 1629800545409.0718,
+    "time": 1629985344209.779,
     "uuid": "ecd74341-0e2e-48e7-87b6-999e41589ee6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailLine": {
-    "time": 1629800545409.614,
+    "time": 1629985344210.3745,
     "uuid": "a32bb322-ee1c-4d5a-923e-d82da2ba28f9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house": {
-    "time": 1620284357000,
+    "time": 1629985344212.9004,
     "uuid": "793dbcae-939b-495a-b5b2-9a4a52e9768f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344208.149,
     "uuid": "fa5f234a-efc3-457e-b3f6-a113963e2e1c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01@walk.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344202.6707,
     "uuid": "c093a9ce-2071-486d-9e46-ba51498385c3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane": {
-    "time": 1629880633972.1992,
+    "time": 1629985344215.3855,
     "uuid": "548f1eee-1998-4c0a-9ea6-d8251ebc48f2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344204.05,
     "uuid": "fa111e27-861e-4519-a832-841c9e6d72af",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road": {
-    "time": 1629800545415.1023,
+    "time": 1629985344222.2915,
     "uuid": "46c53fc7-3d53-4ba1-adb6-1479bc7125d6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01@walk.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344206.7295,
     "uuid": "d4685723-d9d3-4f14-9740-85e7c3205c90",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344211.047,
     "uuid": "3cdc8bc7-088b-4837-8831-9f38eeeb8c88",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344212.1897,
     "uuid": "c4995fba-9b4b-4968-957c-6eb66f4e73eb",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/plane01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344214.8257,
     "uuid": "ed01075d-d3e9-40e3-bf44-cc178f7a5d7d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344216.0098,
     "uuid": "cc8c7f4e-195d-4e29-beb2-793cd8682b61",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344216.9216,
     "uuid": "d4b107d5-ed1d-4c64-bc9a-da26dce079c7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road04.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344219.1548,
     "uuid": "792d6da4-4efa-42cf-b2f0-f064b1863b48",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road05.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344219.9697,
     "uuid": "27b67583-a786-453d-9fbe-1381f953f780",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign": {
-    "time": 1629800545417.0276,
+    "time": 1629985344226.6785,
     "uuid": "6571e86b-dd69-49b7-9e1b-a7dbcabb923f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road03.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344218.0315,
     "uuid": "ac1b7d41-d604-4123-b917-f3ad73f59fa7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road06.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344220.6912,
     "uuid": "65d8ce8f-d353-4f55-99b9-8efc6cc8d06b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road07.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344221.4814,
     "uuid": "86ffcc9b-f95b-4583-a001-e6367e43c631",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road08.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344222.2205,
     "uuid": "05791d2f-2ad3-4df7-9590-c8715f96106d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree": {
-    "time": 1629800545419.2212,
+    "time": 1629985344231.2556,
     "uuid": "5b650138-76cd-4303-83ed-0b95c1a3e93b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/end.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344223.0344,
     "uuid": "985a2eda-d726-4fbd-bedd-1d88b203edda",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344224.6008,
     "uuid": "997c34fb-1825-41d9-9f84-8c94eebd3bb4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344225.3464,
     "uuid": "9aba0535-220a-41e0-83f2-aaa02cf8c259",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/start.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344226.1858,
     "uuid": "b8a9c2a1-01a6-4e21-b5c6-f663989d45ba",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures": {
-    "time": 1629800545448.9434,
+    "time": 1629985344292.2224,
     "uuid": "7b682464-49e2-4241-a8e3-d1b99f68fc58",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI": {
-    "time": 1629800545447.6084,
+    "time": 1629985344289.875,
     "uuid": "1c871f85-516e-420d-b3ab-c11e3f308418",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common": {
-    "time": 1629800545423.54,
+    "time": 1629985344251.905,
     "uuid": "03fc4a3e-95b1-4c0e-8475-98b072a71f83",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily": {
-    "time": 1629800545425.7087,
+    "time": 1629985344255.8008,
     "uuid": "ca000d3d-957a-48c0-8fc0-2b4d24ccb4d7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight": {
-    "time": 1629800545433.5752,
+    "time": 1629985344267.8481,
     "uuid": "5e022563-c291-4a2b-9ae7-04994efdfe3f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head": {
-    "time": 1620284357000,
+    "time": 1629985344269.0261,
     "uuid": "858f4e35-bb46-419a-89fc-addc982f2387",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home": {
-    "time": 1629800545441.469,
+    "time": 1629985344280.1733,
     "uuid": "3621ddd9-c732-4f88-8fe0-246c9c3f0e0a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading": {
-    "time": 1629800545444.171,
+    "time": 1629985344284.7842,
     "uuid": "fc5c68f7-5e4b-494c-b32f-6a8e37d46d9b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar": {
-    "time": 1629800545443.685,
+    "time": 1629985344283.8428,
     "uuid": "7b42604e-2908-4ca6-a0cc-c88d51f51317",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank": {
-    "time": 1629800545445.8552,
+    "time": 1629985344287.0066,
     "uuid": "585a25ee-6cca-4e84-9bcb-28df0b361873",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set": {
-    "time": 1629800545447.3596,
+    "time": 1629985344289.4814,
     "uuid": "53ac1a9e-a514-422f-95e5-f05bed924c5a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop": {
-    "time": 1629800545448.6946,
+    "time": 1629985344291.6204,
     "uuid": "038baf9d-b2ab-47e4-9338-947a4b0ce41e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect": {
-    "time": 1629800545449.4736,
+    "time": 1629985344292.9365,
     "uuid": "f26238bd-7e97-4555-b9cd-9a1caec021a4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold": {
-    "time": 1629800545453.6628,
+    "time": 1629985344302.128,
     "uuid": "c2ca2ae6-9bf7-43e9-b2d3-5cfb05d68274",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344172.4387,
     "uuid": "7c92cf9c-ab65-419c-abe3-4878f0e60b47",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344227.5278,
     "uuid": "68fd178b-79cf-4532-9a58-5c12af0ea99c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02Blue.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344174.0356,
     "uuid": "0549f99c-44b5-4210-9dee-35378525a48a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02Gray.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344174.7363,
     "uuid": "c87cf621-6d2d-4b57-9d61-280330fc1b8a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344228.7405,
     "uuid": "90848ec7-d595-4219-80c0-45eb9b3eb290",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03Orange.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344176.6577,
     "uuid": "8d0404a7-e81b-4993-860a-e796083f0abe",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/tree01.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344229.7036,
     "uuid": "9df3524e-75a1-4938-8cca-f11c6630bf4a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi03Purple.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344177.298,
     "uuid": "f348567b-25f0-41cf-b6c1-482772d54d74",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Light.png": {
-    "time": 1620284357000,
+    "time": 1629985344178.6877,
     "uuid": "8d9354e5-9239-4329-b373-d8a4961d36ec",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Red.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344179.4377,
     "uuid": "454a6aec-19d5-45fc-b2e7-5328b9e567e4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/tree02.FBX": {
-    "time": 1620284357000,
+    "time": 1629985344230.462,
     "uuid": "65f8a56d-7ddf-41d9-b6d9-780aae9d840a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Green.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344183.3374,
     "uuid": "97bd2c0b-277e-4b54-90cf-10e084384e66",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Yellow.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344180.374,
     "uuid": "f92ebb49-7c6a-402c-aae5-731c9f7913ee",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Light.png": {
-    "time": 1620284357000,
+    "time": 1629985344183.9187,
     "uuid": "b88ad17b-114f-445d-af04-2254652bac04",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi05Red.png": {
-    "time": 1620284357000,
+    "time": 1629985344184.4668,
     "uuid": "39465631-4e33-4bed-810a-1a8f2092d0f2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Gray.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344186.014,
     "uuid": "664db71f-84f8-47e7-bf8a-cf5e6ead7f30",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Light.png": {
-    "time": 1620284357000,
+    "time": 1629985344186.5503,
     "uuid": "95e54e11-6b33-4266-8272-69a905d124a7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Purple.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344187.2996,
     "uuid": "00d25414-a223-4f28-a6ec-c598ebf42a1e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07Black.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344189.1802,
     "uuid": "1656aa7f-5d5a-4d32-814c-d2d358569885",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07Light.png": {
-    "time": 1620284357000,
+    "time": 1629985344189.7788,
     "uuid": "f5177ce4-8222-42ff-9a6b-545e679dbde0",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi07White.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344190.4448,
     "uuid": "915e4c31-0296-41ac-b187-b2cd87f99f51",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08Black.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344192.0154,
     "uuid": "0ad110cb-d3e0-41be-8102-0c98ca570548",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi08Gray.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344192.7812,
     "uuid": "66bbf8f6-db32-44e5-b5ba-bfc3fbb7d063",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344194.3582,
     "uuid": "49e5b0db-4fe8-4856-bf94-808eccc815bf",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Blue.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344195.96,
     "uuid": "1f061012-4c66-477c-a654-355879228a46",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Pink.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344196.4656,
     "uuid": "e9d04fcc-1236-4280-bdb1-05ff99ad8e04",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/1/girl01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344200.862,
     "uuid": "9ba2ebe9-0ebb-4475-987b-d0e2ebbf3c19",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck02Silvery.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344197.1382,
     "uuid": "448a1d63-2529-470c-9916-fb91f78ce83f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/customer/2/man01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344204.8687,
     "uuid": "519afe9d-75eb-452f-8145-8776c70a0c99",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/coin/coin.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344208.808,
     "uuid": "bcb880d2-0e23-4e37-8fc5-17dbde5685e8",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailLine/TrailModule02.png": {
-    "time": 1620284357000,
+    "time": 1629985344210.3196,
     "uuid": "68940a9d-a0d1-410e-9631-e6d1b9c79e3c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344211.538,
     "uuid": "e0012da4-1edf-49f8-8393-c177ba70d240",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/effect/tailGas/TrailModule01.png": {
-    "time": 1620284357000,
+    "time": 1629985344209.717,
     "uuid": "fe278402-0afa-4616-9054-18751eae63ab",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/house/house02.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344212.8313,
     "uuid": "57738da8-697e-4c8e-a9de-e96a4b29fe71",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/plane01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344215.2703,
     "uuid": "1e946651-d553-4177-a9ed-204c613a45fa",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344216.4128,
     "uuid": "bd024ac4-643c-4d3a-b4d2-6177beb42927",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road02.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344217.3616,
     "uuid": "b0a4c7af-15f1-4f42-983c-f7b38979aa38",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road03.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344218.433,
     "uuid": "7262129a-ca8e-49c6-aa5c-1c2dc6869898",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/sign.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344224.011,
     "uuid": "16cb494f-7c4a-41e3-806a-bf08dbb7f6e4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/end.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344223.5369,
     "uuid": "8ee6ddf7-c80d-4611-a5ed-eb9de0589b3d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone02.png": {
-    "time": 1620284357000,
+    "time": 1629985344229.208,
     "uuid": "30d17343-0151-4fba-92a7-c6ad88b8dcb9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone01.png": {
-    "time": 1620284357000,
+    "time": 1629985344228.088,
     "uuid": "ccc19e97-6f50-4c26-856d-e314587737f4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/sign/start.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344226.6226,
     "uuid": "359848a6-757a-48cc-8902-ed704d8b1229",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/trees01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344231.1794,
     "uuid": "07be2769-8081-4410-9707-7ccfac761183",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnBlue.png": {
-    "time": 1620284357000,
+    "time": 1629985344244.4365,
     "uuid": "16a8a2df-ae31-47a4-93c6-9bca7b64c1d0",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnRed.png": {
-    "time": 1620284357000,
+    "time": 1629985344245.5874,
     "uuid": "ca34f3c8-a138-4c19-95d2-6c2aeaec5289",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnGray.png": {
-    "time": 1620284357000,
+    "time": 1629985344245.1003,
     "uuid": "4f1ce0f8-d3c8-430f-8ce0-2664ed841cc2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonBtnYellow.png": {
-    "time": 1620284357000,
+    "time": 1629985344246.2678,
     "uuid": "8da9542f-f6f6-4084-8b5f-b830e9dbf918",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconClose.png": {
-    "time": 1620284357000,
+    "time": 1629985344246.8916,
     "uuid": "d35663cf-038d-418a-9ec4-1a8e477feb9c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconClose02.png": {
-    "time": 1620284357000,
+    "time": 1629985344247.5527,
     "uuid": "34cf7a8f-9a05-4cab-b660-019c9e758d26",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle2.png": {
-    "time": 1620284357000,
+    "time": 1629985344249.6948,
     "uuid": "dd2ccb81-e2a1-408c-8990-cddd2e57b6e7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle1.png": {
-    "time": 1620284357000,
+    "time": 1629985344249.1384,
     "uuid": "6bf75c78-ac27-4d51-9b58-4ea016d3306e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonIconGold.png": {
-    "time": 1620284357000,
+    "time": 1629985344248.5125,
     "uuid": "e040671f-1888-46da-8c56-474952d7a01e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonRectangle8.png": {
-    "time": 1620284357000,
+    "time": 1629985344250.2793,
     "uuid": "f9ac4cde-e35f-427f-8f1c-a2a7eb9254fb",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonTitle01.png": {
-    "time": 1620284357000,
+    "time": 1629985344250.8137,
     "uuid": "5e37ff96-972d-4583-a9b3-5e12e1da687b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/commonTitle02.png": {
-    "time": 1620284357000,
+    "time": 1629985344251.372,
     "uuid": "d7ae4d71-5021-4ec5-ba77-4eaf1484cb1d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyBtn01.png": {
-    "time": 1620284357000,
+    "time": 1629985344252.601,
     "uuid": "3534202f-38f5-464f-a356-b65aa1709269",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/common/rankxImg03.png": {
-    "time": 1620284357000,
+    "time": 1629985344251.8418,
     "uuid": "444d87e4-54f1-49bb-b31a-86b3decc59af",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg01.png": {
-    "time": 1620284357000,
+    "time": 1629985344253.2651,
     "uuid": "914662f1-3e5d-483e-985e-a0f43c34e552",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg02.png": {
-    "time": 1620284357000,
+    "time": 1629985344254.0293,
     "uuid": "0d0dbeeb-6b8e-4fdf-aead-ab7857a4e1ce",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImg03.png": {
-    "time": 1620284357000,
+    "time": 1629985344254.548,
     "uuid": "31c809d0-8817-4b2c-9eef-86293b260a98",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImgLight.png": {
-    "time": 1620284357000,
+    "time": 1629985344255.689,
     "uuid": "01e0cb60-0ea8-4c8e-bf49-39b6d72e024e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/daily/dailyImgGet.png": {
-    "time": 1620284357000,
+    "time": 1629985344255.015,
     "uuid": "c5d8169c-3cd8-4f52-8dd7-c2479ef9352b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox1a.png": {
-    "time": 1620284357000,
+    "time": 1629985344256.441,
     "uuid": "3d119890-a309-4d28-af3d-99d7ec2b43d1",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2a.png": {
-    "time": 1620284357000,
+    "time": 1629985344257.0706,
     "uuid": "be6ba74b-3f7f-402d-8cc0-9326e056adab",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2b.png": {
-    "time": 1620284357000,
+    "time": 1629985344257.6326,
     "uuid": "d1f726a0-348e-4d6d-903f-116421338ea7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox2c.png": {
-    "time": 1620284357000,
+    "time": 1629985344258.158,
     "uuid": "f623afa3-41df-44dd-8ec1-5d76eb288785",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox3a.png": {
-    "time": 1620284357000,
+    "time": 1629985344258.6152,
     "uuid": "0c965612-dbe4-4015-9b52-3b6698c74bf5",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxGold.png": {
-    "time": 1620284357000,
+    "time": 1629985344259.453,
     "uuid": "a756721b-4c29-4f23-b8e3-e5cf2ebb0051",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBox3b.png": {
-    "time": 1620284357000,
+    "time": 1629985344258.9993,
     "uuid": "5fa269ce-66d5-4000-843c-47c69f85840c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxGold02.png": {
-    "time": 1620284357000,
+    "time": 1629985344259.801,
     "uuid": "b7c27eaf-dcf4-4f04-8b91-bd29c79782d4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxHead.png": {
-    "time": 1620284357000,
+    "time": 1629985344260.1406,
     "uuid": "361b7767-a5e0-4eeb-a06f-65062e21bd55",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightBoxTalk.png": {
-    "time": 1620284357000,
+    "time": 1629985344260.4968,
     "uuid": "7b1514c6-9bc5-4316-a85a-671ca721edd8",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgCircle.png": {
-    "time": 1620284357000,
+    "time": 1629985344260.8992,
     "uuid": "fe8f5a61-09ca-45c8-8c33-53b817b26b52",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgFont01.png": {
-    "time": 1620284357000,
+    "time": 1629985344261.2715,
     "uuid": "9c02ace2-c52a-4c11-81da-350cb1437b9e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgFont02.png": {
-    "time": 1620284357000,
+    "time": 1629985344261.7195,
     "uuid": "e5df11a2-58e8-4fe1-950a-66a0a0f102f2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgGift.png": {
-    "time": 1620284357000,
+    "time": 1629985344262.1096,
     "uuid": "d6a625af-e6c9-4d25-81a4-5a1082943686",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgGold.png": {
-    "time": 1620284357000,
+    "time": 1629985344262.6194,
     "uuid": "bb948e9c-4c19-4e1c-b849-b7d61acc8ca9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgHand.png": {
-    "time": 1620284357000,
+    "time": 1629985344263.0388,
     "uuid": "ee9829f4-8e72-46c9-ab60-fe5151250c39",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLight.png": {
-    "time": 1620284357000,
+    "time": 1629985344263.871,
     "uuid": "ba362e4e-dcb2-49a9-94fe-0d1cc0803f24",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLineRed.png": {
-    "time": 1620284357000,
+    "time": 1629985344264.601,
     "uuid": "823817aa-e03d-4b90-9a47-ee7efc906bca",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgLineYellow.png": {
-    "time": 1620284357000,
+    "time": 1629985344265.008,
     "uuid": "c5008774-670a-415f-b7e9-17256ba5f802",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightImgStar.png": {
-    "time": 1620284357000,
+    "time": 1629985344265.5032,
     "uuid": "85ea62e2-3ac9-4088-a17e-623eb335fd27",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightLineGray.png": {
-    "time": 1620284357000,
+    "time": 1629985344265.866,
     "uuid": "cf38a185-1da3-4aa0-b8a7-08ea23c82fd6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightLineRed.png": {
-    "time": 1620284357000,
+    "time": 1629985344266.3108,
     "uuid": "97449e0d-6791-4ff5-b6c6-711ee62473d5",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightShieldImg01.png": {
-    "time": 1620284357000,
+    "time": 1629985344266.987,
     "uuid": "46e6ee99-156c-4ccc-b50b-0e261f169c35",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/fight/fightShieldImg02.png": {
-    "time": 1620284357000,
+    "time": 1629985344267.7083,
     "uuid": "b24aba29-e1b0-4096-b48d-c5821f8e4f42",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBarGold01.png": {
-    "time": 1620284357000,
+    "time": 1629985344269.7751,
     "uuid": "0b67a08d-cda4-47dc-9b00-8acbd534ba03",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBarGold02.png": {
-    "time": 1620284357000,
+    "time": 1629985344270.1304,
     "uuid": "f189208b-4bc3-4c7f-ab6e-47703ee92e19",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxAD.png": {
-    "time": 1620284357000,
+    "time": 1629985344270.5073,
     "uuid": "1a180c9f-f438-4101-8dd0-5c1d3de81897",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxArrow.png": {
-    "time": 1620284357000,
+    "time": 1629985344270.8784,
     "uuid": "9a1d84e7-d198-467b-a50b-1c4f93590999",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head/head1.png": {
-    "time": 1620284357000,
+    "time": 1629985344268.436,
     "uuid": "7f95b470-8fca-445f-87c2-6aa314519f0a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344271.264,
     "uuid": "86b5e078-e977-4d19-82e8-601365c0e1b3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/head/head2.png": {
-    "time": 1620284357000,
+    "time": 1629985344268.9722,
     "uuid": "3c920f53-3280-42c9-bd90-59b67ea8dd10",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame02.png": {
-    "time": 1620284357000,
+    "time": 1629985344271.7014,
     "uuid": "e544e37f-bbe6-46c8-95e6-3deecf9ad8d8",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGame03.png": {
-    "time": 1620284357000,
+    "time": 1629985344272.202,
     "uuid": "63391973-8944-4a66-9640-76e90774caa4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxGold.png": {
-    "time": 1620284357000,
+    "time": 1629985344272.964,
     "uuid": "6bd22619-9378-48da-aef5-4f8795242d66",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxOnline01.png": {
-    "time": 1620284357000,
+    "time": 1629985344273.4192,
     "uuid": "e40249d8-4beb-42c8-9a7c-73c743ed4c49",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeBoxOnline02.png": {
-    "time": 1620284357000,
+    "time": 1629985344273.818,
     "uuid": "c6a0eec4-c5eb-4a50-a173-984c6301e5e7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconArrow.png": {
-    "time": 1620284357000,
+    "time": 1629985344274.3179,
     "uuid": "6ae32fc6-fccf-49b8-9ae7-4d1274817942",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconCar.png": {
-    "time": 1620284357000,
+    "time": 1629985344274.7427,
     "uuid": "0d64d968-802e-49a3-bdc4-b494831f94a1",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconDaily.png": {
-    "time": 1620284357000,
+    "time": 1629985344275.2932,
     "uuid": "621396eb-2c4e-4589-a96d-eea219f79751",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconGame.png": {
-    "time": 1620284357000,
+    "time": 1629985344275.795,
     "uuid": "5c29e4b3-0364-4649-aca3-fda96a2be8d3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconGold.png": {
-    "time": 1620284357000,
+    "time": 1629985344276.3381,
     "uuid": "467d6629-f6a7-4cf3-b394-ff0c28d7bb7d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconLottery.png": {
-    "time": 1620284357000,
+    "time": 1629985344276.8037,
     "uuid": "7373e056-2da6-41e1-a8d6-d4ccccf69df9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconRank.png": {
-    "time": 1620284357000,
+    "time": 1629985344277.3523,
     "uuid": "0de1b9bb-9dde-40fc-b1a7-2d157683ef5d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconService.png": {
-    "time": 1620284357000,
+    "time": 1629985344277.7734,
     "uuid": "cbb5db8b-c136-4ebc-8e26-c37d5da0c4bd",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeIconSet.png": {
-    "time": 1620284357000,
+    "time": 1629985344278.3499,
     "uuid": "3b227ee8-d5c9-4104-a713-38a1bc275d1a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeImgPoint.png": {
-    "time": 1620284357000,
+    "time": 1629985344279.4443,
     "uuid": "3791e85c-b8c3-4ab4-8d53-f10d1eaeaed5",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeImgGame.png": {
-    "time": 1620284357000,
+    "time": 1629985344278.9402,
     "uuid": "5699317a-df00-4aca-98c7-18aafade3cd0",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/home/homeLogo.png": {
-    "time": 1620284357000,
+    "time": 1629985344280.0984,
     "uuid": "d9c7ef15-807b-4f81-9769-adab55793afa",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingBg.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344280.9014,
     "uuid": "79f313df-5585-4218-83ab-e30dbfc27dec",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingBg01.jpg": {
-    "time": 1620284357000,
+    "time": 1629985344281.7249,
     "uuid": "59ff7a6c-e8b7-48d0-9eaa-bc4eb3798814",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar01.png": {
-    "time": 1620284357000,
+    "time": 1629985344282.4075,
     "uuid": "a6b08b2d-01b3-48e0-9e92-0bbad67c58f6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar02.png": {
-    "time": 1620284357000,
+    "time": 1629985344282.8577,
     "uuid": "9573d906-2c83-4f0f-9a73-3c4545f59846",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar03.png": {
-    "time": 1620284357000,
+    "time": 1629985344283.2935,
     "uuid": "695f2520-712c-411b-9623-933504dcf31c",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/loadingCar/loadingCar04.png": {
-    "time": 1620284357000,
+    "time": 1629985344283.7812,
     "uuid": "994fa556-ce07-4581-8ded-e80a591ee5ff",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/singleColor.png": {
-    "time": 1620284357000,
+    "time": 1629985344284.1636,
     "uuid": "9419cab1-6691-4c36-89da-79ac4f2d4f1b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/loading/singleColorBlack.png": {
-    "time": 1620284357000,
+    "time": 1629985344284.7314,
     "uuid": "3b4cfb91-2118-4b97-aefc-ea4e4f7ad77f",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBox01.png": {
-    "time": 1620284357000,
+    "time": 1629985344285.3926,
     "uuid": "15036e6c-cebb-4fb4-8a69-5d58980c560e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBoxNumber.png": {
-    "time": 1620284357000,
+    "time": 1629985344286.1475,
     "uuid": "864ff269-5ea2-4f75-984a-6d8bb8dc2718",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankBox02.png": {
-    "time": 1620284357000,
+    "time": 1629985344285.7554,
     "uuid": "28f3cacf-6f7f-4c9d-a249-9974ca4251a2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankIconArrow.png": {
-    "time": 1620284357000,
+    "time": 1629985344286.5251,
     "uuid": "6abdc6ab-767f-4c17-a078-6f18924fcf0a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/rank/rankImgLine.png": {
-    "time": 1620284357000,
+    "time": 1629985344286.9504,
     "uuid": "44d4eeb0-9e14-43a4-8cf0-1e96816a912a",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg01.png": {
-    "time": 1620284357000,
+    "time": 1629985344287.6057,
     "uuid": "55491cb5-dfc3-4e14-9636-68bd6d526346",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg03.png": {
-    "time": 1620284357000,
+    "time": 1629985344288.5596,
     "uuid": "c827f366-20a0-4044-96a5-d13993011876",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setImg02.png": {
-    "time": 1620284357000,
+    "time": 1629985344288.0154,
     "uuid": "e8f4d285-5245-4d75-85db-a3d4f28e1db9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setIocnMusic.png": {
-    "time": 1620284357000,
+    "time": 1629985344289.0225,
     "uuid": "cbcbabf1-7278-4d33-877a-ca042f1c7ed7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopBoxChoose.png": {
-    "time": 1620284357000,
+    "time": 1629985344290.2515,
     "uuid": "3c2e5411-a064-40a8-8748-3ec9f5da28e7",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/set/setIocnShake.png": {
-    "time": 1620284357000,
+    "time": 1629985344289.4233,
     "uuid": "6ac00948-fdea-4387-bdea-3749c86bf475",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopIconGet.png": {
-    "time": 1620284357000,
+    "time": 1629985344290.6553,
     "uuid": "66cba2f6-3a96-4347-9902-86851acc0559",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopPoint01.png": {
-    "time": 1620284357000,
+    "time": 1629985344291.1194,
     "uuid": "dfd90087-28e9-4a8e-8ed1-b8fafd02ed06",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/UI/shop/shopPoint02.png": {
-    "time": 1620284357000,
+    "time": 1629985344291.5522,
     "uuid": "9dfaa7b4-62a4-49b2-946c-ab3966d9a816",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00001.png": {
-    "time": 1620284357000,
+    "time": 1629985344293.1836,
     "uuid": "e52c214e-7377-446e-84e0-003a3d845d7b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/light.png": {
-    "time": 1620284357000,
+    "time": 1629985344292.4197,
     "uuid": "047b8f8d-1a26-4a8f-8a13-16d6b152fbe3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00002.png": {
-    "time": 1620284357000,
+    "time": 1629985344293.6848,
     "uuid": "d50f920f-3339-4595-b3a6-35dfbe6b8bd6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00003.png": {
-    "time": 1620284357000,
+    "time": 1629985344294.3289,
     "uuid": "61fc8607-6ba5-4f51-9057-55ca02e29ef6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00004.png": {
-    "time": 1620284357000,
+    "time": 1629985344295.1047,
     "uuid": "78d45f65-21e9-45ad-9c07-9a0ddc4300e4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00005.png": {
-    "time": 1620284357000,
+    "time": 1629985344295.7212,
     "uuid": "1d3bd457-50f9-4da0-b4a1-658361107e7e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00006.png": {
-    "time": 1620284357000,
+    "time": 1629985344296.8335,
     "uuid": "8388c217-464d-4e18-8b5b-8acee17f95c3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00007.png": {
-    "time": 1620284357000,
+    "time": 1629985344297.8296,
     "uuid": "8f40e897-ddae-490a-a21c-0c7e1548b8ad",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00008.png": {
-    "time": 1620284357000,
+    "time": 1629985344298.6008,
     "uuid": "b0546624-244a-4fa6-a3f8-95271c3c7e3e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00009.png": {
-    "time": 1620284357000,
+    "time": 1629985344299.3328,
     "uuid": "2cbd6b13-eb01-4114-ab70-4d36082f4e08",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00010.png": {
-    "time": 1620284357000,
+    "time": 1629985344300.0073,
     "uuid": "9fb212c0-243b-46e3-9bff-e42f5fab4f9b",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00011.png": {
-    "time": 1620284357000,
+    "time": 1629985344300.628,
     "uuid": "e81cd872-c5fc-400f-a92e-842002815595",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/commonIconCoin.png": {
-    "time": 1620284357000,
+    "time": 1629985344302.028,
     "uuid": "705c7e6a-9bbf-4f44-b1a0-5617edb195ae",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/textures/effect/showGold/00012.png": {
-    "time": 1620284357000,
+    "time": 1629985344301.387,
     "uuid": "64b2c67c-0820-4412-adfd-d15fce46ec24",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/Materials_plane01.meta": {
-    "time": 1629880310816.1555
+    "time": 1629985344213.6047
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/Materials_plane01/plane01.mtl.meta": {
-    "time": 1629880310819.0266
+    "time": 1629985344214.4436
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/Materials_plane01": {
-    "time": 1629880310806.4277,
+    "time": 1629985344214.2043,
     "uuid": "8ee4df4e-b55e-4a9d-9b90-99cc143a25ee",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/plane/Materials_plane01/plane01.mtl": {
-    "time": 1629880310815.911,
+    "time": 1630042432281.2886,
     "uuid": "231df7d2-e75b-4822-b720-a9e923612630",
     "missing": false
   },
@@ -1787,7 +1787,7 @@
     "time": 1629959506420.8196
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/map.meta": {
-    "time": 1629959517698.0396
+    "time": 1629985344169.9778
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/map": {
     "time": 1629981280576.5315,
@@ -1798,37 +1798,37 @@
     "time": 1629959595351.374
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab.meta": {
-    "time": 1629960502655.496
+    "time": 1629985344231.819
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab": {
-    "time": 1629981343234.9343,
+    "time": 1629985344234.5972,
     "uuid": "3fa9e541-2d16-4a83-9dc8-06d32f5e2faa",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/map.meta": {
-    "time": 1629960514839.2146
+    "time": 1629985344234.5293
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/map": {
-    "time": 1629982738328.4136,
+    "time": 1629985344235.0093,
     "uuid": "8a014bfc-65e5-4128-939b-962ce47f5474",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/map/map101.prefab.meta": {
-    "time": 1629982738331.63
+    "time": 1629985344235.162
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script.meta": {
-    "time": 1629961106476.3643
+    "time": 1629985344235.4897
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script": {
-    "time": 1629968911863.7556,
+    "time": 1629985344238.6877,
     "uuid": "88efef1b-a4d5-44f0-b36a-36b9d5d6e942",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts.meta": {
-    "time": 1629961135198.8042
+    "time": 1629985344236.2163
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": {
-    "time": 1629964119895.77,
+    "time": 1630051594896.218,
     "uuid": "125cea34-899e-436e-88f5-0900ac862248",
     "missing": false
   },
@@ -1836,10 +1836,10 @@
     "time": 1629962375941.1858
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car.meta": {
-    "time": 1629962375941.1858
+    "time": 1629985344232.1155
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car": {
-    "time": 1629962744373.7224,
+    "time": 1629985344234.0867,
     "uuid": "ada5435f-b0fe-4139-bf64-7caeb796b1a2",
     "missing": false
   },
@@ -1847,122 +1847,122 @@
     "time": 1629962389089.1138
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car101.prefab.meta": {
-    "time": 1629962393417.281
+    "time": 1629985344232.5608
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car101.prefab": {
-    "time": 1629968836294.988,
+    "time": 1629985344232.3772,
     "uuid": "3d3867d9-3714-4fa6-837b-4f4de278d4c4",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car201.prefab.meta": {
-    "time": 1629962485819.248
+    "time": 1629985344232.9595
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car201.prefab": {
-    "time": 1629962485817.692,
+    "time": 1629985344232.771,
     "uuid": "ce116883-f97e-4f80-8897-f395cd668d97",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car202.prefab.meta": {
-    "time": 1629962488506.493
+    "time": 1629985344233.3767
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car202.prefab": {
-    "time": 1629962488505.8875,
+    "time": 1629985344233.1604,
     "uuid": "68da0c3d-b5db-4fc4-96e1-6e8942ad04b9",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car203.prefab.meta": {
-    "time": 1629962713136.9043
+    "time": 1629985344233.8022
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car203.prefab": {
-    "time": 1629962713135.3298,
+    "time": 1629985344233.5818,
     "uuid": "1d84a834-577a-4c0a-ac60-611518d6d948",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car204.prefab.meta": {
-    "time": 1629962744375.3604
+    "time": 1629985344234.2515
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car204.prefab": {
-    "time": 1629962744374.457,
+    "time": 1629985344234.0278,
     "uuid": "26a812e5-1fc2-4682-aefb-9db35cd0b414",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game.meta": {
-    "time": 1629968235793.2659
+    "time": 1629985344238.6274
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game": {
-    "time": 1629968794039.7769,
+    "time": 1629985344242.708,
     "uuid": "accb6a67-99c8-461a-a414-a155ba6edeb3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts.meta": {
-    "time": 1629968257958.837
+    "time": 1629985344240.6416
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts": {
-    "time": 1629968659184.5037,
+    "time": 1630050278809.5608,
     "uuid": "5a034103-487e-4870-9ea7-93bfa7d431bf",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts.meta": {
-    "time": 1629968273864.438
+    "time": 1629985344242.1692
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts": {
-    "time": 1629968273862.6738,
+    "time": 1630049141757.124,
     "uuid": "a2516187-0631-4f98-be86-cdbf6c605158",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts.meta": {
-    "time": 1629968290025.125
+    "time": 1629985344240.046
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts": {
-    "time": 1629968290023.871,
+    "time": 1630051101577.6655,
     "uuid": "5087470d-1256-43de-bb00-8dfd2a1e933d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/game.scene.meta": {
-    "time": 1629968391991.239
+    "time": 1629985344169.8015
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/game.scene": {
-    "time": 1629982770039.775,
+    "time": 1630050315470.4756,
     "uuid": "3a892430-6a3e-4239-93ad-b24f5c4da708",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts.meta": {
-    "time": 1629968754085.7458
+    "time": 1629985344241.4019
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": {
-    "time": 1629981136720.01,
+    "time": 1629985344241.0024,
     "uuid": "7fd9a39a-dd9c-4e73-9b62-2d5cd8b713d2",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts.meta": {
-    "time": 1629968786592.334
+    "time": 1629985344243.022
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts": {
-    "time": 1629968786590.2837,
+    "time": 1629985344242.5806,
     "uuid": "999ab1e3-5f38-4203-8ba7-bf38d946b9de",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts.meta": {
-    "time": 1629968794040.5037
+    "time": 1629985344239.339
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts": {
-    "time": 1629968794039.233,
+    "time": 1630052951360.6316,
     "uuid": "c3799cd8-87a9-4004-b0b7-b5bc3292b780",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/data.meta": {
-    "time": 1629968911864.3381
+    "time": 1629985344237.2163
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/data": {
-    "time": 1629968925985.114,
+    "time": 1629985344238.0793,
     "uuid": "77c4a602-c4d2-4f95-be3e-4f54d4235831",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts.meta": {
-    "time": 1629968925986.2957
+    "time": 1629985344238.349
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": {
-    "time": 1629973798644.1604,
+    "time": 1629985344237.9832,
     "uuid": "d028d3ea-7ae3-48f5-8c22-67bc4af56a38",
     "missing": false
   },
@@ -1970,7 +1970,7 @@
     "time": 1629981312337.0095
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/map/map101.prefab": {
-    "time": 1629982738330.543,
+    "time": 1630053300452.212,
     "uuid": "b12d9ac8-1104-49a5-9de5-b1fc13ef3e29",
     "missing": false
   }

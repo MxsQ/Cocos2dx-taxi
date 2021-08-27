@@ -419,7 +419,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 11188.08766901493,
+    "mTimestamp": 71586853.01431608,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -566,7 +566,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": {
-    "mTimestamp": 1629964119895.77,
+    "mTimestamp": 1630051594896.218,
     "chunkId": "assets/script/RoadPoint.js",
     "imports": [
       {
@@ -601,7 +601,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts": {
-    "mTimestamp": 1629968659184.5037,
+    "mTimestamp": 1630050278809.5608,
     "chunkId": "assets/script/game/GameCtrl.js",
     "imports": [
       {
@@ -615,11 +615,11 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 56
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 60
           }
         }
       },
@@ -677,9 +677,12 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts": {
-    "mTimestamp": 1629968273862.6738,
+    "mTimestamp": 1630049141757.124,
     "chunkId": "assets/script/game/MapManager.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
       {
         "value": "cc"
       },
@@ -695,6 +698,19 @@
             "column": 48
           }
         }
+      },
+      {
+        "value": "./GameMap",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 35
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -703,18 +719,29 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts"
       }
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts": {
-    "mTimestamp": 1629968290023.871,
+    "mTimestamp": 1630051101577.6655,
     "chunkId": "assets/script/game/CarManager.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
       {
         "value": "cc"
       },
@@ -730,6 +757,19 @@
             "column": 48
           }
         }
+      },
+      {
+        "value": "./Car",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        }
       }
     ],
     "modLoMetadata": {
@@ -738,11 +778,19 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts"
       }
     ]
   },
@@ -756,7 +804,7 @@
     "resolvedImports": []
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": {
-    "mTimestamp": 1629981136720.01,
+    "mTimestamp": 1629985344241.0024,
     "chunkId": "assets/script/game/GameMap.js",
     "imports": [
       {
@@ -791,7 +839,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts": {
-    "mTimestamp": 1629968786590.2837,
+    "mTimestamp": 1629985344242.5806,
     "chunkId": "assets/script/game/typescript.js",
     "imports": [
       {
@@ -826,9 +874,12 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts": {
-    "mTimestamp": 1629968794039.233,
+    "mTimestamp": 1630052951360.6316,
     "chunkId": "assets/script/game/Car.js",
     "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
       {
         "value": "cc"
       },
@@ -837,11 +888,24 @@
         "loc": {
           "start": {
             "line": 2,
-            "column": 44
+            "column": 50
           },
           "end": {
             "line": 2,
-            "column": 48
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "../RoadPoint",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 40
           }
         }
       }
@@ -852,16 +916,24 @@
     "resolvedImports": [
       {
         "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
         "url": "cce:/internal/x/cc"
       },
       {
         "isExternal": false,
         "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts"
       }
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": {
-    "mTimestamp": 1629973798644.1604,
+    "mTimestamp": 1629985344237.9832,
     "chunkId": "assets/script/data/CustomEventListener.js",
     "imports": [
       {

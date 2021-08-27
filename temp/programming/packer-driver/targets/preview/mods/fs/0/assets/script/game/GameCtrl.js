@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, CarManager, MapManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, CarManager, MapManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -32,6 +32,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./CarManager", "./M
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+      Node = _cc.Node;
     }, function (_CarManager) {
       CarManager = _CarManager.CarManager;
     }, function (_MapManager) {
@@ -71,6 +72,30 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./CarManager", "./M
 
           return _this;
         }
+
+        var _proto = GameCtrl.prototype;
+
+        _proto.onLoad = function onLoad() {
+          this.mapManager.resetMap();
+          this.carManager.resetCars(this.mapManager.curPath);
+        };
+
+        _proto.start = function start() {
+          this.node.on(Node.EventType.TOUCH_START, this._touchStart, this);
+          this.node.on(Node.EventType.TOUCH_END, this._touchEnd, this);
+        };
+
+        _proto._touchStart = function _touchStart(touch, event) {
+          var _this$carManager;
+
+          (_this$carManager = this.carManager) === null || _this$carManager === void 0 ? void 0 : _this$carManager.controMoving();
+        };
+
+        _proto._touchEnd = function _touchEnd(touch, event) {
+          var _this$carManager2;
+
+          (_this$carManager2 = this.carManager) === null || _this$carManager2 === void 0 ? void 0 : _this$carManager2.controMoving(false);
+        };
 
         return GameCtrl;
       }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "mapManager", [_dec2], {

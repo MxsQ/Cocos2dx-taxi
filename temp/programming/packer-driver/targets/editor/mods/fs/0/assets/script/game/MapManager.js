@@ -1,13 +1,23 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _crd, ccclass, property, MapManager;
+  var _reporterNs, _cclegacy, _decorator, Component, GameMap, _dec, _class, _temp, _crd, ccclass, property, MapManager;
+
+  function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+  function _reportPossibleCrUseOfGameMap(extras) {
+    _reporterNs.report("GameMap", "./GameMap", _context.meta, extras);
+  }
 
   return {
-    setters: [function (_cc) {
+    setters: [function (_cceInternalCodeQualityCrMjs) {
+      _reporterNs = _cceInternalCodeQualityCrMjs;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
+    }, function (_GameMap) {
+      GameMap = _GameMap.GameMap;
     }],
     execute: function () {
       _crd = true;
@@ -19,30 +29,21 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("MapManager", MapManager = (_dec = ccclass('MapManager'), _dec(_class = class MapManager extends Component {
-        // [1]
-        // dummy = '';
-        // [2]
-        // @property
-        // serializableDummy = 0;
-        start() {// [3]
-        } // update (deltaTime: number) {
-        //     // [4]
-        // }
+      _export("MapManager", MapManager = (_dec = ccclass('MapManager'), _dec(_class = (_temp = class MapManager extends Component {
+        constructor(...args) {
+          super(...args);
 
+          _defineProperty(this, "curPath", []);
+        }
 
-      }) || _class));
-      /**
-       * [1] Class member could be defined like this.
-       * [2] Use `property` decorator if your want the member to be serializable.
-       * [3] Your initialization goes here.
-       * [4] Your update function goes here.
-       *
-       * Learn more about scripting: https://docs.cocos.com/creator/3.0/manual/en/scripting/
-       * Learn more about CCClass: https://docs.cocos.com/creator/3.0/manual/en/scripting/ccclass.html
-       * Learn more about life-cycle callbacks: https://docs.cocos.com/creator/3.0/manual/en/scripting/life-cycle-callbacks.html
-       */
+        resetMap() {
+          const curMap = this.node.children[0].getComponent(_crd && GameMap === void 0 ? (_reportPossibleCrUseOfGameMap({
+            error: Error()
+          }), GameMap) : GameMap);
+          this.curPath = curMap.path;
+        }
 
+      }, _temp)) || _class));
 
       _cclegacy._RF.pop();
 

@@ -16,12 +16,17 @@ Enum(ROAD_POINT_TYPE);
 enum ROAD_MOVE_TYPE{
   LINE = 1,
   CURVE,
+  BEND,
 }
 
 Enum(ROAD_MOVE_TYPE);
 
 @ccclass('RoadPoint')
 export class RoadPoint extends Component {
+  public static RoadPointType = ROAD_POINT_TYPE;
+  public static RoadMoveType = ROAD_MOVE_TYPE;
+
+
   @property({type: ROAD_POINT_TYPE})
   type = ROAD_POINT_TYPE.NORMAL;
 
