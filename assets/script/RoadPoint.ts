@@ -48,8 +48,7 @@ export class RoadPoint extends Component {
 
   @property({
     visible : function (this:RoadPoint) {
-      return this.type !== ROAD_POINT_TYPE.END 
-        && this.moveType === ROAD_MOVE_TYPE.CURVE;
+      return this.type !== ROAD_POINT_TYPE.END && (this.moveType === ROAD_MOVE_TYPE.CURVE || this.moveType === ROAD_MOVE_TYPE.BEND);
     }
   })
   clockwise = true;

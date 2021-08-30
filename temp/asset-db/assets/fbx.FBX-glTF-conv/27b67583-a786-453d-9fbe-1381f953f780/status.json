@@ -1,11 +1,11 @@
 {
   "version": "2.0.14",
-  "sourceTimeStamp": 1629985344219.9697,
+  "sourceTimeStamp": 1630301775787.4265,
   "outputTimeStamps": {
-    "log.json": 1630042432576.387,
-    "out.bin": 1630042432573.5334,
-    "out.gltf": 1630042432576.1863,
-    "road03.jpg": 1630042432573.2578,
-    ".fbm/CA2816AC/road05.fbm/road03.jpg": 1630042432571.2964
+    "log.json": 1630301780570.3354,
+    "out.bin": 1630301780567.4949,
+    "out.gltf": 1630301780570.029,
+    "road03.jpg": 1630301780567.143,
+    ".fbm/CA2816AC/road05.fbm/road03.jpg": 1630301780564.5647
   }
 }

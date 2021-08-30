@@ -1,10 +1,10 @@
 {
   "version": "2.0.14",
-  "sourceTimeStamp": 1629985344191.4165,
+  "sourceTimeStamp": 1630301775757.7668,
   "outputTimeStamps": {
-    "log.json": 1630042431970.6125,
-    "out.gltf": 1630042431970.09,
-    "out.bin": 1630042431967.5793,
-    "taxi08Black.jpg": 1630042431966.5122
+    "log.json": 1630301780003.8516,
+    "out.bin": 1630301779999.1853,
+    "out.gltf": 1630301780003.2095,
+    "taxi08Black.jpg": 1630301779997.8113
   }
 }

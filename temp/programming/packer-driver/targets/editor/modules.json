@@ -368,7 +368,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 71586744.07646608,
+    "mTimestamp": 328453790.51588714,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -515,7 +515,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": {
-    "mTimestamp": 1630051594896.218,
+    "mTimestamp": 1630309034477.5388,
     "chunkId": "assets/script/RoadPoint.js",
     "imports": [
       {
@@ -550,7 +550,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts": {
-    "mTimestamp": 1630050278809.5608,
+    "mTimestamp": 1630305912533.916,
     "chunkId": "assets/script/game/GameCtrl.js",
     "imports": [
       {
@@ -626,7 +626,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts": {
-    "mTimestamp": 1630049141757.124,
+    "mTimestamp": 1630305977497.4614,
     "chunkId": "assets/script/game/MapManager.js",
     "imports": [
       {
@@ -685,7 +685,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts": {
-    "mTimestamp": 1630051101577.6655,
+    "mTimestamp": 1630301775807.1848,
     "chunkId": "assets/script/game/CarManager.js",
     "imports": [
       {
@@ -753,7 +753,7 @@
     "resolvedImports": []
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": {
-    "mTimestamp": 1629985344241.0024,
+    "mTimestamp": 1630301775809.097,
     "chunkId": "assets/script/game/GameMap.js",
     "imports": [
       {
@@ -788,7 +788,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts": {
-    "mTimestamp": 1629985344242.5806,
+    "mTimestamp": 1630301775810.9958,
     "chunkId": "assets/script/game/typescript.js",
     "imports": [
       {
@@ -823,7 +823,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts": {
-    "mTimestamp": 1630052951360.6316,
+    "mTimestamp": 1630309797538.4534,
     "chunkId": "assets/script/game/Car.js",
     "imports": [
       {
@@ -882,7 +882,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": {
-    "mTimestamp": 1629985344237.9832,
+    "mTimestamp": 1630301775804.3586,
     "chunkId": "assets/script/data/CustomEventListener.js",
     "imports": [
       {

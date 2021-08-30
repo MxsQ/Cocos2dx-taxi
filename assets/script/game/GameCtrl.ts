@@ -7,14 +7,14 @@ const { ccclass, property } = _decorator;
 @ccclass('GameCtrl')
 export class GameCtrl extends Component {
   @property({
-    type: MapManager,
+    type: MapManager
   })
-  mapManager : MapManager | null = null;
+  mapManager : MapManager = null;
 
   @property({
     type: CarManager
   })
-  carManager : CarManager | null = null;
+  carManager : CarManager = null;
 
   public onLoad(){
     this.mapManager!.resetMap();

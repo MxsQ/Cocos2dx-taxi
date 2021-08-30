@@ -63,7 +63,7 @@ System.register(["cc"], function (_export, _context) {
         }
       }), _dec5 = property({
         visible: function () {
-          return this.type !== ROAD_POINT_TYPE.END && this.moveType === ROAD_MOVE_TYPE.CURVE;
+          return this.type !== ROAD_POINT_TYPE.END && (this.moveType === ROAD_MOVE_TYPE.CURVE || this.moveType === ROAD_MOVE_TYPE.BEND);
         }
       }), _dec6 = property({
         type: Vec3,

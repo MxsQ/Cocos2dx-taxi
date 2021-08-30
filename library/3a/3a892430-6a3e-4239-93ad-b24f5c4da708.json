@@ -21,10 +21,10 @@
         "__id__": 5
       },
       {
-        "__id__": 16
+        "__id__": 25
       },
       {
-        "__id__": 25
+        "__id__": 16
       }
     ],
     "_active": true,
@@ -34,7 +34,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 43
+      "__id__": 46
     },
     "_id": "3a892430-6a3e-4239-93ad-b24f5c4da708"
   },
@@ -224,7 +224,7 @@
     "_priority": 1073741824,
     "_fov": 45,
     "_fovAxis": 0,
-    "_orthoHeight": 320,
+    "_orthoHeight": 354.6666666666667,
     "_near": 1,
     "_far": 2000,
     "_color": {
@@ -350,7 +350,7 @@
     "carManager": {
       "__id__": 24
     },
-    "_id": "81xD/bXFxOV7YNSvmlT7fq"
+    "_id": "55d0D7VYhH0JcPv/SZccGx"
   },
   {
     "__type__": "a2516GHBjFPmL6Gzb9sYFFY",
@@ -361,7 +361,7 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_id": "b4QTkLI6VBIpUus1fujoXg"
+    "_id": "75s1Q3hCtLsrrvr1AB0a3O"
   },
   {
     "__type__": "cc.Node",
@@ -408,7 +408,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": "daktg1lOZF47EJ0Zgxgm1H"
+    "_id": "e9eg777p9GIITqYf/+MZX4"
   },
   {
     "__type__": "cc.Node",
@@ -791,7 +791,40 @@
     "targetOverrides": [
       {
         "__id__": 41
+      },
+      {
+        "__id__": 44
       }
+    ]
+  },
+  {
+    "__type__": "cc.TargetOverrideInfo",
+    "source": {
+      "__id__": 17
+    },
+    "sourceInfo": {
+      "__id__": 42
+    },
+    "propertyPath": [
+      "nextStation"
+    ],
+    "target": {
+      "__id__": 17
+    },
+    "targetInfo": {
+      "__id__": 43
+    }
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "1ah550sXdFxagTckuZHwhc"
+    ]
+  },
+  {
+    "__type__": "cc.TargetInfo",
+    "localID": [
+      "8avWrKOZdFs7zkDyVnb0+F"
     ]
   },
   {
@@ -807,7 +840,7 @@
       "__id__": 26
     },
     "targetInfo": {
-      "__id__": 42
+      "__id__": 45
     }
   },
   {
@@ -819,16 +852,16 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 44
+      "__id__": 47
     },
     "shadows": {
-      "__id__": 45
+      "__id__": 48
     },
     "_skybox": {
-      "__id__": 46
+      "__id__": 49
     },
     "fog": {
-      "__id__": 47
+      "__id__": 50
     }
   },
   {

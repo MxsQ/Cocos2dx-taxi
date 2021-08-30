@@ -16,40 +16,7 @@
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/script/data/CustomEventListener.js",
-    "mTimestamp": 1630042434032
-  },
-  "assets/script/game/GameMap.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/GameMap.js",
-    "mTimestamp": 1630042434145
-  },
-  "assets/script/game/typescript.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/typescript.js",
-    "mTimestamp": 1630042434190
-  },
-  "assets/script/game/MapManager.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "./GameMap": "assets/script/game/GameMap.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/MapManager.js",
-    "mTimestamp": 1630049159067
-  },
-  "assets/script/game/GameCtrl.js": {
-    "imports": {
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "./CarManager": "assets/script/game/CarManager.js",
-      "./MapManager": "assets/script/game/MapManager.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/GameCtrl.js",
-    "mTimestamp": 1630050280715
+    "mTimestamp": 1630301781444
   },
   "assets/script/game/CarManager.js": {
     "imports": {
@@ -58,28 +25,61 @@
       "./Car": "assets/script/game/Car.js"
     },
     "physicalLocation": "fs/0/assets/script/game/CarManager.js",
-    "mTimestamp": 1630051104568
+    "mTimestamp": 1630301781481
+  },
+  "assets/script/game/GameMap.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/GameMap.js",
+    "mTimestamp": 1630301781517
+  },
+  "assets/script/game/typescript.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/typescript.js",
+    "mTimestamp": 1630301781712
+  },
+  "assets/script/game/GameCtrl.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./CarManager": "assets/script/game/CarManager.js",
+      "./MapManager": "assets/script/game/MapManager.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/GameCtrl.js",
+    "mTimestamp": 1630305913232
+  },
+  "assets/script/game/MapManager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./GameMap": "assets/script/game/GameMap.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/MapManager.js",
+    "mTimestamp": 1630305980480
   },
   "assets/script/RoadPoint.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/script/RoadPoint.js",
-    "mTimestamp": 1630052023780
+    "mTimestamp": 1630309041006
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
-      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js",
-      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": "assets/script/data/CustomEventListener.js",
+      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": "assets/script/game/GameMap.js",
       "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts": "assets/script/game/CarManager.js",
       "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts": "assets/script/game/GameCtrl.js",
-      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": "assets/script/game/GameMap.js",
       "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts": "assets/script/game/MapManager.js",
       "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts": "assets/script/game/typescript.js",
+      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js",
+      "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": "assets/script/data/CustomEventListener.js",
       "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts": "assets/script/game/Car.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1630052954061,
+    "mTimestamp": 1630309811228,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
@@ -90,6 +90,6 @@
       "../RoadPoint": "assets/script/RoadPoint.js"
     },
     "physicalLocation": "fs/0/assets/script/game/Car.js",
-    "mTimestamp": 1630052954147
+    "mTimestamp": 1630309811356
   }
 }
