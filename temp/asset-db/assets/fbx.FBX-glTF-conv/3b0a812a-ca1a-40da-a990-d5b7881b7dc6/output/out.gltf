@@ -335,7 +335,7 @@
     {
       "extras": {
         "FBX-glTF-conv": {
-          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Red.jpg",
+          "fileName": "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/cars/taxi/taxi04Red.jpg",
           "relativeFileName": "taxi04Red.jpg"
         }
       },
@@ -345,7 +345,7 @@
     {
       "extras": {
         "FBX-glTF-conv": {
-          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi04Light.png",
+          "fileName": "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/cars/taxi/taxi04Light.png",
           "relativeFileName": "taxi04Light.png"
         }
       },

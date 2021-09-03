@@ -123,7 +123,7 @@
     {
       "extras": {
         "FBX-glTF-conv": {
-          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road03.jpg",
+          "fileName": "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/road/road03.jpg",
           "relativeFileName": "road03.jpg"
         }
       },
@@ -133,7 +133,7 @@
     {
       "extras": {
         "FBX-glTF-conv": {
-          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.jpg",
+          "fileName": "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/road/road01.jpg",
           "relativeFileName": "road01.jpg"
         }
       },

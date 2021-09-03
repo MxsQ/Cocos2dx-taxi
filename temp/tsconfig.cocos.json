@@ -5,16 +5,16 @@
     "module": "ES2015",
     "strict": true,
     "types": [
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env",
-      "./temp/declarations/jsb",
-      "./temp/declarations/cc"
+      "./temp/declarations/jsb"
     ],
     "paths": {
       "db://internal/*": [
         "/Applications/CocosCreator/Creator/3.1.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/qinx/coding/cocos2dx/taxi/assets/*"
+        "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/*"
       ]
     },
     "experimentalDecorators": true,

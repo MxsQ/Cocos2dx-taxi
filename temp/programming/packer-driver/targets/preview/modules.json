@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 5411.753539999947,
+    "mTimestamp": 4982.635393999517,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -419,11 +419,11 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 12526592.144170001,
+    "mTimestamp": 11037.292138999328,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts",
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts",
         "loc": {
           "start": {
             "line": 4,
@@ -431,103 +431,103 @@
           },
           "end": {
             "line": 4,
-            "column": 75
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts",
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 7
-          },
-          "end": {
-            "line": 5,
-            "column": 80
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts",
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 7
-          },
-          "end": {
-            "line": 6,
-            "column": 90
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts",
-        "loc": {
-          "start": {
-            "line": 7,
-            "column": 7
-          },
-          "end": {
-            "line": 7,
-            "column": 82
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts",
-        "loc": {
-          "start": {
-            "line": 8,
-            "column": 7
-          },
-          "end": {
-            "line": 8,
-            "column": 74
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts",
-        "loc": {
-          "start": {
-            "line": 9,
-            "column": 7
-          },
-          "end": {
-            "line": 9,
-            "column": 81
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CustomerManager.ts",
-        "loc": {
-          "start": {
-            "line": 10,
-            "column": 7
-          },
-          "end": {
-            "line": 10,
-            "column": 86
-          }
-        }
-      },
-      {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/EffectManager.ts",
-        "loc": {
-          "start": {
-            "line": 11,
-            "column": 7
-          },
-          "end": {
-            "line": 11,
             "column": 84
           }
         }
       },
       {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts",
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 7
+          },
+          "end": {
+            "line": 5,
+            "column": 89
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 7
+          },
+          "end": {
+            "line": 6,
+            "column": 99
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 7
+          },
+          "end": {
+            "line": 7,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 7
+          },
+          "end": {
+            "line": 8,
+            "column": 83
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 7
+          },
+          "end": {
+            "line": 9,
+            "column": 90
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 7
+          },
+          "end": {
+            "line": 10,
+            "column": 95
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 11,
+            "column": 93
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts",
         "loc": {
           "start": {
             "line": 12,
@@ -535,12 +535,12 @@
           },
           "end": {
             "line": 12,
-            "column": 79
+            "column": 88
           }
         }
       },
       {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts",
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts",
         "loc": {
           "start": {
             "line": 13,
@@ -548,12 +548,12 @@
           },
           "end": {
             "line": 13,
-            "column": 78
+            "column": 87
           }
         }
       },
       {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts",
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts",
         "loc": {
           "start": {
             "line": 14,
@@ -561,12 +561,12 @@
           },
           "end": {
             "line": 14,
-            "column": 81
+            "column": 90
           }
         }
       },
       {
-        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts",
+        "value": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts",
         "loc": {
           "start": {
             "line": 15,
@@ -574,7 +574,7 @@
           },
           "end": {
             "line": 15,
-            "column": 81
+            "column": 90
           }
         }
       }
@@ -585,51 +585,51 @@
     "resolvedImports": [
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CustomerManager.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/EffectManager.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts"
       },
       {
         "isExternal": false,
-        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts"
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts"
       }
     ]
   },
@@ -863,7 +863,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1630651220114,
+    "mTimestamp": 1630664072617,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1290,6 +1290,672 @@
           "end": {
             "line": 2,
             "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": {
+    "mTimestamp": 1630309034477.5388,
+    "chunkId": "assets/script/RoadPoint.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 56
+          },
+          "end": {
+            "line": 2,
+            "column": 60
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts": {
+    "mTimestamp": 1630663363424.0518,
+    "chunkId": "assets/script/game/EffectManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../data/PoolManager",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 28
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts": {
+    "mTimestamp": 1630395099307.05,
+    "chunkId": "assets/script/game/Car.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 50
+          },
+          "end": {
+            "line": 2,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../RoadPoint",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": {
+    "mTimestamp": 1630392076338.419,
+    "chunkId": "assets/script/game/CarManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./Car",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts": {
+    "mTimestamp": 1630305912533.9158,
+    "chunkId": "assets/script/game/GameCtrl.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 56
+          },
+          "end": {
+            "line": 2,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "./CarManager",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./MapManager",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts": {
+    "mTimestamp": 1630305977497.4614,
+    "chunkId": "assets/script/game/MapManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./GameMap",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts": {
+    "mTimestamp": 1630395228700.999,
+    "chunkId": "assets/script/game/CustomerManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts": {
+    "mTimestamp": 1630662541424.878,
+    "chunkId": "assets/script/data/Constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts": {
+    "mTimestamp": 1630301775810.9958,
+    "chunkId": "assets/script/game/typescript.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts": {
+    "mTimestamp": 1630663265342.6924,
+    "chunkId": "assets/script/data/PoolManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 65
+          },
+          "end": {
+            "line": 2,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts": {
+    "mTimestamp": 1630301775809.0972,
+    "chunkId": "assets/script/game/GameMap.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts": {
+    "mTimestamp": 1630301775804.3584,
+    "chunkId": "assets/script/data/CustomEventListener.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
           }
         }
       }
