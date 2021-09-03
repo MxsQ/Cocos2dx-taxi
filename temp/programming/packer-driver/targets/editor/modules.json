@@ -1,0 +1,1260 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 5408.390895999968,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 12526509.291187001,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 103
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 119
+          },
+          "end": {
+            "line": 5,
+            "column": 192
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 208
+          },
+          "end": {
+            "line": 5,
+            "column": 291
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 307
+          },
+          "end": {
+            "line": 5,
+            "column": 382
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 398
+          },
+          "end": {
+            "line": 5,
+            "column": 465
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 481
+          },
+          "end": {
+            "line": 5,
+            "column": 555
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CustomerManager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 571
+          },
+          "end": {
+            "line": 5,
+            "column": 650
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/EffectManager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 666
+          },
+          "end": {
+            "line": 5,
+            "column": 743
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 759
+          },
+          "end": {
+            "line": 5,
+            "column": 831
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 847
+          },
+          "end": {
+            "line": 5,
+            "column": 918
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 934
+          },
+          "end": {
+            "line": 5,
+            "column": 1008
+          }
+        }
+      },
+      {
+        "value": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1024
+          },
+          "end": {
+            "line": 5,
+            "column": 1098
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CustomerManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/EffectManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts": {
+    "mTimestamp": 1630309034477.5388,
+    "chunkId": "assets/script/RoadPoint.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 56
+          },
+          "end": {
+            "line": 2,
+            "column": 60
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameCtrl.ts": {
+    "mTimestamp": 1630305912533.916,
+    "chunkId": "assets/script/game/GameCtrl.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 56
+          },
+          "end": {
+            "line": 2,
+            "column": 60
+          }
+        }
+      },
+      {
+        "value": "./CarManager",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./MapManager",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/MapManager.ts": {
+    "mTimestamp": 1630305977497.4614,
+    "chunkId": "assets/script/game/MapManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./GameMap",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 24
+          },
+          "end": {
+            "line": 3,
+            "column": 35
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CarManager.ts": {
+    "mTimestamp": 1630392076338.419,
+    "chunkId": "assets/script/game/CarManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "./Car",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 20
+          },
+          "end": {
+            "line": 3,
+            "column": 27
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1630651220114,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/GameMap.ts": {
+    "mTimestamp": 1630301775809.097,
+    "chunkId": "assets/script/game/GameMap.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/typescript.ts": {
+    "mTimestamp": 1630301775810.9958,
+    "chunkId": "assets/script/game/typescript.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/Car.ts": {
+    "mTimestamp": 1630395099307.05,
+    "chunkId": "assets/script/game/Car.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 50
+          },
+          "end": {
+            "line": 2,
+            "column": 54
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../RoadPoint",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 26
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/RoadPoint.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts": {
+    "mTimestamp": 1630301775804.3586,
+    "chunkId": "assets/script/data/CustomEventListener.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/CustomerManager.ts": {
+    "mTimestamp": 1630395228700.9993,
+    "chunkId": "assets/script/game/CustomerManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts": {
+    "mTimestamp": 1630662541424.878,
+    "chunkId": "assets/script/data/Constants.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 44
+          },
+          "end": {
+            "line": 2,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/game/EffectManager.ts": {
+    "mTimestamp": 1630663363424.0518,
+    "chunkId": "assets/script/game/EffectManager.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 2,
+            "column": 56
+          }
+        }
+      },
+      {
+        "value": "../data/Constants",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 26
+          },
+          "end": {
+            "line": 3,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "../data/CustomEventListener",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 36
+          },
+          "end": {
+            "line": 4,
+            "column": 65
+          }
+        }
+      },
+      {
+        "value": "../data/PoolManager",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 28
+          },
+          "end": {
+            "line": 5,
+            "column": 49
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/Constants.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/CustomEventListener.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts"
+      }
+    ]
+  },
+  "file:///Users/qinx/coding/cocos2dx/taxi/assets/script/data/PoolManager.ts": {
+    "mTimestamp": 1630663265342.6924,
+    "chunkId": "assets/script/data/PoolManager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 65
+          },
+          "end": {
+            "line": 2,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  }
+}

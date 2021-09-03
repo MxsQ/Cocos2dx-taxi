@@ -1,0 +1,495 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 106,
+      "max": [
+        1.0,
+        1.0,
+        0.03500000014901161
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "name": "Box023/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 106,
+      "name": "Box023/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 106,
+      "name": "Box023/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 150,
+      "name": "Box023/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        1.0,
+        1.0,
+        0.03500000014901161
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "name": "Box042/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box042/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box042/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 90,
+      "name": "Box042/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        1.0,
+        1.0,
+        0.03500000014901161
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "name": "Box043/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box043/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box043/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 90,
+      "name": "Box043/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        1.0,
+        1.0,
+        0.03500000014901161
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "name": "Box047/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box047/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box047/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 90,
+      "name": "Box047/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        1.0,
+        1.0,
+        0.03500000014901161
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        0.0
+      ],
+      "name": "Box050/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box050/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 50,
+      "name": "Box050/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 90,
+      "name": "Box050/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3392,
+      "byteStride": 32,
+      "name": "Box023",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 600,
+      "byteOffset": 3392
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1600,
+      "byteOffset": 3992,
+      "byteStride": 32,
+      "name": "Box042",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 5592
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1600,
+      "byteOffset": 5952,
+      "byteStride": 32,
+      "name": "Box043",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 7552
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1600,
+      "byteOffset": 7912,
+      "byteStride": 32,
+      "name": "Box047",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 9512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1600,
+      "byteOffset": 9872,
+      "byteStride": 32,
+      "name": "Box050",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 360,
+      "byteOffset": 11472
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 11832,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road02.jpg",
+          "relativeFileName": "road02.jpg"
+        }
+      },
+      "name": "贴图 #5",
+      "uri": "road02.jpg"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/road/road01.jpg",
+          "relativeFileName": "road01.jpg"
+        }
+      },
+      "name": "贴图 #4",
+      "uri": "road01.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #88",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "Material #87",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box023",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Box042",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Box043",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Box047",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Box050",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Box023",
+      "rotation": [
+        -0.5000000596046448,
+        -0.4999999701976776,
+        -0.4999999701976776,
+        0.5000000596046448
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "Box042",
+      "rotation": [
+        -0.5000000596046448,
+        -0.4999999701976776,
+        -0.4999999701976776,
+        0.5000000596046448
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "Box043",
+      "rotation": [
+        -1.1520231879558196e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        1.1520231879558196e-07
+      ],
+      "translation": [
+        -2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "Box047",
+      "rotation": [
+        -1.1520231879558196e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        1.1520231879558196e-07
+      ],
+      "translation": [
+        2.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "Box050",
+      "rotation": [
+        -0.5000000596046448,
+        -0.4999999701976776,
+        -0.4999999701976776,
+        0.5000000596046448
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -2.0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #5",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "贴图 #4",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1098,
+      "max": [
+        0.4805532693862915,
+        0.6858717203140259,
+        0.7638786435127258
+      ],
+      "min": [
+        -0.4805532395839691,
+        -0.6858717203140259,
+        0.004658917896449566
+      ],
+      "name": "Box001/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1098,
+      "name": "Box001/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1098,
+      "name": "Box001/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1764,
+      "name": "Box001/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 35136,
+      "byteStride": 32,
+      "name": "Box001",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7056,
+      "byteOffset": 35136
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 42192,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/truck/truck01.jpg",
+          "relativeFileName": "truck01.jpg"
+        }
+      },
+      "name": "贴图 #1",
+      "uri": "truck01.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Material #25",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Box001",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "translation": [
+        2.5192259727191413e-06,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "贴图 #1",
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}

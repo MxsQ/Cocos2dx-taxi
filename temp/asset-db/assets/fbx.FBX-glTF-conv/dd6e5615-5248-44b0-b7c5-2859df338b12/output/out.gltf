@@ -1,0 +1,598 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1796,
+      "max": [
+        0.0022984622046351433,
+        0.004506838042289019,
+        0.004238491412252188
+      ],
+      "min": [
+        -0.0022984622046351433,
+        -0.00469684274867177,
+        0.0006535537540912628
+      ],
+      "name": "taxi06/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1796,
+      "name": "taxi06/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1796,
+      "name": "taxi06/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 2928,
+      "name": "taxi06/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 448,
+      "max": [
+        0.0002939054393209517,
+        0.0007358422735705972,
+        0.0007358409930020571
+      ],
+      "min": [
+        -0.00029390500276349485,
+        -0.0007358415168710053,
+        -0.0007358408765867352
+      ],
+      "name": "tyre2/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 448,
+      "name": "tyre2/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 448,
+      "name": "tyre2/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 600,
+      "name": "tyre2/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 448,
+      "max": [
+        0.0002939054393209517,
+        0.0007358422735705972,
+        0.0007358409930020571
+      ],
+      "min": [
+        -0.00029390500276349485,
+        -0.0007358415168710053,
+        -0.0007358408765867352
+      ],
+      "name": "tyre4/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 448,
+      "name": "tyre4/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 448,
+      "name": "tyre4/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 600,
+      "name": "tyre4/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 527,
+      "max": [
+        0.014866223558783531,
+        0.03722003847360611,
+        0.03722001612186432
+      ],
+      "min": [
+        -0.014866208657622337,
+        -0.03722008690237999,
+        -0.037220023572444916
+      ],
+      "name": "tyre1/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 527,
+      "name": "tyre1/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 527,
+      "name": "tyre1/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 600,
+      "name": "tyre1/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 527,
+      "max": [
+        0.014866223558783531,
+        0.03722003847360611,
+        0.03722001612186432
+      ],
+      "min": [
+        -0.014866208657622337,
+        -0.03722008690237999,
+        -0.037220023572444916
+      ],
+      "name": "tyre3/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 527,
+      "name": "tyre3/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 527,
+      "name": "tyre3/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 600,
+      "name": "tyre3/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        0.0018249567365273833,
+        0.0002027875161729753,
+        0.0004228048783261329
+      ],
+      "min": [
+        -0.0018249567365273833,
+        -0.00020278722513467073,
+        -0.0004228048783261329
+      ],
+      "name": "light1-3/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 68,
+      "name": "light1-3/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 68,
+      "name": "light1-3/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5125,
+      "count": 96,
+      "name": "light1-3/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 57472,
+      "byteStride": 32,
+      "name": "taxi06",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11712,
+      "byteOffset": 57472
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14336,
+      "byteOffset": 69184,
+      "byteStride": 32,
+      "name": "tyre2",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2400,
+      "byteOffset": 83520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 14336,
+      "byteOffset": 85920,
+      "byteStride": 32,
+      "name": "tyre4",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2400,
+      "byteOffset": 100256
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16864,
+      "byteOffset": 102656,
+      "byteStride": 32,
+      "name": "tyre1",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2400,
+      "byteOffset": 119520
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16864,
+      "byteOffset": 121920,
+      "byteStride": 32,
+      "name": "tyre3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2400,
+      "byteOffset": 138784
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2176,
+      "byteOffset": 141184,
+      "byteStride": 32,
+      "name": "light1-3",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 384,
+      "byteOffset": 143360
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 143744,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Gray.jpg",
+          "relativeFileName": "taxi06Gray.jpg"
+        }
+      },
+      "name": "taxi06Gray",
+      "uri": "taxi06Gray.jpg"
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi06Light.png",
+          "relativeFileName": "taxi06Light.png"
+        }
+      },
+      "name": "贴图 #1",
+      "uri": "taxi06Light.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "taxi06Gray",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "light1",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "taxi06",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre4",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "tyre3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "light1-3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "taxi06",
+      "rotation": [
+        1.376787679419067e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        -1.376787679419067e-07
+      ],
+      "scale": [
+        50.58161163330078,
+        50.58161163330078,
+        50.58161163330078
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "tyre2",
+      "rotation": [
+        1.376787679419067e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        -1.376787679419067e-07
+      ],
+      "scale": [
+        50.58161163330078,
+        50.58161163330078,
+        50.58161163330078
+      ],
+      "translation": [
+        0.09205872565507889,
+        0.04100734367966652,
+        0.1346268504858017
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "tyre4",
+      "rotation": [
+        1.376787679419067e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        -1.376787679419067e-07
+      ],
+      "scale": [
+        50.58161163330078,
+        50.58161163330078,
+        50.58161163330078
+      ],
+      "translation": [
+        0.09205873310565948,
+        0.041007354855537415,
+        -0.15762341022491455
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "tyre1",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "translation": [
+        -0.09179702401161194,
+        0.04100734367966652,
+        0.1346268504858017
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "tyre3",
+      "rotation": [
+        -0.7071068286895752,
+        0.0,
+        0.0,
+        0.7071067094802856
+      ],
+      "translation": [
+        -0.09179701656103134,
+        0.041007354855537415,
+        -0.15763263404369354
+      ]
+    },
+    {
+      "mesh": 5,
+      "name": "light1-3",
+      "rotation": [
+        1.376787679419067e-07,
+        0.7071067690849304,
+        0.7071067690849304,
+        -1.376787679419067e-07
+      ],
+      "scale": [
+        50.58161163330078,
+        50.58161163330078,
+        50.58161163330078
+      ],
+      "translation": [
+        9.228185149368073e-08,
+        0.055088795721530914,
+        0.21564707159996033
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "taxi06Gray",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "贴图 #1",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
