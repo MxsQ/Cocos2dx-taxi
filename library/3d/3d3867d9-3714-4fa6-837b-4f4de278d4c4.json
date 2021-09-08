@@ -57,7 +57,7 @@
       "__type__": "cc.Vec3",
       "x": 0,
       "y": 0,
-      "z": 9.308
+      "z": -3.903
     },
     "_lrot": {
       "__type__": "cc.Quat",
@@ -1023,7 +1023,7 @@
     "duration": 5,
     "loop": true,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 54
     },

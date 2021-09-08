@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/PoolManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Prefab, Constants, CustomEventListener, PoolManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, EffectManager;
+  var _reporterNs, _cclegacy, _decorator, Component, Prefab, ParticleUtils, ParticleSystemComponent, instantiate, Constants, CustomEventListener, PoolManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, EffectManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -31,6 +31,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Prefab = _cc.Prefab;
+      ParticleUtils = _cc.ParticleUtils;
+      ParticleSystemComponent = _cc.ParticleSystemComponent;
+      instantiate = _cc.instantiate;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
@@ -63,6 +66,15 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _defineProperty(this, "_followTarget", null);
 
           _defineProperty(this, "_curBraking", null);
+
+          _defineProperty(this, "_coin", null);
+        }
+
+        // privete _coin: ParticleSystemComponent = null;
+        update() {
+          if (this._curBraking && this._followTarget) {
+            this._curBraking.setWorldPosition(this._followTarget.worldPosition);
+          }
         }
 
         start() {
@@ -90,11 +102,34 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), PoolManager) : PoolManager).getNode(this.brakeTrail, this.node);
 
           this._curBraking.setWorldRotation(follow);
+
+          ParticleUtils.play(this._curBraking);
         }
 
-        _endBraking() {}
+        _endBraking() {
+          const curBraking = this._curBraking;
+          this.scheduleOnce(() => {
+            (_crd && PoolManager === void 0 ? (_reportPossibleCrUseOfPoolManager({
+              error: Error()
+            }), PoolManager) : PoolManager).setNode(curBraking);
+          }, 2);
+          this._curBraking = null;
+          this._followTarget = null;
+        }
 
-        _showCoin() {}
+        _showCoin(...args) {
+          const pos = args[0];
+
+          if (!this._coin) {
+            const coin = instantiate(this.coin);
+            coin.setParent(this.node);
+            this._coin = coin.getComponent(ParticleSystemComponent);
+          }
+
+          this._coin.node.setWorldPosition(pos);
+
+          this._coin.play();
+        }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "brakeTrail", [_dec2], {
         configurable: true,

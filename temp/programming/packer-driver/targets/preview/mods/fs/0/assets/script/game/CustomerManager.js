@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "./AudioManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, Vec3, AnimationComponent, Constants, CustomEventListener, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, EventName, _tempVec, CustomerManager;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, Vec3, AnimationComponent, Constants, CustomEventListener, AudioManager, _dec, _dec2, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, EventName, _tempVec, CustomerManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -25,6 +25,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
     _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfAudioManager(extras) {
+    _reporterNs.report("AudioManager", "./AudioManager", _context.meta, extras);
+  }
+
   return {
     setters: [function (_cceInternalCodeQualityCrMjs) {
       _reporterNs = _cceInternalCodeQualityCrMjs;
@@ -39,6 +43,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_AudioManager) {
+      AudioManager = _AudioManager.AudioManager;
     }],
     execute: function () {
       _crd = true;
@@ -111,6 +117,16 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
                 error: Error()
               }), Constants) : Constants).CustomerState.GOODBYE) {
                 this._curCustomer = null;
+              }
+
+              if (this._state === (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).CustomerState.GREETING) {
+                (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+                  error: Error()
+                }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                  error: Error()
+                }), Constants) : Constants).AudioSource.INCAR);
               }
 
               (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
@@ -207,6 +223,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           var animComp = this._curCustomer.getComponent(AnimationComponent);
 
           animComp.play('walk');
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.GETMONEY);
         };
 
         return CustomerManager;

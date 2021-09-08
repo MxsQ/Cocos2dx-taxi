@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../RoadPoint"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../RoadPoint", "./AudioManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Vec3, Constants, CustomEventListener, RoadPoint, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
+  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, Constants, CustomEventListener, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -23,6 +23,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
     _reporterNs.report("RoadPoint", "../RoadPoint", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfAudioManager(extras) {
+    _reporterNs.report("AudioManager", "./AudioManager", _context.meta, extras);
+  }
+
   return {
     setters: [function (_cceInternalCodeQualityCrMjs) {
       _reporterNs = _cceInternalCodeQualityCrMjs;
@@ -31,12 +35,15 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Vec3 = _cc.Vec3;
+      ParticleSystemComponent = _cc.ParticleSystemComponent;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
     }, function (_RoadPoint) {
       RoadPoint = _RoadPoint.RoadPoint;
+    }, function (_AudioManager) {
+      AudioManager = _AudioManager.AudioManager;
     }],
     execute: function () {
       _crd = true;
@@ -83,6 +90,12 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _defineProperty(this, "_isMain", false);
 
           _defineProperty(this, "_isInOrder", false);
+
+          _defineProperty(this, "_isBreaking", false);
+
+          _defineProperty(this, "_gas", null);
+
+          _defineProperty(this, "_overCD", null);
         }
 
         start() {
@@ -108,6 +121,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           if (this._curSpeed <= 0.001) {
             this._isMoving = false;
+
+            if (this._isBreaking) {
+              this._isBreaking = false;
+              (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+                error: Error()
+              }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.END_BRANING);
+            }
           }
 
           switch ((_this$_currentRoadPoi = this._currentRoadPoint) === null || _this$_currentRoadPoi === void 0 ? void 0 : _this$_currentRoadPoi.moveType) {
@@ -198,7 +218,20 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         stopRunning() {
-          this._acceleration = -0.3; // this._isMoving = false;
+          this._acceleration = -0.3;
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.STARTBRA_KING, this.node);
+          this._isBreaking = true;
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.STOP);
+        }
+
+        moveAfterFinished(cd) {
+          this._overCD = cd;
         }
 
         setEntry(entry, isMain = false) {
@@ -226,6 +259,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             const x = this._pointB.x - this._pointA.x;
             this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
           }
+
+          if (this._isMain) {
+            const gasNode = this.node.getChildByName('gas');
+            this._gas = gasNode === null || gasNode === void 0 ? void 0 : gasNode.getComponent(ParticleSystemComponent);
+
+            this._gas.play();
+          }
         }
 
         _arrivalStation() {
@@ -243,6 +283,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             this._pointB.set(this._currentRoadPoint.nextStation.worldPosition);
 
             if (this._isMain) {
+              if (this._isBreaking) {
+                this._isBreaking = false;
+                (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+                  error: Error()
+                }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.END_BRANING);
+              }
+
               if (this._currentRoadPoint.type === (_crd && RoadPoint === void 0 ? (_reportPossibleCrUseOfRoadPoint({
                 error: Error()
               }), RoadPoint) : RoadPoint).RoadPointType.GREETING) {
@@ -253,6 +300,14 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
               }), RoadPoint) : RoadPoint).RoadPointType.GOODBYE) {
                 // 送客点
                 this._takingCustomer();
+              } else if (this._currentRoadPoint.type == (_crd && RoadPoint === void 0 ? (_reportPossibleCrUseOfRoadPoint({
+                error: Error()
+              }), RoadPoint) : RoadPoint).RoadPointType.END) {
+                (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+                  error: Error()
+                }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                  error: Error()
+                }), Constants) : Constants).AudioSource.WIN);
               }
             } // 弯道处理
 
@@ -289,6 +344,12 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           } else {
             this._isMoving = false;
             this._currentRoadPoint = null;
+
+            if (this._overCD) {
+              this._overCD(this);
+
+              this._overCD = null;
+            }
           }
         }
 
@@ -297,6 +358,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           this._isInOrder = true;
           this._curSpeed = 0;
+
+          this._gas.stop();
+
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GREETING, this.node.worldPosition, (_this$_currentRoadPoi3 = this._currentRoadPoint) === null || _this$_currentRoadPoi3 === void 0 ? void 0 : _this$_currentRoadPoi3.direction);
@@ -307,12 +371,20 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           this._isInOrder = true;
           this._curSpeed = 0;
+
+          this._gas.stop();
+
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GOODBYE, this.node.worldPosition, (_this$_currentRoadPoi4 = this._currentRoadPoint) === null || _this$_currentRoadPoi4 === void 0 ? void 0 : _this$_currentRoadPoi4.direction);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.SHOW_COIN, this.node.worldPosition);
         }
 
         _finishedWalk() {
+          this._gas.play();
+
           this._isInOrder = false;
         }
 

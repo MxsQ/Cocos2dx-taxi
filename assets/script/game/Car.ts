@@ -1,8 +1,9 @@
 
-import { _decorator, Component, Node, Vec3 } from 'cc';
+import { _decorator, Component, Node, Vec3, TERRAIN_HEIGHT_BASE, ParticleSystemComponent } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
 import { RoadPoint } from '../RoadPoint';
+import { AudioManager } from './AudioManager';
 const { ccclass, property } = _decorator;
 
 
@@ -27,6 +28,9 @@ export class Car extends Component {
   private _acceleration = 0.2
   private _isMain = false;
   private _isInOrder = false;
+  private _isBreaking = false;
+  private _gas: ParticleSystemComponent = null;
+  private _overCD: Function = null;
 
   public start() {
     CustomEventListener.on(EventName.FINISHID_WALK, this._finishedWalk, this);
@@ -46,6 +50,10 @@ export class Car extends Component {
 
     if (this._curSpeed <= 0.001) {
       this._isMoving = false;
+      if (this._isBreaking) {
+        this._isBreaking = false;
+        CustomEventListener.dispatchEvent(EventName.END_BRANING);
+      }
     }
 
     switch (this._currentRoadPoint?.moveType) {
@@ -125,7 +133,13 @@ export class Car extends Component {
 
   public stopRunning() {
     this._acceleration = -0.3;
-    // this._isMoving = false;
+    CustomEventListener.dispatchEvent(EventName.STARTBRA_KING, this.node);
+    this._isBreaking = true;
+    AudioManager.playSound(Constants.AudioSource.STOP);
+  }
+
+  public moveAfterFinished(cd: Function) {
+    this._overCD = cd;
   }
 
   public setEntry(entry: Node, isMain = false) {
@@ -148,6 +162,12 @@ export class Car extends Component {
       const x = this._pointB.x - this._pointA.x;
       this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
     }
+
+    if (this._isMain) {
+      const gasNode = this.node.getChildByName('gas');
+      this._gas = gasNode?.getComponent(ParticleSystemComponent) as ParticleSystemComponent;
+      this._gas.play()
+    }
   }
 
   private _arrivalStation() {
@@ -158,12 +178,19 @@ export class Car extends Component {
       this._pointB.set(this._currentRoadPoint.nextStation.worldPosition);
 
       if (this._isMain) {
+        if (this._isBreaking) {
+          this._isBreaking = false;
+          CustomEventListener.dispatchEvent(EventName.END_BRANING);
+        }
+
         if (this._currentRoadPoint.type === RoadPoint.RoadPointType.GREETING) {
           // 接客点  
           this._greetingCustomer();
         } else if (this._currentRoadPoint.type === RoadPoint.RoadPointType.GOODBYE) {
           // 送客点
           this._takingCustomer();
+        } else if (this._currentRoadPoint.type == RoadPoint.RoadPointType.END) {
+          AudioManager.playSound(Constants.AudioSource.WIN);
         }
       }
 
@@ -197,22 +224,31 @@ export class Car extends Component {
     } else {
       this._isMoving = false;
       this._currentRoadPoint = null;
+
+      if (this._overCD) {
+        this._overCD(this);
+        this._overCD = null;
+      }
     }
   }
 
   private _greetingCustomer() {
     this._isInOrder = true;
     this._curSpeed = 0;
+    this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GREETING, this.node.worldPosition, this._currentRoadPoint?.direction)
   }
 
   private _takingCustomer() {
     this._isInOrder = true;
     this._curSpeed = 0;
+    this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GOODBYE, this.node.worldPosition, this._currentRoadPoint?.direction)
+    CustomEventListener.dispatchEvent(EventName.SHOW_COIN, this.node.worldPosition);
   }
 
   private _finishedWalk() {
+    this._gas.play();
     this._isInOrder = false;
   }
 

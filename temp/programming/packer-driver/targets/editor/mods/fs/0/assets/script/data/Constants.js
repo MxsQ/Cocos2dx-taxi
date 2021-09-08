@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _class2, _temp, _crd, ccclass, property, EventName, CustomerState, Constants;
+  var _cclegacy, _decorator, Component, _dec, _class, _class2, _temp, _crd, ccclass, property, EventName, CustomerState, AudioSource, Constants;
 
   function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
@@ -36,7 +36,21 @@ System.register(["cc"], function (_export, _context) {
         CustomerState[CustomerState["GOODBYE"] = 2] = "GOODBYE";
       })(CustomerState || (CustomerState = {}));
 
-      _export("Constants", Constants = (_dec = ccclass('Constants'), _dec(_class = (_temp = _class2 = class Constants extends Component {}, _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _temp)) || _class));
+      (function (AudioSource) {
+        AudioSource["BACKGROUND"] = "background";
+        AudioSource["CLICK"] = "click";
+        AudioSource["CRASH"] = "crash";
+        AudioSource["INCAR"] = "inCar";
+        AudioSource["GETMONEY"] = "getMoney";
+        AudioSource["NEWORDER"] = "newOrder";
+        AudioSource["START"] = "start";
+        AudioSource["STOP"] = "stop";
+        AudioSource["TOOTONG1"] = "tooting1";
+        AudioSource["TOOTING2"] = "tootint2";
+        AudioSource["WIN"] = "win";
+      })(AudioSource || (AudioSource = {}));
+
+      _export("Constants", Constants = (_dec = ccclass('Constants'), _dec(_class = (_temp = _class2 = class Constants extends Component {}, _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _defineProperty(_class2, "AudioSource", AudioSource), _temp)) || _class));
 
       _cclegacy._RF.pop();
 

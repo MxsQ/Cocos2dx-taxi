@@ -54,7 +54,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "414HmveBRBrbABA7K4NcjR"
   },
   {
     "__type__": "cc.Node",
@@ -99,7 +99,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "71E3xiNgxAf5Q39hAuA/Vv"
   },
   {
     "__type__": "cc.ParticleSystem",
@@ -162,7 +162,7 @@
     "duration": 2,
     "loop": true,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 15
     },
@@ -211,7 +211,7 @@
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
-    "_id": ""
+    "_id": "f7u1LHNulIE4+Tuzx2jtMA"
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -682,7 +682,8 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "3fd6fe68-0b03-4724-8ac8-2491312bb122",
+      "__expectedType__": "cc.Prefab"
     },
     "fileId": "a7LzCpvGBBDJY+8p81fIW5"
   },
@@ -729,7 +730,7 @@
       "y": 0,
       "z": 0
     },
-    "_id": ""
+    "_id": "8fEwxe0vtG+o2Rv5SOKtGc"
   },
   {
     "__type__": "cc.ParticleSystem",
@@ -792,7 +793,7 @@
     "duration": 2,
     "loop": true,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 70
     },
@@ -841,7 +842,7 @@
     "_prewarm": false,
     "_capacity": 100,
     "_simulationSpace": 1,
-    "_id": ""
+    "_id": "bd7y8gxoFIUbVq+ypA6PJ7"
   },
   {
     "__type__": "cc.CompPrefabInfo",
@@ -1312,7 +1313,8 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "3fd6fe68-0b03-4724-8ac8-2491312bb122",
+      "__expectedType__": "cc.Prefab"
     },
     "fileId": "c516Tw+XZPE4cnCSCjUYeu"
   },
@@ -1322,7 +1324,8 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "3fd6fe68-0b03-4724-8ac8-2491312bb122",
+      "__expectedType__": "cc.Prefab"
     },
     "fileId": "a1Qha+g8dN0KPOu40jWdMz"
   }

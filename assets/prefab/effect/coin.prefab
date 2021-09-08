@@ -113,7 +113,7 @@
     "duration": 1,
     "loop": false,
     "simulationSpeed": 1,
-    "playOnAwake": true,
+    "playOnAwake": false,
     "gravityModifier": {
       "__id__": 14
     },
@@ -204,7 +204,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 10,
+    "constant": 7,
     "multiplier": 1
   },
   {
@@ -241,7 +241,7 @@
   {
     "__type__": "cc.CurveRange",
     "mode": 0,
-    "constant": 1.8,
+    "constant": 1.2,
     "multiplier": 1
   },
   {

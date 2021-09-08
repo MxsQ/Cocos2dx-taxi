@@ -2877,61 +2877,6 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/effect/showGold/commonIconCoin.png.meta": {
     "time": 1630301775924.8223
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio": {
-    "time": 1630301775727.1277,
-    "uuid": "5da3ae3f-6fa9-4d5e-bce6-59e50396821f",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/music": {
-    "time": 1630301775726.4392,
-    "uuid": "a80f7f5c-41c4-4f66-acdc-8d4cadf2b1c1",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound": {
-    "time": 1630301775734.6245,
-    "uuid": "9d040e12-bdc4-4ece-a60e-493cee86cfc3",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/click.mp3": {
-    "time": 1630301775727.4707,
-    "uuid": "34970795-0470-45c7-9035-8421cffafb79",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/inCar.mp3": {
-    "time": 1630301775730.7026,
-    "uuid": "d2287ee7-e790-4cc6-9ffb-7015dc08821d",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/crash.mp3": {
-    "time": 1630301775728.8513,
-    "uuid": "58b5447d-d0a9-47ce-b3ba-13b4af0a6519",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/getMoney.mp3": {
-    "time": 1630301775730.0906,
-    "uuid": "cc21d7c4-9482-4b53-b44c-d27fa6b76d03",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/music/background.mp3": {
-    "time": 1630301775726.3098,
-    "uuid": "d965d8d7-2723-4155-80c0-d62cd4a9c9a9",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/stop.mp3": {
-    "time": 1630301775732.6367,
-    "uuid": "db6d2599-ab60-4c54-89fc-67cd6f092436",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/newOrder.mp3": {
-    "time": 1630301775731.4827,
-    "uuid": "9ee929e0-198c-42c5-b35b-5ea00059613e",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/tooting1.mp3": {
-    "time": 1630301775733.2432,
-    "uuid": "69290fd4-1ecc-4025-9d74-a4e777377aec",
-    "missing": false
-  },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/map": {
     "time": 1629981280576.5315,
     "uuid": "bee6c3ad-3e47-4745-9a53-b432c2a7cadd",
@@ -2940,16 +2885,6 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/matrial": {
     "time": 1630475918506.5547,
     "uuid": "5d57df20-c9a5-44f7-b238-906864d917d3",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/start.mp3": {
-    "time": 1630301775732.0408,
-    "uuid": "2a285f8c-f6f5-48a5-8c4e-92c94cf60f5c",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/tooting2.mp3": {
-    "time": 1630301775733.837,
-    "uuid": "f8802356-394a-4394-94ad-86f0f301e947",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model": {
@@ -2983,18 +2918,13 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/game.scene": {
-    "time": 1630663749395.3079,
+    "time": 1631088912287.967,
     "uuid": "3a892430-6a3e-4239-93ad-b24f5c4da708",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/matrial/light.mtl": {
     "time": 1630466173188.0862,
     "uuid": "9e8d21d9-75ab-4afa-8bc5-f43611310c85",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/audio/sound/win.mp3": {
-    "time": 1630301775734.4783,
-    "uuid": "d8959d6a-88d2-4f46-82c2-15f205049eac",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/cars/taxi/taxi01.FBX": {
@@ -3223,33 +3153,8 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab": {
-    "time": 1630474746524.2258,
+    "time": 1631097638436.1501,
     "uuid": "3fa9e541-2d16-4a83-9dc8-06d32f5e2faa",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car": {
-    "time": 1630301775801.554,
-    "uuid": "ada5435f-b0fe-4139-bf64-7caeb796b1a2",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car/car101.prefab": {
-    "time": 1630474878790.3828,
-    "uuid": "3d3867d9-3714-4fa6-837b-4f4de278d4c4",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car/car201.prefab": {
-    "time": 1630301775800.366,
-    "uuid": "ce116883-f97e-4f80-8897-f395cd668d97",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car/car202.prefab": {
-    "time": 1630301775800.752,
-    "uuid": "68da0c3d-b5db-4fc4-96e1-6e8942ad04b9",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car/car203.prefab": {
-    "time": 1630301775801.1125,
-    "uuid": "1d84a834-577a-4c0a-ac60-611518d6d948",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/model/tree/tree01.FBX": {
@@ -3260,11 +3165,6 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/customer": {
     "time": 1630389448853.0024,
     "uuid": "8ed8fa25-bb47-4122-a9cd-0d6c8d6ae826",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/car/car204.prefab": {
-    "time": 1630301775801.4817,
-    "uuid": "26a812e5-1fc2-4682-aefb-9db35cd0b414",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/customer/customer01.prefab": {
@@ -3283,7 +3183,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/effect/brakeTrail.prefab": {
-    "time": 1630475782905.2568,
+    "time": 1630997589754.7869,
     "uuid": "3fd6fe68-0b03-4724-8ac8-2491312bb122",
     "missing": false
   },
@@ -3293,7 +3193,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/effect/coin.prefab": {
-    "time": 1630662251451.1917,
+    "time": 1631085050862.2659,
     "uuid": "030c4465-2fba-4d37-80fe-311e01b2e96e",
     "missing": false
   },
@@ -3303,7 +3203,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": {
-    "time": 1630309034477.5388,
+    "time": 1631098338272.0212,
     "uuid": "125cea34-899e-436e-88f5-0900ac862248",
     "missing": false
   },
@@ -3313,7 +3213,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts": {
-    "time": 1630662541424.878,
+    "time": 1631089137697.6726,
     "uuid": "976abbe7-28b4-49d6-9665-7fad54a3112e",
     "missing": false
   },
@@ -3323,37 +3223,37 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts": {
-    "time": 1630663265342.6924,
+    "time": 1631098218324.1309,
     "uuid": "8e75552f-0c3f-4576-9ac9-929e3336f3fa",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game": {
-    "time": 1630662344637.3677,
+    "time": 1631087939297.5654,
     "uuid": "accb6a67-99c8-461a-a414-a155ba6edeb3",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/map/map101.prefab": {
-    "time": 1630310009691.3674,
+    "time": 1631098080825.4783,
     "uuid": "b12d9ac8-1104-49a5-9de5-b1fc13ef3e29",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts": {
-    "time": 1630395099307.05,
+    "time": 1631098178785.952,
     "uuid": "c3799cd8-87a9-4004-b0b7-b5bc3292b780",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": {
-    "time": 1630392076338.419,
+    "time": 1631097455357.088,
     "uuid": "5087470d-1256-43de-bb00-8dfd2a1e933d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts": {
-    "time": 1630395228700.999,
+    "time": 1631089380357.9023,
     "uuid": "504716c0-d9e3-4d68-8b13-b9b1033a4015",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts": {
-    "time": 1630663363424.0518,
+    "time": 1630999642368.8594,
     "uuid": "5f95e76d-64c9-40ff-9b9c-2c019d469d14",
     "missing": false
   },
@@ -3368,7 +3268,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts": {
-    "time": 1630305912533.9158,
+    "time": 1631097828466.364,
     "uuid": "5a034103-487e-4870-9ea7-93bfa7d431bf",
     "missing": false
   },
@@ -4175,6 +4075,235 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/effect/showGold/commonIconCoin.png": {
     "time": 1630301775924.3303,
     "uuid": "705c7e6a-9bbf-4f44-b1a0-5617edb195ae",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.meta": {
+    "time": 1631085329356.4185
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts": {
+    "time": 1631089772430.8005,
+    "uuid": "b9e5a69c-daa6-4203-9fc7-6ec1b71c23dc",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources.meta": {
+    "time": 1631085773559.363
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio.meta": {
+    "time": 1630301775722.2695
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/music.meta": {
+    "time": 1630301775722.7388
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/music/background.mp3.meta": {
+    "time": 1630301775726.7566
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound.meta": {
+    "time": 1630301775727.0603
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/click.mp3.meta": {
+    "time": 1630301775728.2354
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/crash.mp3.meta": {
+    "time": 1630301775729.3748
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/getMoney.mp3.meta": {
+    "time": 1630301775730.2803
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/inCar.mp3.meta": {
+    "time": 1630301775731.011
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/newOrder.mp3.meta": {
+    "time": 1630301775731.6917
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/start.mp3.meta": {
+    "time": 1630301775732.2742
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/stop.mp3.meta": {
+    "time": 1630301775732.8372
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/tooting1.mp3.meta": {
+    "time": 1630301775733.4666
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/tooting2.mp3.meta": {
+    "time": 1630301775734.101
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/audio/sound/win.mp3.meta": {
+    "time": 1630301775734.8352
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.meta": {
+    "time": 1631087939302.8782
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts": {
+    "time": 1631088805003.4463,
+    "uuid": "2da5c4c4-e880-4e8c-9275-2fc42b019845",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources.meta": {
+    "time": 1631085773559.363
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio.meta": {
+    "time": 1630301775722.2695
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music.meta": {
+    "time": 1630301775722.7388
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music/background.mp3.meta": {
+    "time": 1630301775726.7566
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound.meta": {
+    "time": 1630301775727.0603
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/click.mp3.meta": {
+    "time": 1630301775728.2354
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/crash.mp3.meta": {
+    "time": 1630301775729.3748
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/getMoney.mp3.meta": {
+    "time": 1630301775730.2803
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/inCar.mp3.meta": {
+    "time": 1630301775731.011
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/newOrder.mp3.meta": {
+    "time": 1630301775731.6917
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/start.mp3.meta": {
+    "time": 1630301775732.2742
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/stop.mp3.meta": {
+    "time": 1630301775732.8372
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting1.mp3.meta": {
+    "time": 1630301775733.4666
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting2.mp3.meta": {
+    "time": 1630301775734.101
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/win.mp3.meta": {
+    "time": 1630301775734.8352
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources": {
+    "time": 1631097638436.1501,
+    "uuid": "f70ce8ae-ed5c-4e8a-848c-e8f9b4d1da5e",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio": {
+    "time": 1630301775727.1277,
+    "uuid": "5da3ae3f-6fa9-4d5e-bce6-59e50396821f",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music": {
+    "time": 1630301775726.4392,
+    "uuid": "a80f7f5c-41c4-4f66-acdc-8d4cadf2b1c1",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound": {
+    "time": 1630301775734.6245,
+    "uuid": "9d040e12-bdc4-4ece-a60e-493cee86cfc3",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/click.mp3": {
+    "time": 1630301775727.4707,
+    "uuid": "34970795-0470-45c7-9035-8421cffafb79",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/crash.mp3": {
+    "time": 1630301775728.8513,
+    "uuid": "58b5447d-d0a9-47ce-b3ba-13b4af0a6519",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music/background.mp3": {
+    "time": 1630301775726.3098,
+    "uuid": "d965d8d7-2723-4155-80c0-d62cd4a9c9a9",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/getMoney.mp3": {
+    "time": 1630301775730.0906,
+    "uuid": "cc21d7c4-9482-4b53-b44c-d27fa6b76d03",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/inCar.mp3": {
+    "time": 1630301775730.7026,
+    "uuid": "d2287ee7-e790-4cc6-9ffb-7015dc08821d",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/newOrder.mp3": {
+    "time": 1630301775731.4827,
+    "uuid": "9ee929e0-198c-42c5-b35b-5ea00059613e",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/start.mp3": {
+    "time": 1630301775732.0408,
+    "uuid": "2a285f8c-f6f5-48a5-8c4e-92c94cf60f5c",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/stop.mp3": {
+    "time": 1630301775732.6367,
+    "uuid": "db6d2599-ab60-4c54-89fc-67cd6f092436",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting1.mp3": {
+    "time": 1630301775733.2432,
+    "uuid": "69290fd4-1ecc-4025-9d74-a4e777377aec",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting2.mp3": {
+    "time": 1630301775733.837,
+    "uuid": "f8802356-394a-4394-94ad-86f0f301e947",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/win.mp3": {
+    "time": 1630301775734.4783,
+    "uuid": "d8959d6a-88d2-4f46-82c2-15f205049eac",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car.meta": {
+    "time": 1630301775799.7268
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car101.prefab.meta": {
+    "time": 1630301775800.1838
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab.meta": {
+    "time": 1630301775800.5547
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab.meta": {
+    "time": 1630301775800.9287
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car203.prefab.meta": {
+    "time": 1630301775801.2944
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car204.prefab.meta": {
+    "time": 1630301775801.742
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car": {
+    "time": 1630301775801.554,
+    "uuid": "ada5435f-b0fe-4139-bf64-7caeb796b1a2",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab": {
+    "time": 1631097770637.016,
+    "uuid": "ce116883-f97e-4f80-8897-f395cd668d97",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab": {
+    "time": 1631097776113.6003,
+    "uuid": "68da0c3d-b5db-4fc4-96e1-6e8942ad04b9",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car101.prefab": {
+    "time": 1630999135504.1736,
+    "uuid": "3d3867d9-3714-4fa6-837b-4f4de278d4c4",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car203.prefab": {
+    "time": 1631097782740.4592,
+    "uuid": "1d84a834-577a-4c0a-ac60-611518d6d948",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car204.prefab": {
+    "time": 1631097787986.1199,
+    "uuid": "26a812e5-1fc2-4682-aefb-9db35cd0b414",
     "missing": false
   }
 }

@@ -22,6 +22,7 @@ export class PoolManager extends Component {
 
   public static setNode(target: Node) {
     const name = target.name;
+    target.parent = null;
     if (this.handle.has(name)) {
       this.handle.get(name)?.push(target);
     } else {

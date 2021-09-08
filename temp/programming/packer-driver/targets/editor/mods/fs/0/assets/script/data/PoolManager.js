@@ -41,6 +41,7 @@ System.register(["cc"], function (_export, _context) {
 
         static setNode(target) {
           const name = target.name;
+          target.parent = null;
 
           if (this.handle.has(name)) {
             var _this$handle$get2;

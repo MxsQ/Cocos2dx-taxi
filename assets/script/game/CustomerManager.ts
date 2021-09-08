@@ -1,7 +1,8 @@
 
-import { _decorator, Component, Node, Vec3, AnimationComponent } from 'cc';
+import { _decorator, Component, Node, Vec3, AnimationComponent, TERRAIN_HEIGHT_BASE } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
+import { AudioManager } from './AudioManager';
 const { ccclass, property } = _decorator;
 
 const EventName = Constants.EventName;
@@ -40,8 +41,12 @@ export class CustomerManager extends Component {
         if (this._state == Constants.CustomerState.GOODBYE) {
           this._curCustomer = null;
         }
-        CustomEventListener.dispatchEvent(EventName.FINISHID_WALK);
 
+        if (this._state === Constants.CustomerState.GREETING) {
+          AudioManager.playSound(Constants.AudioSource.INCAR);
+        }
+
+        CustomEventListener.dispatchEvent(EventName.FINISHID_WALK);
       } else {
         Vec3.lerp(_tempVec, this._startPos, this._endPos, this._deltaTime / this.walkTime)
         this._curCustomer?.setWorldPosition(_tempVec);
@@ -118,6 +123,7 @@ export class CustomerManager extends Component {
 
     const animComp = this._curCustomer.getComponent(AnimationComponent);
     animComp.play('walk');
+    AudioManager.playSound(Constants.AudioSource.GETMONEY);
   }
 }
 

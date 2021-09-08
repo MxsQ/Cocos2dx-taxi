@@ -17,8 +17,23 @@ enum CustomerState {
   GOODBYE,
 }
 
+enum AudioSource {
+  BACKGROUND = 'background',
+  CLICK = 'click',
+  CRASH = 'crash',
+  INCAR = 'inCar',
+  GETMONEY = 'getMoney',
+  NEWORDER = 'newOrder',
+  START = 'start',
+  STOP = 'stop',
+  TOOTONG1 = 'tooting1',
+  TOOTING2 = 'tootint2',
+  WIN = 'win',
+}
+
 @ccclass('Constants')
 export class Constants extends Component {
   public static EventName = EventName;
   public static CustomerState = CustomerState;
+  public static AudioSource = AudioSource;
 }
