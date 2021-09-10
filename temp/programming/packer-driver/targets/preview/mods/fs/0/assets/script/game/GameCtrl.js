@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -16,6 +16,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
   function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfConstants(extras) {
+    _reporterNs.report("Constants", "../data/Constants", _context.meta, extras);
+  }
 
   function _reportPossibleCrUseOfAudioManager(extras) {
     _reporterNs.report("AudioManager", "./AudioManager", _context.meta, extras);
@@ -37,6 +41,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Node = _cc.Node;
+      BoxCollider = _cc.BoxCollider;
+    }, function (_dataConstants) {
+      Constants = _dataConstants.Constants;
     }, function (_AudioManager) {
       AudioManager = _AudioManager.AudioManager;
     }, function (_CarManager) {
@@ -60,6 +67,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
         type: _crd && CarManager === void 0 ? (_reportPossibleCrUseOfCarManager({
           error: Error()
         }), CarManager) : CarManager
+      }), _dec4 = property({
+        type: Node
       }), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(GameCtrl, _Component);
 
@@ -76,6 +85,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
 
           _initializerDefineProperty(_assertThisInitialized(_this), "carManager", _descriptor2, _assertThisInitialized(_this));
 
+          _initializerDefineProperty(_assertThisInitialized(_this), "group", _descriptor3, _assertThisInitialized(_this));
+
           return _this;
         }
 
@@ -84,6 +95,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
         _proto.onLoad = function onLoad() {
           this.mapManager.resetMap();
           this.carManager.reset(this.mapManager.curPath);
+          var collider = this.group.getComponent(BoxCollider);
+          collider.setGroup((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).CarGroup.NORMAL);
+          collider.setMask(-1);
         };
 
         _proto.start = function start() {
@@ -115,6 +131,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./AudioManager", ".
           return null;
         }
       }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "carManager", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "group", [_dec4], {
         configurable: true,
         enumerable: true,
         writable: true,

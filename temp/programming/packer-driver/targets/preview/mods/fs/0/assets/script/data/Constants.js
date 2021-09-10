@@ -1,7 +1,7 @@
 System.register(["cc"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, _dec, _class, _class2, _temp, _crd, ccclass, property, EventName, CustomerState, AudioSource, Constants;
+  var _cclegacy, _decorator, Component, _dec, _class, _class2, _temp, _crd, ccclass, property, EventName, CustomerState, AudioSource, CarGroup, Constants;
 
   function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; _setPrototypeOf(subClass, superClass); }
 
@@ -30,6 +30,8 @@ System.register(["cc"], function (_export, _context) {
         EventName["STARTBRA_KING"] = "start-braking";
         EventName["END_BRANING"] = "end-braking";
         EventName["SHOW_COIN"] = "show-coin";
+        EventName["GAME_START"] = "game-start";
+        EventName["GAME_OVER"] = "game-over";
       })(EventName || (EventName = {}));
 
       (function (CustomerState) {
@@ -52,6 +54,12 @@ System.register(["cc"], function (_export, _context) {
         AudioSource["WIN"] = "win";
       })(AudioSource || (AudioSource = {}));
 
+      (function (CarGroup) {
+        CarGroup[CarGroup["NORMAL"] = 1] = "NORMAL";
+        CarGroup[CarGroup["MAIN_CAR"] = 2] = "MAIN_CAR";
+        CarGroup[CarGroup["OTHER_CAR"] = 4] = "OTHER_CAR";
+      })(CarGroup || (CarGroup = {}));
+
       _export("Constants", Constants = (_dec = ccclass('Constants'), _dec(_class = (_temp = _class2 = /*#__PURE__*/function (_Component) {
         _inheritsLoose(Constants, _Component);
 
@@ -60,7 +68,7 @@ System.register(["cc"], function (_export, _context) {
         }
 
         return Constants;
-      }(Component), _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _defineProperty(_class2, "AudioSource", AudioSource), _temp)) || _class));
+      }(Component), _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _defineProperty(_class2, "AudioSource", AudioSource), _defineProperty(_class2, "CarGroup", CarGroup), _temp)) || _class));
 
       _cclegacy._RF.pop();
 

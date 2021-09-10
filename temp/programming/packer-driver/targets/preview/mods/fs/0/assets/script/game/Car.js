@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../RoadPoint", "./AudioManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, Constants, CustomEventListener, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
+  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, Constants, CustomEventListener, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -42,6 +42,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       Component = _cc.Component;
       Vec3 = _cc.Vec3;
       ParticleSystemComponent = _cc.ParticleSystemComponent;
+      BoxColliderComponent = _cc.BoxColliderComponent;
+      RigidBodyComponent = _cc.RigidBodyComponent;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
@@ -108,6 +110,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _defineProperty(_assertThisInitialized(_this), "_gas", null);
 
           _defineProperty(_assertThisInitialized(_this), "_overCD", null);
+
+          _defineProperty(_assertThisInitialized(_this), "_camera", null);
 
           return _this;
         }
@@ -215,14 +219,28 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }
 
           this.node.setWorldPosition(this._offset);
-          Vec3.subtract(_tempVec, this._pointB, this._offset);
-          console.log(_tempVec.length());
+          Vec3.subtract(_tempVec, this._pointB, this._offset); // console.log("tem : " + _tempVec.x + " " + _tempVec.y + " " + _tempVec.z);
+          // console.log("offest : " + this._offset.x + " " + this._offset.y + " " + this._offset.z);
+          // console.log(_tempVec.length());
 
           if (_tempVec.length() <= 0.01
           /** 这里是步长容错*/
           ) {
               this._arrivalStation();
             }
+        };
+
+        _proto.setCamera = function setCamera(camera, pos, rotation) {
+          if (!this._isMain) {
+            return;
+          }
+
+          this._camera = camera;
+          this._camera.parent = this.node;
+
+          this._camera.setPosition(pos);
+
+          this._camera.eulerAngles = new Vec3(rotation, 0, 0);
         };
 
         _proto.startRunning = function startRunning() {
@@ -248,6 +266,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
         _proto.moveAfterFinished = function moveAfterFinished(cd) {
           this._overCD = cd;
+        };
+
+        _proto.stopImmediately = function stopImmediately() {
+          this._isMoving = false;
+          this._curSpeed = 0;
         };
 
         _proto.setEntry = function setEntry(entry, isMain) {
@@ -280,18 +303,40 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
           }
 
+          var collider = this.node.getComponent(BoxColliderComponent);
+
           if (this._isMain) {
             var gasNode = this.node.getChildByName('gas');
             this._gas = gasNode === null || gasNode === void 0 ? void 0 : gasNode.getComponent(ParticleSystemComponent);
 
             this._gas.play();
+
+            collider.on('onCollisionEnter', this._onCollisionEnter, this);
+            ;
+            collider.setGroup((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).CarGroup.MAIN_CAR);
+            collider.setMask((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).CarGroup.OTHER_CAR); // 碰撞的分组和掩码，到底是怎么工作的？？
+          } else {
+            collider.setGroup((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).CarGroup.OTHER_CAR);
+            collider.setMask(-1);
           }
+
+          this._resetPhysical();
         };
 
         _proto._arrivalStation = function _arrivalStation() {
           var _this$_currentRoadPoi2;
 
           console.log("到啦");
+
+          if (this._isMain) {
+            console.log('i am main');
+          }
 
           this._pointA.set(this._pointB);
 
@@ -373,6 +418,27 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }
         };
 
+        _proto._onCollisionEnter = function _onCollisionEnter(event) {
+          console.log('!!!!撞到了');
+          var otherCollider = event.otherCollider;
+
+          if (otherCollider.node.name === 'group') {
+            return;
+          }
+
+          var otherRigidBody = otherCollider.node.getComponent(RigidBodyComponent);
+          otherRigidBody.useGravity = true;
+          otherRigidBody === null || otherRigidBody === void 0 ? void 0 : otherRigidBody.applyForce(new Vec3(0, 2500, -1500), new Vec3(0, 0.5, 0));
+          var collider = event.selfCollider;
+          collider.addMask((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).CarGroup.NORMAL);
+          var rigidBody = this.node.getComponent(RigidBodyComponent);
+          rigidBody.useGravity = true;
+
+          this._gameOver();
+        };
+
         _proto._greetingCustomer = function _greetingCustomer() {
           var _this$_currentRoadPoi3;
 
@@ -403,9 +469,26 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         };
 
         _proto._finishedWalk = function _finishedWalk() {
+          if (!this._isMain) {
+            return;
+          }
+
           this._gas.play();
 
           this._isInOrder = false;
+        };
+
+        _proto._resetPhysical = function _resetPhysical() {
+          var rigidBody = this.node.getComponent(RigidBodyComponent);
+          rigidBody.useGravity = false;
+          rigidBody.sleep();
+          rigidBody.wakeUp();
+        };
+
+        _proto._gameOver = function _gameOver() {
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GAME_OVER);
         };
 
         _proto._conversion = function _conversion(value) {

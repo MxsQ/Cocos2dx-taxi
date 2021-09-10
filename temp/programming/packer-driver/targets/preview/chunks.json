@@ -1,11 +1,4 @@
 {
-  "assets/script/data/CustomEventListener.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/data/CustomEventListener.js",
-    "mTimestamp": 1630664083669
-  },
   "assets/script/game/GameMap.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -40,41 +33,22 @@
     "physicalLocation": "fs/0/assets/script/game/EffectManager.js",
     "mTimestamp": 1630999645644
   },
-  "quick-pack:/cce/internal/x/cc.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/x/cc.js",
-    "mTimestamp": 1631085520482,
-    "isEntry": true,
-    "exposeAs": "cce:/internal/x/cc"
-  },
-  "quick-pack:/cce/internal/code-quality/cr.js": {
-    "imports": {},
-    "physicalLocation": "cce/internal/code-quality/cr.js",
-    "mTimestamp": 1631085520519
-  },
   "assets/script/game/GameRoot.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "./AudioManager": "assets/script/game/AudioManager.js"
+      "./AudioManager": "assets/script/game/AudioManager.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js"
     },
     "physicalLocation": "fs/0/assets/script/game/GameRoot.js",
     "mTimestamp": 1631088808550
   },
-  "assets/script/data/Constants.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/data/Constants.js",
-    "mTimestamp": 1631089445783
-  },
   "assets/script/game/CustomerManager.js": {
     "imports": {
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
       "cc": "quick-pack:/cce/internal/x/cc.js",
       "../data/Constants": "assets/script/data/Constants.js",
       "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
-      "./AudioManager": "assets/script/game/AudioManager.js"
+      "./AudioManager": "assets/script/game/AudioManager.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js"
     },
     "physicalLocation": "fs/0/assets/script/game/CustomerManager.js",
     "mTimestamp": 1631089445987
@@ -86,28 +60,6 @@
     "physicalLocation": "fs/0/assets/script/game/AudioManager.js",
     "mTimestamp": 1631089775577
   },
-  "assets/script/game/CarManager.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "../data/PoolManager": "assets/script/data/PoolManager.js",
-      "../RoadPoint": "assets/script/RoadPoint.js",
-      "./Car": "assets/script/game/Car.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/CarManager.js",
-    "mTimestamp": 1631097567676
-  },
-  "assets/script/game/GameCtrl.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "./AudioManager": "assets/script/game/AudioManager.js",
-      "./MapManager": "assets/script/game/MapManager.js",
-      "./CarManager": "assets/script/game/CarManager.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/GameCtrl.js",
-    "mTimestamp": 1631097829869
-  },
   "assets/script/data/PoolManager.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
@@ -115,26 +67,71 @@
     "physicalLocation": "fs/0/assets/script/data/PoolManager.js",
     "mTimestamp": 1631098238323
   },
+  "assets/script/RoadPoint.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/RoadPoint.js",
+    "mTimestamp": 1631253084573
+  },
+  "assets/script/data/CustomEventListener.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/data/CustomEventListener.js",
+    "mTimestamp": 1631260303508
+  },
+  "assets/script/data/Constants.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/data/Constants.js",
+    "mTimestamp": 1631260303529
+  },
+  "assets/script/game/GameCtrl.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "./AudioManager": "assets/script/game/AudioManager.js",
+      "./CarManager": "assets/script/game/CarManager.js",
+      "./MapManager": "assets/script/game/MapManager.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/GameCtrl.js",
+    "mTimestamp": 1631263769291
+  },
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1631264493808,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1631264493845
+  },
   "assets/script/game/Car.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js",
       "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
       "../data/Constants": "assets/script/data/Constants.js",
-      "../RoadPoint": "assets/script/RoadPoint.js",
       "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../RoadPoint": "assets/script/RoadPoint.js",
       "./AudioManager": "assets/script/game/AudioManager.js"
     },
     "physicalLocation": "fs/0/assets/script/game/Car.js",
-    "mTimestamp": 1631098238439
+    "mTimestamp": 1631265520086
   },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
+      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts": "assets/script/data/Constants.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts": "assets/script/data/CustomEventListener.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts": "assets/script/data/PoolManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts": "assets/script/game/AudioManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts": "assets/script/game/Car.js",
-      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": "assets/script/game/CarManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts": "assets/script/game/CustomerManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts": "assets/script/game/EffectManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts": "assets/script/game/GameCtrl.js",
@@ -142,18 +139,24 @@
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts": "assets/script/game/GameRoot.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts": "assets/script/game/MapManager.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts": "assets/script/game/typescript.js",
-      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js"
+      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": "assets/script/game/CarManager.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1631098340338,
+    "mTimestamp": 1631265770669,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
-  "assets/script/RoadPoint.js": {
+  "assets/script/game/CarManager.js": {
     "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "../data/PoolManager": "assets/script/data/PoolManager.js",
+      "../RoadPoint": "assets/script/RoadPoint.js",
+      "./Car": "assets/script/game/Car.js"
     },
-    "physicalLocation": "fs/0/assets/script/RoadPoint.js",
-    "mTimestamp": 1631098340408
+    "physicalLocation": "fs/0/assets/script/game/CarManager.js",
+    "mTimestamp": 1631265770776
   }
 }
