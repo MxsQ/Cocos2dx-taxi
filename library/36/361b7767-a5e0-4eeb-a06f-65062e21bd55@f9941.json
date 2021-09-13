@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightBoxHead",
+    "atlas": "",
+    "rect": {
+      "x": 1,
+      "y": 1,
+      "width": 131,
+      "height": 131
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 133,
+      "height": 133
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "361b7767-a5e0-4eeb-a06f-65062e21bd55@6c48a",
+    "packable": true
+  }
+}

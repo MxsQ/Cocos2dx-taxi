@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightImgFont02",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 243,
+      "height": 114
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 243,
+      "height": 124
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "e5df11a2-58e8-4fe1-950a-66a0a0f102f2@6c48a",
+    "packable": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "commonIconClose",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 74,
+      "height": 81
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 74,
+      "height": 82
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "d35663cf-038d-418a-9ec4-1a8e477feb9c@6c48a",
+    "packable": true
+  }
+}

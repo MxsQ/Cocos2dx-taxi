@@ -30,11 +30,45 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "46e6ee99-156c-4ccc-b50b-0e261f169c35@f9941",
+      "displayName": "fightShieldImg01",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -0.5,
+        "offsetY": 0.5,
+        "trimX": 1,
+        "trimY": 1,
+        "width": 186,
+        "height": 195,
+        "rawWidth": 189,
+        "rawHeight": 198,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "46e6ee99-156c-4ccc-b50b-0e261f169c35@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
-    "redirect": "46e6ee99-156c-4ccc-b50b-0e261f169c35@6c48a"
+    "type": "sprite-frame",
+    "redirect": "46e6ee99-156c-4ccc-b50b-0e261f169c35@f9941"
   }
 }

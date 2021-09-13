@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "homeBoxGold",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 175,
+      "height": 42
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 175,
+      "height": 42
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "6bd22619-9378-48da-aef5-4f8795242d66@6c48a",
+    "packable": true
+  }
+}

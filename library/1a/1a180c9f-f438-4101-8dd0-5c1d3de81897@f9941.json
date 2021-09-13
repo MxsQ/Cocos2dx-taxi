@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "homeBoxAD",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 142,
+      "height": 177
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 142,
+      "height": 177
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "1a180c9f-f438-4101-8dd0-5c1d3de81897@6c48a",
+    "packable": true
+  }
+}

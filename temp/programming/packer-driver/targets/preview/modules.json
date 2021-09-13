@@ -1,6 +1,6 @@
 {
   "cce:/internal/x/cc": {
-    "mTimestamp": 5266.804803013802,
+    "mTimestamp": 5266.536733984947,
     "chunkId": "quick-pack:/cce/internal/x/cc.js",
     "imports": [
       {
@@ -419,7 +419,7 @@
     ]
   },
   "cce:/internal/x/prerequisite-imports": {
-    "mTimestamp": 1286558.6423369646,
+    "mTimestamp": 9655.198302030563,
     "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
     "imports": [
       {
@@ -897,7 +897,7 @@
     ]
   },
   "cce:/internal/code-quality/cr.mjs": {
-    "mTimestamp": 1631264484086,
+    "mTimestamp": 1631516905496,
     "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
     "imports": [],
     "modLoMetadata": {
@@ -1581,7 +1581,7 @@
     ]
   },
   "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": {
-    "mTimestamp": 1631265717787.0623,
+    "mTimestamp": 1631516100338.3171,
     "chunkId": "assets/script/game/CarManager.js",
     "imports": [
       {

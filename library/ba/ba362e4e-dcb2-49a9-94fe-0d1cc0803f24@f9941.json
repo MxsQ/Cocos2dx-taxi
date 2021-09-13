@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fightImgLight",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 482,
+      "height": 482
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 482,
+      "height": 482
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ba362e4e-dcb2-49a9-94fe-0d1cc0803f24@6c48a",
+    "packable": true
+  }
+}

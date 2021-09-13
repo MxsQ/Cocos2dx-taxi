@@ -30,11 +30,45 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "fe8f5a61-09ca-45c8-8c33-53b817b26b52@f9941",
+      "displayName": "fightImgCircle",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 58,
+        "height": 58,
+        "rawWidth": 58,
+        "rawHeight": 58,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "fe8f5a61-09ca-45c8-8c33-53b817b26b52@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
-    "redirect": "fe8f5a61-09ca-45c8-8c33-53b817b26b52@6c48a"
+    "type": "sprite-frame",
+    "redirect": "fe8f5a61-09ca-45c8-8c33-53b817b26b52@f9941"
   }
 }

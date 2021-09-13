@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "rankxImg03",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 665,
+      "height": 893
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 665,
+      "height": 894
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "444d87e4-54f1-49bb-b31a-86b3decc59af@6c48a",
+    "packable": true
+  }
+}

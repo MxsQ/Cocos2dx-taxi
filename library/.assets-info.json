@@ -772,62 +772,62 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio": {
     "time": 1630301775727.128,
     "uuid": "5da3ae3f-6fa9-4d5e-bce6-59e50396821f",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music": {
     "time": 1630301775726.439,
     "uuid": "a80f7f5c-41c4-4f66-acdc-8d4cadf2b1c1",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound": {
     "time": 1630301775734.6245,
     "uuid": "9d040e12-bdc4-4ece-a60e-493cee86cfc3",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/click.mp3": {
     "time": 1630301775727.4707,
     "uuid": "34970795-0470-45c7-9035-8421cffafb79",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/inCar.mp3": {
     "time": 1630301775730.7024,
     "uuid": "d2287ee7-e790-4cc6-9ffb-7015dc08821d",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/getMoney.mp3": {
     "time": 1630301775730.0903,
     "uuid": "cc21d7c4-9482-4b53-b44c-d27fa6b76d03",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/crash.mp3": {
     "time": 1630301775728.8513,
     "uuid": "58b5447d-d0a9-47ce-b3ba-13b4af0a6519",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/music/background.mp3": {
     "time": 1630301775726.3098,
     "uuid": "d965d8d7-2723-4155-80c0-d62cd4a9c9a9",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/stop.mp3": {
     "time": 1630301775732.6367,
     "uuid": "db6d2599-ab60-4c54-89fc-67cd6f092436",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/start.mp3": {
     "time": 1630301775732.0408,
     "uuid": "2a285f8c-f6f5-48a5-8c4e-92c94cf60f5c",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/newOrder.mp3": {
     "time": 1630301775731.4827,
     "uuid": "9ee929e0-198c-42c5-b35b-5ea00059613e",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting1.mp3": {
     "time": 1630301775733.2432,
     "uuid": "69290fd4-1ecc-4025-9d74-a4e777377aec",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi": {
     "time": 1630301775759.2578,
@@ -837,7 +837,7 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/tooting2.mp3": {
     "time": 1630301775733.837,
     "uuid": "f8802356-394a-4394-94ad-86f0f301e947",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/game.scene": {
     "time": 1630662265090.904,
@@ -847,7 +847,7 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/audio/sound/win.mp3": {
     "time": 1630301775734.4783,
     "uuid": "d8959d6a-88d2-4f46-82c2-15f205049eac",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/cars/taxi/taxi02.FBX": {
     "time": 1630301775739.1284,
@@ -1077,17 +1077,17 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car": {
     "time": 1630301775801.554,
     "uuid": "ada5435f-b0fe-4139-bf64-7caeb796b1a2",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car101.prefab": {
     "time": 1630474878790.3828,
     "uuid": "3d3867d9-3714-4fa6-837b-4f4de278d4c4",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car201.prefab": {
     "time": 1630301775800.366,
     "uuid": "ce116883-f97e-4f80-8897-f395cd668d97",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/model/tree/stone01.FBX": {
     "time": 1630301775795.4524,
@@ -1097,12 +1097,12 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car202.prefab": {
     "time": 1630301775800.752,
     "uuid": "68da0c3d-b5db-4fc4-96e1-6e8942ad04b9",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car203.prefab": {
     "time": 1630301775801.1125,
     "uuid": "1d84a834-577a-4c0a-ac60-611518d6d948",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/map": {
     "time": 1630301775802.6653,
@@ -1112,7 +1112,7 @@
   "/Users/qinx/coding/cocos2dx/taxi/assets/prefab/car/car204.prefab": {
     "time": 1630301775801.4817,
     "uuid": "26a812e5-1fc2-4682-aefb-9db35cd0b414",
-    "missing": false
+    "missing": true
   },
   "/Users/qinx/coding/cocos2dx/taxi/assets/script": {
     "time": 1630301775805.0227,
@@ -2569,43 +2569,43 @@
     "time": 1630301775799.2063
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonBtnBlue.png.meta": {
-    "time": 1630301775814.796
+    "time": 1631521793886.564
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonBtnGray.png.meta": {
-    "time": 1630301775815.763
+    "time": 1631521793898.3052
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonBtnRed.png.meta": {
-    "time": 1630301775816.7378
+    "time": 1631521793912.7893
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonBtnYellow.png.meta": {
-    "time": 1630301775817.6038
+    "time": 1631521793926.3745
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonIconClose.png.meta": {
-    "time": 1630301775819.0366
+    "time": 1631521793939.7314
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonIconClose02.png.meta": {
-    "time": 1630301775821.052
+    "time": 1631521793957.7075
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonIconGold.png.meta": {
-    "time": 1630301775823.1624
+    "time": 1631521793972.0012
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonRectangle1.png.meta": {
-    "time": 1630301775824.7537
+    "time": 1631521793989.063
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonRectangle2.png.meta": {
-    "time": 1630301775825.404
+    "time": 1631521794018.639
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonRectangle8.png.meta": {
-    "time": 1630301775826.225
+    "time": 1631521794036.5637
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonTitle01.png.meta": {
-    "time": 1630301775826.599
+    "time": 1631521794055.075
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/commonTitle02.png.meta": {
-    "time": 1630301775826.995
+    "time": 1631521794079.4363
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/common/rankxImg03.png.meta": {
-    "time": 1630301775827.3813
+    "time": 1631521794123.2979
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/daily/dailyBtn01.png.meta": {
     "time": 1630301775827.9553
@@ -2626,76 +2626,76 @@
     "time": 1630301775830.8303
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox1a.png.meta": {
-    "time": 1630301775831.5476
+    "time": 1631517338231.2603
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox2a.png.meta": {
-    "time": 1630301775831.9617
+    "time": 1631517338244.6255
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox2b.png.meta": {
-    "time": 1630301775832.5603
+    "time": 1631517338262.2012
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox2c.png.meta": {
-    "time": 1630301775832.9417
+    "time": 1631517338278.7542
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox3a.png.meta": {
-    "time": 1630301775833.3057
+    "time": 1631517338296.6694
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBox3b.png.meta": {
-    "time": 1630301775834.3762
+    "time": 1631517338312.4854
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBoxGold.png.meta": {
-    "time": 1630301775835.2083
+    "time": 1631517338337.8552
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBoxGold02.png.meta": {
-    "time": 1630301775836.2913
+    "time": 1631521357790.9446
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBoxHead.png.meta": {
-    "time": 1630301775837.865
+    "time": 1631517338369.4824
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightBoxTalk.png.meta": {
-    "time": 1630301775839.102
+    "time": 1631518118486.703
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgCircle.png.meta": {
-    "time": 1630301775840.3977
+    "time": 1631517338411.476
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgFont01.png.meta": {
-    "time": 1630301775841.315
+    "time": 1631517338433.2673
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgFont02.png.meta": {
-    "time": 1630301775842.219
+    "time": 1631517338464.7166
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgGift.png.meta": {
-    "time": 1630301775843.231
+    "time": 1631517338494.3406
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgGold.png.meta": {
-    "time": 1630301775844.013
+    "time": 1631517338529.2598
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgHand.png.meta": {
-    "time": 1630301775845.054
+    "time": 1631517338548.1538
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgLight.png.meta": {
-    "time": 1630301775846.5723
+    "time": 1631517338579.1326
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgLineRed.png.meta": {
-    "time": 1630301775847.4275
+    "time": 1631517338594.153
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgLineYellow.png.meta": {
-    "time": 1630301775848.2185
+    "time": 1631517338605.578
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightImgStar.png.meta": {
-    "time": 1630301775848.9614
+    "time": 1631517338620.4622
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightLineGray.png.meta": {
-    "time": 1630301775849.866
+    "time": 1631517338641.9785
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightLineRed.png.meta": {
-    "time": 1630301775850.6995
+    "time": 1631517338659.1711
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightShieldImg01.png.meta": {
-    "time": 1630301775852.0627
+    "time": 1631517338684.472
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/fight/fightShieldImg02.png.meta": {
-    "time": 1630301775853.0596
+    "time": 1631517338703.9712
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/head/head1.png.meta": {
     "time": 1630301775854.9958
@@ -2704,70 +2704,70 @@
     "time": 1630301775855.9521
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBarGold01.png.meta": {
-    "time": 1630301775857.29
+    "time": 1631516491376.6724
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBarGold02.png.meta": {
-    "time": 1630301775857.9902
+    "time": 1631516491361.6687
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxAD.png.meta": {
-    "time": 1630301775858.8445
+    "time": 1631516491344.2903
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxArrow.png.meta": {
-    "time": 1630301775859.651
+    "time": 1631516491328.2336
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxGame.jpg.meta": {
-    "time": 1630301775860.4565
+    "time": 1631516491312.0383
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxGame02.png.meta": {
-    "time": 1630301775861.0276
+    "time": 1631516491292.0752
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxGame03.png.meta": {
-    "time": 1630301775862.0195
+    "time": 1631516491277.7705
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxGold.png.meta": {
-    "time": 1630301775863.216
+    "time": 1631516491260.858
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxOnline01.png.meta": {
-    "time": 1630301775864.156
+    "time": 1631516491239.129
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeBoxOnline02.png.meta": {
-    "time": 1630301775865.1365
+    "time": 1631516491221.034
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconArrow.png.meta": {
-    "time": 1630301775866.3171
+    "time": 1631516491202.6555
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconCar.png.meta": {
-    "time": 1630301775867.3293
+    "time": 1631516491186.6665
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconDaily.png.meta": {
-    "time": 1630301775868.4395
+    "time": 1631516491168.7883
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconGame.png.meta": {
-    "time": 1630301775869.4895
+    "time": 1631516491150.1392
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconGold.png.meta": {
-    "time": 1630301775870.6667
+    "time": 1631516491136.0835
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconLottery.png.meta": {
-    "time": 1630301775872.0542
+    "time": 1631516491119.8655
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconRank.png.meta": {
-    "time": 1630301775873.1401
+    "time": 1631516491103.6235
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconService.png.meta": {
-    "time": 1630301775874.0916
+    "time": 1631516491086.792
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeIconSet.png.meta": {
-    "time": 1630301775875.264
+    "time": 1631516491073.0857
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeImgGame.png.meta": {
-    "time": 1630301775876.6636
+    "time": 1631516491055.6392
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeImgPoint.png.meta": {
-    "time": 1630301775877.6504
+    "time": 1631516491035.0164
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home/homeLogo.png.meta": {
-    "time": 1630301775878.6501
+    "time": 1631516491019.5798
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/loading/loadingBg.jpg.meta": {
     "time": 1630301775880.3218
@@ -2918,7 +2918,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/game.scene": {
-    "time": 1631264480792.0088,
+    "time": 1631518085717.1577,
     "uuid": "3a892430-6a3e-4239-93ad-b24f5c4da708",
     "missing": false
   },
@@ -3153,7 +3153,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab": {
-    "time": 1631097638436.1501,
+    "time": 1631515920804.7214,
     "uuid": "3fa9e541-2d16-4a83-9dc8-06d32f5e2faa",
     "missing": false
   },
@@ -3228,7 +3228,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game": {
-    "time": 1631253058845.2227,
+    "time": 1631515920810.594,
     "uuid": "accb6a67-99c8-461a-a414-a155ba6edeb3",
     "missing": false
   },
@@ -3243,7 +3243,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": {
-    "time": 1631265717787.0623,
+    "time": 1631516100338.3171,
     "uuid": "5087470d-1256-43de-bb00-8dfd2a1e933d",
     "missing": false
   },
@@ -3303,7 +3303,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/textures/UI/home": {
-    "time": 1630301775878.3743,
+    "time": 1631515457609.5085,
     "uuid": "3621ddd9-c732-4f88-8fe0-246c9c3f0e0a",
     "missing": false
   },
@@ -4139,171 +4139,243 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources.meta": {
-    "time": 1631085773559.363
+    "time": 1631515970069.558
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio.meta": {
-    "time": 1630301775722.2695
+    "time": 1631515970069.9502
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music.meta": {
-    "time": 1630301775722.7388
+    "time": 1631515970070.1787
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music/background.mp3.meta": {
-    "time": 1630301775726.7566
+    "time": 1631515970086.934
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound.meta": {
-    "time": 1630301775727.0603
+    "time": 1631515970070.983
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/click.mp3.meta": {
-    "time": 1630301775728.2354
+    "time": 1631515970083.1353
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/crash.mp3.meta": {
-    "time": 1630301775729.3748
+    "time": 1631515970087.2024
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/getMoney.mp3.meta": {
-    "time": 1630301775730.2803
+    "time": 1631515970084.7585
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/inCar.mp3.meta": {
-    "time": 1630301775731.011
+    "time": 1631515970085.781
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/newOrder.mp3.meta": {
-    "time": 1630301775731.6917
+    "time": 1631515970095.7004
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/start.mp3.meta": {
-    "time": 1630301775732.2742
+    "time": 1631515970096.512
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/stop.mp3.meta": {
-    "time": 1630301775732.8372
+    "time": 1631515970102.5032
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting1.mp3.meta": {
-    "time": 1630301775733.4666
+    "time": 1631515970098.616
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting2.mp3.meta": {
-    "time": 1630301775734.101
+    "time": 1631515970100.2544
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/win.mp3.meta": {
-    "time": 1630301775734.8352
+    "time": 1631515970122.5337
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car.meta": {
+    "time": 1631515970097.1968
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car101.prefab.meta": {
+    "time": 1631515970104.7273
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab.meta": {
+    "time": 1631515970106.7937
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab.meta": {
+    "time": 1631515970108.0962
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car203.prefab.meta": {
+    "time": 1631515970120.755
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car204.prefab.meta": {
+    "time": 1631515970122.135
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car.meta": {
+    "time": 1630301775799.7268
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car/car101.prefab.meta": {
+    "time": 1630301775800.1838
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car/car201.prefab.meta": {
+    "time": 1630301775800.5547
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car/car202.prefab.meta": {
+    "time": 1630301775800.9287
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car/car203.prefab.meta": {
+    "time": 1630301775801.2944
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/resources/car/car204.prefab.meta": {
+    "time": 1630301775801.742
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources": {
-    "time": 1631097638436.1501,
-    "uuid": "f70ce8ae-ed5c-4e8a-848c-e8f9b4d1da5e",
+    "time": 1631516840746.7307,
+    "uuid": "f413af69-3c22-44ca-8304-7214c0326dc6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio": {
-    "time": 1630301775727.1277,
-    "uuid": "5da3ae3f-6fa9-4d5e-bce6-59e50396821f",
+    "time": 1631515920805.7346,
+    "uuid": "30d32531-7140-441c-b315-4a8f670e298e",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music": {
-    "time": 1630301775726.4392,
-    "uuid": "a80f7f5c-41c4-4f66-acdc-8d4cadf2b1c1",
+    "time": 1631515920805.5938,
+    "uuid": "f76974dd-9728-4316-8502-fef23f94854d",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound": {
-    "time": 1630301775734.6245,
-    "uuid": "9d040e12-bdc4-4ece-a60e-493cee86cfc3",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/click.mp3": {
-    "time": 1630301775727.4707,
-    "uuid": "34970795-0470-45c7-9035-8421cffafb79",
+    "time": 1631515920809.2976,
+    "uuid": "36dac9f5-eabd-44d1-b273-b08916867832",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/crash.mp3": {
-    "time": 1630301775728.8513,
-    "uuid": "58b5447d-d0a9-47ce-b3ba-13b4af0a6519",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music/background.mp3": {
-    "time": 1630301775726.3098,
-    "uuid": "d965d8d7-2723-4155-80c0-d62cd4a9c9a9",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/getMoney.mp3": {
-    "time": 1630301775730.0906,
-    "uuid": "cc21d7c4-9482-4b53-b44c-d27fa6b76d03",
+    "time": 1631515640686.0103,
+    "uuid": "b2dae261-8685-4a87-a576-11216cdc49f6",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/inCar.mp3": {
-    "time": 1630301775730.7026,
-    "uuid": "d2287ee7-e790-4cc6-9ffb-7015dc08821d",
+    "time": 1631515640686.5476,
+    "uuid": "4b394a6d-791d-4c3c-9b59-8c22339a0510",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/getMoney.mp3": {
+    "time": 1631515640686.2534,
+    "uuid": "c18833e2-8b96-43be-a3e8-325e85522d52",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/click.mp3": {
+    "time": 1631515640685.7832,
+    "uuid": "7dde96b8-5c8a-4c2d-a015-f4f95a3d3da6",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/music/background.mp3": {
+    "time": 1631515640685.1685,
+    "uuid": "44e01ab5-5f64-4980-be42-943c6d67ceca",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/newOrder.mp3": {
-    "time": 1630301775731.4827,
-    "uuid": "9ee929e0-198c-42c5-b35b-5ea00059613e",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/start.mp3": {
-    "time": 1630301775732.0408,
-    "uuid": "2a285f8c-f6f5-48a5-8c4e-92c94cf60f5c",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/stop.mp3": {
-    "time": 1630301775732.6367,
-    "uuid": "db6d2599-ab60-4c54-89fc-67cd6f092436",
+    "time": 1631515640686.788,
+    "uuid": "2b59229d-5f71-49a7-8daf-ce6271d0c360",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting1.mp3": {
-    "time": 1630301775733.2432,
-    "uuid": "69290fd4-1ecc-4025-9d74-a4e777377aec",
+    "time": 1631515640687.9312,
+    "uuid": "6341381a-e0dd-4cc6-9be7-74440236fc73",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/tooting2.mp3": {
-    "time": 1630301775733.837,
-    "uuid": "f8802356-394a-4394-94ad-86f0f301e947",
+    "time": 1631515640688.3538,
+    "uuid": "c7ee98c0-d563-4d39-9b38-98caba9d0b7c",
     "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/win.mp3": {
-    "time": 1630301775734.4783,
-    "uuid": "d8959d6a-88d2-4f46-82c2-15f205049eac",
-    "missing": false
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car.meta": {
-    "time": 1630301775799.7268
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car101.prefab.meta": {
-    "time": 1630301775800.1838
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab.meta": {
-    "time": 1630301775800.5547
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab.meta": {
-    "time": 1630301775800.9287
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car203.prefab.meta": {
-    "time": 1630301775801.2944
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car204.prefab.meta": {
-    "time": 1630301775801.742
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car": {
-    "time": 1631253058844.0852,
-    "uuid": "ada5435f-b0fe-4139-bf64-7caeb796b1a2",
+    "time": 1631515920810.33,
+    "uuid": "f519a998-965a-48c9-91ef-e3973e75cc9d",
     "missing": false
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab": {
-    "time": 1631254248994.7773,
-    "uuid": "ce116883-f97e-4f80-8897-f395cd668d97",
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/start.mp3": {
+    "time": 1631515640687.3137,
+    "uuid": "4e53df91-3e2b-48b9-a73f-7b878e575c0e",
     "missing": false
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab": {
-    "time": 1631254290462.1523,
-    "uuid": "68da0c3d-b5db-4fc4-96e1-6e8942ad04b9",
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/stop.mp3": {
+    "time": 1631515640687.6047,
+    "uuid": "2f202905-17d6-40b4-9003-de21b43707da",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car101.prefab": {
-    "time": 1631263908069.2056,
-    "uuid": "3d3867d9-3714-4fa6-837b-4f4de278d4c4",
+    "time": 1631515640690.1316,
+    "uuid": "e8f200c2-9d0b-4011-a190-0500f1f9e089",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car203.prefab": {
-    "time": 1631254410176.6877,
-    "uuid": "1d84a834-577a-4c0a-ac60-611518d6d948",
+    "time": 1631515640691.6174,
+    "uuid": "6833740d-0ab9-4e16-87a9-eb4095ed5062",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car202.prefab": {
+    "time": 1631515640691.239,
+    "uuid": "1e866505-18a7-4544-951a-31606948a1b6",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car201.prefab": {
+    "time": 1631515640690.7422,
+    "uuid": "a14775fb-7631-4dfd-bd5e-f0f2cc11d4cd",
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/car/car204.prefab": {
-    "time": 1631254477185.4841,
-    "uuid": "26a812e5-1fc2-4682-aefb-9db35cd0b414",
+    "time": 1631515640691.9082,
+    "uuid": "771710da-399b-42f1-9d57-1cb56366e8da",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/audio/sound/win.mp3": {
+    "time": 1631515640689.0627,
+    "uuid": "261a59c1-2673-40cb-bcb6-039418958654",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI.meta": {
+    "time": 1631516840747.462
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI": {
+    "time": 1631521043733.3882,
+    "uuid": "0bed5be4-0608-4df5-aef8-7b7ab8ccaacb",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/mainUI.prefab.meta": {
+    "time": 1631516854727.968
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/mainUI.prefab": {
+    "time": 1631517199146.6628,
+    "uuid": "17c0f55e-6f1a-46fa-8077-c13b4af78c51",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/folder.meta": {
+    "time": 1631518871369.7192
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/amin.meta": {
+    "time": 1631518871369.7192
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/anim.meta": {
+    "time": 1631518871369.7192
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/anim": {
+    "time": 1631518912263.4038,
+    "uuid": "71a0085d-bd50-4bb9-8666-51f8e9b05a53",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/anim/showGuild.anim.meta": {
+    "time": 1631518912264.7751
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/anim/showGuild.anim": {
+    "time": 1631520638990.6096,
+    "uuid": "b42e2d4a-fdd8-464b-af1d-2208644911e3",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/gameUI.prefab.meta": {
+    "time": 1631520672524.004
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/gameUI.prefab": {
+    "time": 1631520685561.3523,
+    "uuid": "ca133ac0-43b7-48da-a3b4-12fee178d133",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/resultUI.prefab.meta": {
+    "time": 1631521043735.2847
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/resultUI.prefab": {
+    "time": 1631522288992.9749,
+    "uuid": "bedfb5ba-422a-421f-b772-51bf18612d86",
     "missing": false
   }
 }

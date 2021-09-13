@@ -30,11 +30,45 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "5699317a-df00-4aca-98c7-18aafade3cd0@f9941",
+      "displayName": "homeImgGame",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 3,
+        "trimY": 2,
+        "width": 342,
+        "height": 264,
+        "rawWidth": 348,
+        "rawHeight": 268,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "5699317a-df00-4aca-98c7-18aafade3cd0@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
-    "redirect": "5699317a-df00-4aca-98c7-18aafade3cd0@6c48a"
+    "type": "sprite-frame",
+    "redirect": "5699317a-df00-4aca-98c7-18aafade3cd0@f9941"
   }
 }

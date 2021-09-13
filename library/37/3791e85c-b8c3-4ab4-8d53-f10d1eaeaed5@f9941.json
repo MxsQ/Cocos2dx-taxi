@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "homeImgPoint",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 22,
+      "height": 25
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 22,
+      "height": 25
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "3791e85c-b8c3-4ab4-8d53-f10d1eaeaed5@6c48a",
+    "packable": true
+  }
+}

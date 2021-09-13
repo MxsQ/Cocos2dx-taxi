@@ -30,11 +30,45 @@
         ".json"
       ],
       "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "9c02ace2-c52a-4c11-81da-350cb1437b9e@f9941",
+      "displayName": "fightImgFont01",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 0,
+        "trimY": 0,
+        "width": 243,
+        "height": 124,
+        "rawWidth": 243,
+        "rawHeight": 124,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "9c02ace2-c52a-4c11-81da-350cb1437b9e@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.9",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
     }
   },
   "userData": {
     "hasAlpha": true,
-    "type": "texture",
-    "redirect": "9c02ace2-c52a-4c11-81da-350cb1437b9e@6c48a"
+    "type": "sprite-frame",
+    "redirect": "9c02ace2-c52a-4c11-81da-350cb1437b9e@f9941"
   }
 }
