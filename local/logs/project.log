@@ -1,23 +1,24 @@
-2021-09-13 15:08:27-log: [Package] menu@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] profile@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] messages@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] program@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] device@1.0.1 enable
-2021-09-13 15:08:27-log: [Package] ui-kit@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] tester@1.0.0 enable
-2021-09-13 15:08:27-log: [Package] preferences@1.0.0 enable
-2021-09-13 15:08:27-log: Setup mods mgr.: 253.226ms
-2021-09-13 15:08:27-log: [Package] engine@1.0.5 enable
-2021-09-13 15:08:30-log: [Package] programming@1.0.0 enable
-2021-09-13 15:08:30-log: [Package] asset-db@1.0.0 enable
-2021-09-13 15:08:30-log: [Package] console@1.0.0 enable
-2021-09-13 15:08:30-log: [Package] scene@1.0.0 enable
-2021-09-13 15:08:30-log: [Package] about@1.0.0 enable
-2021-09-13 15:08:30-log: [Package] project@1.0.1 enable
-2021-09-13 15:08:31-log: [Package] server@1.0.0 enable
-2021-09-13 15:08:31-log: [Package] utils@1.0.0 enable
-2021-09-13 15:08:31-log: [Package] assets@1.0.0 enable
-2021-09-13 15:08:31-log: [Package] inspector@1.0.0 enable
-2021-09-13 15:08:31-log: [Package] hierarchy@1.0.0 enable
-2021-09-13 15:08:32-log: [Package] preview@1.0.1 enable
-2021-09-13 15:08:32-log: [Package] animator@1.0.0 enable
+2021-09-14 16:10:41-log: [Package] menu@1.0.0 enable
+2021-09-14 16:10:41-log: [Package] profile@1.0.0 enable
+2021-09-14 16:10:41-log: [Package] messages@1.0.0 enable
+2021-09-14 16:10:42-log: [Package] program@1.0.0 enable
+2021-09-14 16:10:42-log: [Package] device@1.0.1 enable
+2021-09-14 16:10:42-log: [Package] tester@1.0.0 enable
+2021-09-14 16:10:42-log: [Package] ui-kit@1.0.0 enable
+2021-09-14 16:10:42-log: Setup mods mgr.: 340.983ms
+2021-09-14 16:10:42-log: [Package] preferences@1.0.0 enable
+2021-09-14 16:10:42-log: [Package] engine@1.0.5 enable
+2021-09-14 16:10:45-log: [Package] programming@1.0.0 enable
+2021-09-14 16:10:45-log: [Package] asset-db@1.0.0 enable
+2021-09-14 16:10:45-log: [Package] scene@1.0.0 enable
+2021-09-14 16:10:45-log: [Package] project@1.0.1 enable
+2021-09-14 16:10:46-log: [Package] about@1.0.0 enable
+2021-09-14 16:10:46-log: [Package] server@1.0.0 enable
+2021-09-14 16:10:46-warn: Server: Port 7456 is occupied
+2021-09-14 16:10:46-log: [Package] utils@1.0.0 enable
+2021-09-14 16:10:46-log: [Package] assets@1.0.0 enable
+2021-09-14 16:10:46-log: [Package] inspector@1.0.0 enable
+2021-09-14 16:10:46-log: [Package] hierarchy@1.0.0 enable
+2021-09-14 16:10:47-log: [Package] preview@1.0.1 enable
+2021-09-14 16:10:47-log: [Package] animator@1.0.0 enable
+2021-09-14 16:10:45-log: [Package] console@1.0.0 enable

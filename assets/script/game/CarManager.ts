@@ -40,7 +40,7 @@ export class CarManager extends Component {
       return;
     }
 
-    this._recycleAICae();
+    this._recycleAllAICar();
     this._curPath = points;
     this._createMainCar(points[0]);
     this._startSchedule();

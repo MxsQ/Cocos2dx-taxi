@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, CustomEventListener, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -13,6 +13,14 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
   function _reportPossibleCrUseOfConstants(extras) {
     _reporterNs.report("Constants", "../data/Constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfCustomEventListener(extras) {
+    _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfUIManager(extras) {
+    _reporterNs.report("UIManager", "../ui/UIManager", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfAudioManager(extras) {
@@ -38,6 +46,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       BoxCollider = _cc.BoxCollider;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
+    }, function (_dataCustomEventListener) {
+      CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_uiUIManager) {
+      UIManager = _uiUIManager.UIManager;
     }, function (_AudioManager) {
       AudioManager = _AudioManager.AudioManager;
     }, function (_CarManager) {
@@ -87,8 +99,28 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         start() {
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.mainUI);
           this.node.on(Node.EventType.TOUCH_START, this._touchStart, this);
           this.node.on(Node.EventType.TOUCH_END, this._touchEnd, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GAME_START, this._gameStart);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GAME_OVER, this._gameOver);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.NEW_LEVEL, this._newLevel);
           (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
             error: Error()
           }), AudioManager) : AudioManager).playMusic();
@@ -104,6 +136,45 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           var _this$carManager2;
 
           (_this$carManager2 = this.carManager) === null || _this$carManager2 === void 0 ? void 0 : _this$carManager2.controMoving(false);
+        }
+
+        _gameStart() {
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).hidDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.mainUI);
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.gameUI);
+        }
+
+        _gameOver() {
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).hidDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.gameUI);
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.resultUI);
+        }
+
+        _newLevel() {
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).hidDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.resultUI);
+          (_crd && UIManager === void 0 ? (_reportPossibleCrUseOfUIManager({
+            error: Error()
+          }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).UIPage.mainUI);
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "mapManager", [_dec2], {

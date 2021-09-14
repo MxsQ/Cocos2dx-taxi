@@ -33,10 +33,13 @@
       },
       {
         "__id__": 104
+      },
+      {
+        "__id__": 106
       }
     ],
     "_prefab": {
-      "__id__": 106
+      "__id__": 108
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -57,7 +60,7 @@
       "y": 1,
       "z": 1
     },
-    "_layer": 1073741824,
+    "_layer": 33554432,
     "_euler": {
       "__type__": "cc.Vec3",
       "x": 0,
@@ -1916,7 +1919,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "cicle",
+    "_name": "circle",
     "_objFlags": 0,
     "_parent": {
       "__id__": 78
@@ -2300,6 +2303,78 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "59vBcDzldJxYN8I7lHphBF"
+  },
+  {
+    "__type__": "4c64bJ5HxhFvKr2Hh1xxgVL",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 107
+    },
+    "targetLevel": {
+      "__id__": 70
+    },
+    "srcLevel": {
+      "__id__": 70
+    },
+    "targetSp": {
+      "__id__": 94
+    },
+    "srcSp": {
+      "__id__": 94
+    },
+    "levelFinished": {
+      "__uuid__": "5fa269ce-66d5-4000-843c-47c69f85840c@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "levelUnFinished": {
+      "__uuid__": "0c965612-dbe4-4015-9b52-3b6698c74bf5@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "progress": [
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 21
+      },
+      {
+        "__id__": 27
+      }
+    ],
+    "progress1": {
+      "__uuid__": "be6ba74b-3f7f-402d-8cc0-9326e056adab@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "progress2": {
+      "__uuid__": "d1f726a0-348e-4d6d-903f-116421338ea7@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "progress3": {
+      "__uuid__": "f623afa3-41df-44dd-8ec1-5d76eb288785@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "avatar": {
+      "__id__": 94
+    },
+    "content": {
+      "__id__": 70
+    },
+    "guildNode": {
+      "__id__": 78
+    },
+    "talkNode": {
+      "__id__": 52
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "e0SLPFxGdGy42NoGhwBc3R"
   },
   {
     "__type__": "cc.PrefabInfo",

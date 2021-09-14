@@ -116,7 +116,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             return;
           }
 
-          this._recycleAICae();
+          this._recycleAllAICar();
 
           this._curPath = points;
 

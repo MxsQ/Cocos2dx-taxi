@@ -30,6 +30,7 @@ System.register(["cc"], function (_export, _context) {
         EventName["SHOW_COIN"] = "show-coin";
         EventName["GAME_START"] = "game-start";
         EventName["GAME_OVER"] = "game-over";
+        EventName["NEW_LEVEL"] = "new-level";
       })(EventName || (EventName = {}));
 
       (function (CustomerState) {
@@ -58,7 +59,11 @@ System.register(["cc"], function (_export, _context) {
         CarGroup[CarGroup["OTHER_CAR"] = 4] = "OTHER_CAR";
       })(CarGroup || (CarGroup = {}));
 
-      _export("Constants", Constants = (_dec = ccclass('Constants'), _dec(_class = (_temp = _class2 = class Constants extends Component {}, _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _defineProperty(_class2, "AudioSource", AudioSource), _defineProperty(_class2, "CarGroup", CarGroup), _temp)) || _class));
+      _export("Constants", Constants = (_dec = ccclass('Constants'), _dec(_class = (_temp = _class2 = class Constants extends Component {}, _defineProperty(_class2, "EventName", EventName), _defineProperty(_class2, "CustomerState", CustomerState), _defineProperty(_class2, "AudioSource", AudioSource), _defineProperty(_class2, "CarGroup", CarGroup), _defineProperty(_class2, "talkable", ['Please hurry up.\n I have a plane to catch', 'The most beatiful day \nis not the rainy day']), _defineProperty(_class2, "UIPage", {
+        mainUI: 'mainUI',
+        gameUI: 'gameUI',
+        resultUI: 'resultUI'
+      }), _temp)) || _class));
 
       _cclegacy._RF.pop();
 

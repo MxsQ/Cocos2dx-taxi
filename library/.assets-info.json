@@ -2918,7 +2918,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/game.scene": {
-    "time": 1631518085717.1577,
+    "time": 1631607023797.3638,
     "uuid": "3a892430-6a3e-4239-93ad-b24f5c4da708",
     "missing": false
   },
@@ -3198,7 +3198,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script": {
-    "time": 1631253058844.274,
+    "time": 1631527850804.0146,
     "uuid": "88efef1b-a4d5-44f0-b36a-36b9d5d6e942",
     "missing": false
   },
@@ -3213,7 +3213,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts": {
-    "time": 1631259891367.0007,
+    "time": 1631590300002.5298,
     "uuid": "976abbe7-28b4-49d6-9665-7fad54a3112e",
     "missing": false
   },
@@ -3243,7 +3243,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts": {
-    "time": 1631516100338.3171,
+    "time": 1631590126870.8867,
     "uuid": "5087470d-1256-43de-bb00-8dfd2a1e933d",
     "missing": false
   },
@@ -3268,7 +3268,7 @@
     "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts": {
-    "time": 1631263633470.6858,
+    "time": 1631590628418.2634,
     "uuid": "5a034103-487e-4870-9ea7-93bfa7d431bf",
     "missing": false
   },
@@ -4220,7 +4220,7 @@
     "time": 1630301775801.742
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources": {
-    "time": 1631516840746.7307,
+    "time": 1631590798709.7305,
     "uuid": "f413af69-3c22-44ca-8304-7214c0326dc6",
     "missing": false
   },
@@ -4327,18 +4327,8 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI.meta": {
     "time": 1631516840747.462
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI": {
-    "time": 1631521043733.3882,
-    "uuid": "0bed5be4-0608-4df5-aef8-7b7ab8ccaacb",
-    "missing": false
-  },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/mainUI.prefab.meta": {
     "time": 1631516854727.968
-  },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/mainUI.prefab": {
-    "time": 1631517199146.6628,
-    "uuid": "17c0f55e-6f1a-46fa-8077-c13b4af78c51",
-    "missing": false
   },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/folder.meta": {
     "time": 1631518871369.7192
@@ -4365,17 +4355,97 @@
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/gameUI.prefab.meta": {
     "time": 1631520672524.004
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/gameUI.prefab": {
-    "time": 1631520685561.3523,
-    "uuid": "ca133ac0-43b7-48da-a3b4-12fee178d133",
-    "missing": false
-  },
   "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/resultUI.prefab.meta": {
     "time": 1631521043735.2847
   },
-  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/resultUI.prefab": {
-    "time": 1631522288992.9749,
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui.meta": {
+    "time": 1631527850805.8293
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui": {
+    "time": 1631590973568.9692,
+    "uuid": "96aadb32-40d4-4839-9094-d40041305578",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.meta": {
+    "time": 1631527861710.1506
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts": {
+    "time": 1631602464455.0044,
+    "uuid": "8bca2d9f-b3e9-4ae0-b42c-a9dec6441c7a",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.meta": {
+    "time": 1631527871268.7834
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.meta": {
+    "time": 1631527877468.1538
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResulttUI.ts.meta": {
+    "time": 1631527884389.841
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/UI/GameUI.ts.meta": {
+    "time": 1631527877468.1538
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/gameUI.ts.meta": {
+    "time": 1631527877468.1538
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/mainUI.ts.meta": {
+    "time": 1631527871268.7834
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/resulttUI.ts.meta": {
+    "time": 1631527884389.841
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/resultUI.ts.meta": {
+    "time": 1631527884389.841
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui.meta": {
+    "time": 1631516840747.462
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/gameUI.prefab.meta": {
+    "time": 1631520672524.004
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/mainUI.prefab.meta": {
+    "time": 1631516854727.968
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/resultUI.prefab.meta": {
+    "time": 1631521043735.2847
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui": {
+    "time": 1631527910772.5437,
+    "uuid": "0bed5be4-0608-4df5-aef8-7b7ab8ccaacb",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/mainUI.prefab": {
+    "time": 1631605133554.2449,
+    "uuid": "17c0f55e-6f1a-46fa-8077-c13b4af78c51",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/gameUI.prefab": {
+    "time": 1631606551416.9294,
+    "uuid": "ca133ac0-43b7-48da-a3b4-12fee178d133",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/prefab/resources/ui/resultUI.prefab": {
+    "time": 1631607909526.099,
     "uuid": "bedfb5ba-422a-421f-b772-51bf18612d86",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts": {
+    "time": 1631607835039.6313,
+    "uuid": "4c64b279-1f18-45bc-aaf6-1e1d71c6054b",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts": {
+    "time": 1631605407600.5022,
+    "uuid": "0567c941-11c6-4412-83b4-dba81e830f23",
+    "missing": false
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.meta": {
+    "time": 1631527884389.841
+  },
+  "/Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts": {
+    "time": 1631607882385.3674,
+    "uuid": "ff55ee58-6411-436d-9856-3f128fd27a7f",
     "missing": false
   }
 }

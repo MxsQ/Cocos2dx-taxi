@@ -11,6 +11,7 @@ enum EventName {
   SHOW_COIN = "show-coin",
   GAME_START = "game-start",
   GAME_OVER = "game-over",
+  NEW_LEVEL = 'new-level',
 }
 
 enum CustomerState {
@@ -45,4 +46,14 @@ export class Constants extends Component {
   public static CustomerState = CustomerState;
   public static AudioSource = AudioSource;
   public static CarGroup = CarGroup;
+  public static talkable = [
+    'Please hurry up.\n I have a plane to catch',
+    'The most beatiful day \nis not the rainy day',
+  ];
+
+  public static UIPage = {
+    mainUI: 'mainUI',
+    gameUI: 'gameUI',
+    resultUI: 'resultUI',
+  }
 }
