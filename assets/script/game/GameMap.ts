@@ -4,8 +4,10 @@ const { ccclass, property } = _decorator;
 
 @ccclass('GameMap')
 export class GameMap extends Component {
-    @property({
-      type: [Node]
-    })
-    path: Node[] =[];
+  @property({
+    type: [Node]
+  })
+  path: Node[] = [];
+
+  public maxProgress = 2;
 }

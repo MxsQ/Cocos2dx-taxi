@@ -14,7 +14,7 @@ export class UIManager {
       panel!.parent = parent
       const comp = panel?.getComponent(scriptName);
       if (comp && comp['show']) {
-        comp['show'].apply(args);
+        comp['show'].apply(comp, args);
       }
 
       if (cb) {

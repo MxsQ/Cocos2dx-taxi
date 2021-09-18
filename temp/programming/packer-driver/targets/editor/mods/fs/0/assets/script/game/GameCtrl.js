@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, CustomEventListener, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, CustomEventListener, RunTimeData, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
   function _reportPossibleCrUseOfCustomEventListener(extras) {
     _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfRunTimeData(extras) {
+    _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfUIManager(extras) {
@@ -48,6 +52,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_dataGameData) {
+      RunTimeData = _dataGameData.RunTimeData;
     }, function (_uiUIManager) {
       UIManager = _uiUIManager.UIManager;
     }, function (_AudioManager) {
@@ -89,8 +95,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         onLoad() {
-          this.mapManager.resetMap();
-          this.carManager.reset(this.mapManager.curPath);
+          this._reset();
+
           const collider = this.group.getComponent(BoxCollider);
           collider.setGroup((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
@@ -110,17 +116,17 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             error: Error()
           }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
-          }), Constants) : Constants).EventName.GAME_START, this._gameStart);
+          }), Constants) : Constants).EventName.GAME_START, this._gameStart, this);
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
-          }), Constants) : Constants).EventName.GAME_OVER, this._gameOver);
+          }), Constants) : Constants).EventName.GAME_OVER, this._gameOver, this);
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
-          }), Constants) : Constants).EventName.NEW_LEVEL, this._newLevel);
+          }), Constants) : Constants).EventName.NEW_LEVEL, this._newLevel, this);
           (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
             error: Error()
           }), AudioManager) : AudioManager).playMusic();
@@ -175,6 +181,16 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).UIPage.mainUI);
+
+          this._reset();
+        }
+
+        _reset() {
+          this.mapManager.resetMap();
+          this.carManager.reset(this.mapManager.curPath);
+          (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance().maxProgress = this.mapManager.maxProgress;
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "mapManager", [_dec2], {

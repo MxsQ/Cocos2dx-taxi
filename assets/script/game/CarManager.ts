@@ -48,6 +48,7 @@ export class CarManager extends Component {
 
   public controMoving(isRunning = true) {
     if (isRunning) {
+      CustomEventListener.dispatchEvent(Constants.EventName.SHOW_GUIDE, false);
       this.mainCar?.startRunning();
     } else {
       this.mainCar?.stopRunning();

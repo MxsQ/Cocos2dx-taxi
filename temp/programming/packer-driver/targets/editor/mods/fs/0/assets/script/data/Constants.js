@@ -31,6 +31,8 @@ System.register(["cc"], function (_export, _context) {
         EventName["GAME_START"] = "game-start";
         EventName["GAME_OVER"] = "game-over";
         EventName["NEW_LEVEL"] = "new-level";
+        EventName["SHOW_TALK"] = "show-talk";
+        EventName["SHOW_GUIDE"] = "show-guide";
       })(EventName || (EventName = {}));
 
       (function (CustomerState) {

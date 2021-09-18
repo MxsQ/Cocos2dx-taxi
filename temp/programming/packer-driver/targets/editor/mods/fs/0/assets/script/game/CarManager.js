@@ -113,6 +113,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           if (isRunning) {
             var _this$mainCar;
 
+            (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+              error: Error()
+            }), CustomEventListener) : CustomEventListener).dispatchEvent((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+              error: Error()
+            }), Constants) : Constants).EventName.SHOW_GUIDE, false);
             (_this$mainCar = this.mainCar) === null || _this$mainCar === void 0 ? void 0 : _this$mainCar.startRunning();
           } else {
             var _this$mainCar2;

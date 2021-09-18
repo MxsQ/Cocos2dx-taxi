@@ -34,6 +34,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], functi
           super(...args);
 
           _defineProperty(this, "curPath", []);
+
+          _defineProperty(this, "maxProgress", 0);
         }
 
         resetMap() {
@@ -41,6 +43,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], functi
             error: Error()
           }), GameMap) : GameMap);
           this.curPath = curMap.path;
+          this.maxProgress = curMap === null || curMap === void 0 ? void 0 : curMap.maxProgress;
         }
 
       }, _temp)) || _class));

@@ -36,7 +36,7 @@ System.register(["cc"], function (_export, _context) {
             const comp = panel === null || panel === void 0 ? void 0 : panel.getComponent(scriptName);
 
             if (comp && comp['show']) {
-              comp['show'].apply(args);
+              comp['show'].apply(comp, args);
             }
 
             if (cb) {

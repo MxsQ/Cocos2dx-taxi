@@ -77,6 +77,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _defineProperty(this, "_state", (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).CustomerState.NONE);
+
+          _defineProperty(this, "_customerID", -1);
         }
 
         start() {
@@ -115,6 +117,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
               (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
                 error: Error()
+              }), CustomEventListener) : CustomEventListener).dispatchEvent((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+                error: Error()
+              }), Constants) : Constants).EventName.SHOW_GUIDE, true);
+              (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+                error: Error()
               }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.FINISHID_WALK);
             } else {
               var _this$_curCustomer;
@@ -126,7 +133,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         _greetingCustomer(...args) {
-          this._curCustomer = this.customers[Math.floor(Math.random() * this.customers.length)];
+          this._customerID = Math.floor(Math.random() * this.customers.length);
+          this._curCustomer = this.customers[this._customerID];
           this._state = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).CustomerState.GREETING;
@@ -168,6 +176,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           const animComp = this._curCustomer.getComponent(AnimationComponent);
 
           animComp.play('walk');
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.SHOW_TALK, this._customerID);
         }
 
         _takingCustomer(...args) {
@@ -212,6 +223,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).AudioSource.GETMONEY);
+          this._customerID = -1; // CustomEventListener.dispatchEvent(EventName.SHOW_TALK, this._customerID);
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "customers", [_dec2], {

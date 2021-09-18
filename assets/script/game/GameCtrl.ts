@@ -2,6 +2,7 @@
 import { _decorator, Component, Node, EventTouch, BoxColliderComponent, BoxCollider, Vec3 } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
+import { RunTimeData } from '../data/GameData';
 import { UIManager } from '../ui/UIManager';
 import { AudioManager } from './AudioManager';
 import { CarManager } from './CarManager';
@@ -26,8 +27,8 @@ export class GameCtrl extends Component {
   group: Node = null!;
 
   public onLoad() {
-    this.mapManager!.resetMap();
-    this.carManager!.reset(this.mapManager!.curPath);
+    this._reset();
+
     const collider = this.group.getComponent(BoxCollider)!;
     collider.setGroup(Constants.CarGroup.NORMAL);
     collider.setMask(-1);
@@ -38,9 +39,9 @@ export class GameCtrl extends Component {
 
     this.node.on(Node.EventType.TOUCH_START, this._touchStart, this);
     this.node.on(Node.EventType.TOUCH_END, this._touchEnd, this);
-    CustomEventListener.on(Constants.EventName.GAME_START, this._gameStart);
-    CustomEventListener.on(Constants.EventName.GAME_OVER, this._gameOver);
-    CustomEventListener.on(Constants.EventName.NEW_LEVEL, this._newLevel);
+    CustomEventListener.on(Constants.EventName.GAME_START, this._gameStart, this);
+    CustomEventListener.on(Constants.EventName.GAME_OVER, this._gameOver, this);
+    CustomEventListener.on(Constants.EventName.NEW_LEVEL, this._newLevel, this);
 
     AudioManager.playMusic();
   }
@@ -67,6 +68,14 @@ export class GameCtrl extends Component {
   private _newLevel() {
     UIManager.hidDialog(Constants.UIPage.resultUI);
     UIManager.showDialog(Constants.UIPage.mainUI);
+
+    this._reset();
   }
+
+  private _reset() {
+    this.mapManager!.resetMap();
+    this.carManager!.reset(this.mapManager!.curPath);
+    RunTimeData.instance().maxProgress = this.mapManager.maxProgress;
+  };
 }
 

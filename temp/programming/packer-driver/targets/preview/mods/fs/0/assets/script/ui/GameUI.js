@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Node, Label, SpriteFrame, Sprite, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _temp, _crd, ccclass, property, GameUI;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, Label, SpriteFrame, Sprite, loader, AnimationComponent, Constants, CustomEventListener, RunTimeData, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _dec14, _dec15, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _descriptor13, _descriptor14, _temp, _crd, ccclass, property, GameUI;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,8 +17,22 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfConstants(extras) {
+    _reporterNs.report("Constants", "../data/Constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfCustomEventListener(extras) {
+    _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfRunTimeData(extras) {
+    _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_cceInternalCodeQualityCrMjs) {
+      _reporterNs = _cceInternalCodeQualityCrMjs;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
@@ -26,6 +40,14 @@ System.register(["cc"], function (_export, _context) {
       Label = _cc.Label;
       SpriteFrame = _cc.SpriteFrame;
       Sprite = _cc.Sprite;
+      loader = _cc.loader;
+      AnimationComponent = _cc.AnimationComponent;
+    }, function (_dataConstants) {
+      Constants = _dataConstants.Constants;
+    }, function (_dataCustomEventListener) {
+      CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_dataGameData) {
+      RunTimeData = _dataGameData.RunTimeData;
     }],
     execute: function () {
       _crd = true;
@@ -54,7 +76,7 @@ System.register(["cc"], function (_export, _context) {
         type: SpriteFrame,
         displayOrder: 6
       }), _dec8 = property({
-        type: [Node],
+        type: [Sprite],
         displayOrder: 7
       }), _dec9 = property({
         type: SpriteFrame,
@@ -117,14 +139,129 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(_assertThisInitialized(_this), "talkNode", _descriptor14, _assertThisInitialized(_this));
 
+          _defineProperty(_assertThisInitialized(_this), "_runtimeData", null);
+
           return _this;
         }
 
         var _proto = GameUI.prototype;
 
-        _proto.show = function show() {};
+        _proto.show = function show() {
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GREETING, this._greeting, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GOODBYE, this._taking, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.SHOW_TALK, this._talking, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.SHOW_GUIDE, this._showGuide, this);
+          this._runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
 
-        _proto.hide = function hide() {};
+          this._refreshUI();
+
+          this._showGuide(true);
+        };
+
+        _proto.hide = function hide() {
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).off((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GREETING, this._greeting, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).off((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GOODBYE, this._taking, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).off((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.SHOW_TALK, this._talking, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).off((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.SHOW_GUIDE, this._showGuide, this);
+        };
+
+        _proto._greeting = function _greeting() {
+          this.progress[this._runtimeData.maxProgress - 1 - this._runtimeData.curProgress].spriteFrame = this.progress2;
+        };
+
+        _proto._taking = function _taking() {
+          this.progress[this._runtimeData.maxProgress - this._runtimeData.curProgress].spriteFrame = this.progress1;
+
+          if (this._runtimeData.maxProgress === this._runtimeData.curProgress) {
+            this.targetSp.spriteFrame = this.levelFinished;
+          }
+        };
+
+        _proto._talking = function _talking(customerID) {
+          var _this2 = this;
+
+          var table = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).talkable;
+          var index = Math.floor(Math.random() * table.length);
+          var str = table[index];
+          this.content.string = str;
+          var path = "texture/head/head" + (customerID + 1) + "/spriteFrame";
+          loader.loadRes(path, SpriteFrame, function (err, sp) {
+            if (err) {
+              return;
+            }
+
+            if (_this2.talkNode.active) {
+              _this2.avatar.spriteFrame = sp;
+            }
+          });
+          this.talkNode.active = true;
+          this.scheduleOnce(function () {
+            _this2.talkNode.active = false;
+          }, 3);
+        };
+
+        _proto._showGuide = function _showGuide(isShow) {
+          this.guildNode.active = isShow;
+
+          if (isShow) {
+            var animComp = this.guildNode.getComponent(AnimationComponent);
+            animComp.play('showGuild');
+          }
+        };
+
+        _proto._refreshUI = function _refreshUI() {
+          for (var i = 0; i < this.progress.length; i++) {
+            var progress = this.progress[i];
+
+            if (i >= this._runtimeData.maxProgress) {
+              progress.node.active = false;
+            } else {
+              progress.node.active = true;
+              progress.spriteFrame = this.progress3;
+            }
+          }
+
+          this.srcLevel.string = '1';
+          this.targetLevel.string = '2';
+          this.srcSp.spriteFrame = this.levelFinished;
+          this.targetSp.spriteFrame = this.levelUnFinished;
+        };
 
         return GameUI;
       }(Component), _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "targetLevel", [_dec2], {

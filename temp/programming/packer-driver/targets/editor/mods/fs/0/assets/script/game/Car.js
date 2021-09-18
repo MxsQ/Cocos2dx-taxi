@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../RoadPoint", "./AudioManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../RoadPoint", "./AudioManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, Constants, CustomEventListener, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
+  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, Constants, CustomEventListener, RunTimeData, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,6 +17,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
   function _reportPossibleCrUseOfCustomEventListener(extras) {
     _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfRunTimeData(extras) {
+    _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfRoadPoint(extras) {
@@ -42,6 +46,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_dataGameData) {
+      RunTimeData = _dataGameData.RunTimeData;
     }, function (_RoadPoint) {
       RoadPoint = _RoadPoint.RoadPoint;
     }, function (_AudioManager) {
@@ -100,6 +106,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _defineProperty(this, "_overCD", null);
 
           _defineProperty(this, "_camera", null);
+
+          _defineProperty(this, "_isOver", false);
         }
 
         start() {
@@ -228,6 +236,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         startRunning() {
+          if (this._isOver) {
+            return;
+          }
+
           if (this._currentRoadPoint) {
             this._isMoving = true;
             this._curSpeed = 0;
@@ -236,6 +248,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         stopRunning() {
+          if (this._isOver) {
+            return;
+          }
+
           this._acceleration = -0.3;
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
@@ -283,6 +299,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
           }
 
+          this._isOver = false;
           const collider = this.node.getComponent(BoxColliderComponent);
 
           if (this._isMain) {
@@ -353,6 +370,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
                 }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
                   error: Error()
                 }), Constants) : Constants).AudioSource.WIN);
+
+                this._gameOver();
               }
             } // 弯道处理
 
@@ -422,6 +441,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         _greetingCustomer() {
           var _this$_currentRoadPoi3;
 
+          const runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
+          runtimeData.isTakeOver = false;
           this._isInOrder = true;
           this._curSpeed = 0;
 
@@ -435,6 +458,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         _takingCustomer() {
           var _this$_currentRoadPoi4;
 
+          const runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
+          runtimeData.isTakeOver = false;
+          runtimeData.curProgress++;
           this._isInOrder = true;
           this._curSpeed = 0;
 
@@ -466,6 +494,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }
 
         _gameOver() {
+          this._isMoving = false;
+          this._curSpeed = 0;
+          this._isOver = true;
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GAME_OVER);

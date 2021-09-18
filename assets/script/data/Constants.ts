@@ -12,6 +12,8 @@ enum EventName {
   GAME_START = "game-start",
   GAME_OVER = "game-over",
   NEW_LEVEL = 'new-level',
+  SHOW_TALK = 'show-talk',
+  SHOW_GUIDE = 'show-guide',
 }
 
 enum CustomerState {

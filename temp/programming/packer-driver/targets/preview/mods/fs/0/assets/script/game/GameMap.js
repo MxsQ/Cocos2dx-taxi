@@ -48,6 +48,8 @@ System.register(["cc"], function (_export, _context) {
 
           _initializerDefineProperty(_assertThisInitialized(_this), "path", _descriptor, _assertThisInitialized(_this));
 
+          _defineProperty(_assertThisInitialized(_this), "maxProgress", 2);
+
           return _this;
         }
 

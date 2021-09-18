@@ -35,6 +35,8 @@ System.register(["cc"], function (_export, _context) {
           super(...args);
 
           _initializerDefineProperty(this, "path", _descriptor, this);
+
+          _defineProperty(this, "maxProgress", 2);
         }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "path", [_dec2], {

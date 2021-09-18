@@ -1,7 +1,7 @@
-System.register(["cc"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData"], function (_export, _context) {
   "use strict";
 
-  var _cclegacy, _decorator, Component, Label, Sprite, SpriteFrame, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, ResulttUI;
+  var _reporterNs, _cclegacy, _decorator, Component, Label, Sprite, SpriteFrame, Constants, CustomEventListener, RunTimeData, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, ResultUI;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -11,14 +11,34 @@ System.register(["cc"], function (_export, _context) {
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfConstants(extras) {
+    _reporterNs.report("Constants", "../data/Constants", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfCustomEventListener(extras) {
+    _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfRunTimeData(extras) {
+    _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
+  }
+
   return {
-    setters: [function (_cc) {
+    setters: [function (_cceInternalCodeQualityCrMjs) {
+      _reporterNs = _cceInternalCodeQualityCrMjs;
+    }, function (_cc) {
       _cclegacy = _cc.cclegacy;
       _decorator = _cc._decorator;
       Component = _cc.Component;
       Label = _cc.Label;
       Sprite = _cc.Sprite;
       SpriteFrame = _cc.SpriteFrame;
+    }, function (_dataConstants) {
+      Constants = _dataConstants.Constants;
+    }, function (_dataCustomEventListener) {
+      CustomEventListener = _dataCustomEventListener.CustomEventListener;
+    }, function (_dataGameData) {
+      RunTimeData = _dataGameData.RunTimeData;
     }],
     execute: function () {
       _crd = true;
@@ -30,7 +50,7 @@ System.register(["cc"], function (_export, _context) {
         property
       } = _decorator);
 
-      _export("ResulttUI", ResulttUI = (_dec = ccclass('ResulttUI'), _dec2 = property({
+      _export("ResultUI", ResultUI = (_dec = ccclass('ResultUI'), _dec2 = property({
         type: Label,
         displayOrder: 1
       }), _dec3 = property({
@@ -66,7 +86,7 @@ System.register(["cc"], function (_export, _context) {
       }), _dec13 = property({
         type: Label,
         displayOrder: 12
-      }), _dec(_class = (_class2 = (_temp = class ResulttUI extends Component {
+      }), _dec(_class = (_class2 = (_temp = class ResultUI extends Component {
         constructor(...args) {
           super(...args);
 
@@ -95,11 +115,46 @@ System.register(["cc"], function (_export, _context) {
           _initializerDefineProperty(this, "moneyLabel", _descriptor12, this);
         }
 
-        show() {}
+        show() {
+          const runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
+          const maxProgress = runtimeData.maxProgress;
+          const curProgress = runtimeData.curProgress;
+          let index = 0;
+
+          for (let i = 0; i < this.progress.length; i++) {
+            const progress = this.progress[i];
+
+            if (i >= maxProgress) {
+              progress.node.active = false;
+            } else {
+              progress.node.active = true;
+              index = maxProgress - 1 - i;
+
+              if (index >= curProgress) {
+                progress.spriteFrame = index === curProgress && !runtimeData.isTakeOver ? this.progress2 : this.progress3;
+              } else {
+                progress.spriteFrame = this.progress1;
+              }
+            }
+          }
+
+          this.srcSp.spriteFrame = this.levelFinished;
+          this.targetSp.spriteFrame = curProgress === maxProgress ? this.levelFinished : this.levelUnFinished;
+          this.progressLabel.string = `你完成了${curProgress}个订单`;
+        }
 
         hide() {}
 
-        clictBtnNormal() {}
+        clictBtnNormal() {
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.NEW_LEVEL);
+          console.log("确实点到了");
+        }
 
       }, _temp), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "targetLevel", [_dec2], {
         configurable: true,

@@ -1,9 +1,12 @@
 
-import { _decorator, Component, Node, Label, Sprite, SpriteFrame } from 'cc';
+import { _decorator, Component, Node, Label, Sprite, SpriteFrame, sys } from 'cc';
+import { Constants } from '../data/Constants';
+import { CustomEventListener } from '../data/CustomEventListener';
+import { RunTimeData } from '../data/GameData';
 const { ccclass, property } = _decorator;
 
-@ccclass('ResulttUI')
-export class ResulttUI extends Component {
+@ccclass('ResultUI')
+export class ResultUI extends Component {
 
   @property({
     type: Label,
@@ -78,7 +81,33 @@ export class ResulttUI extends Component {
   public moneyLabel: Label = null!;
 
   public show() {
+    const runtimeData = RunTimeData.instance()
+    const maxProgress = runtimeData.maxProgress;
+    const curProgress = runtimeData.curProgress;
+    let index = 0;
 
+    for (let i = 0; i < this.progress.length; i++) {
+      const progress = this.progress[i];
+      if (i >= maxProgress) {
+        progress.node.active = false;
+      } else {
+        progress.node.active = true;
+        index = maxProgress - 1 - i;
+        if (index >= curProgress) {
+          progress.spriteFrame = (index === curProgress && !runtimeData.isTakeOver)
+            ? this.progress2
+            : this.progress3;
+        } else {
+          progress.spriteFrame = this.progress1;
+        }
+      }
+    }
+
+    this.srcSp.spriteFrame = this.levelFinished;
+    this.targetSp.spriteFrame = curProgress === maxProgress
+      ? this.levelFinished
+      : this.levelUnFinished;
+    this.progressLabel.string = `你完成了${curProgress}个订单`;
   }
 
   public hide() {
@@ -86,6 +115,7 @@ export class ResulttUI extends Component {
   }
 
   public clictBtnNormal() {
-
+    CustomEventListener.dispatchEvent(Constants.EventName.NEW_LEVEL);
+    console.log("确实点到了")
   }
 }

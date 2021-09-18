@@ -2,6 +2,7 @@
 import { _decorator, Component, Node, Vec3, TERRAIN_HEIGHT_BASE, ParticleSystemComponent, BoxColliderComponent, RigidBody, ICollisionEvent, BoxCollider, RigidBodyComponent } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
+import { RunTimeData } from '../data/GameData';
 import { RoadPoint } from '../RoadPoint';
 import { AudioManager } from './AudioManager';
 const { ccclass, property } = _decorator;
@@ -32,6 +33,7 @@ export class Car extends Component {
   private _gas: ParticleSystemComponent = null;
   private _overCD: Function = null;
   private _camera: Node = null;
+  private _isOver = false;
 
   public start() {
     CustomEventListener.on(EventName.FINISHID_WALK, this._finishedWalk, this);
@@ -137,6 +139,10 @@ export class Car extends Component {
   }
 
   public startRunning() {
+    if (this._isOver) {
+      return;
+    }
+
     if (this._currentRoadPoint) {
       this._isMoving = true;
       this._curSpeed = 0;
@@ -145,6 +151,10 @@ export class Car extends Component {
   }
 
   public stopRunning() {
+    if (this._isOver) {
+      return;
+    }
+
     this._acceleration = -0.3;
     CustomEventListener.dispatchEvent(EventName.STARTBRA_KING, this.node);
     this._isBreaking = true;
@@ -180,6 +190,8 @@ export class Car extends Component {
       const x = this._pointB.x - this._pointA.x;
       this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
     }
+
+    this._isOver = false;
 
     const collider = this.node.getComponent(BoxColliderComponent);
     if (this._isMain) {
@@ -223,6 +235,7 @@ export class Car extends Component {
           this._takingCustomer();
         } else if (this._currentRoadPoint.type == RoadPoint.RoadPointType.END) {
           AudioManager.playSound(Constants.AudioSource.WIN);
+          this._gameOver();
         }
       }
 
@@ -283,6 +296,8 @@ export class Car extends Component {
   }
 
   private _greetingCustomer() {
+    const runtimeData = RunTimeData.instance();
+    runtimeData.isTakeOver = false;
     this._isInOrder = true;
     this._curSpeed = 0;
     this._gas.stop();
@@ -290,6 +305,9 @@ export class Car extends Component {
   }
 
   private _takingCustomer() {
+    const runtimeData = RunTimeData.instance();
+    runtimeData.isTakeOver = false;
+    runtimeData.curProgress++;
     this._isInOrder = true;
     this._curSpeed = 0;
     this._gas.stop();
@@ -313,6 +331,9 @@ export class Car extends Component {
   }
 
   private _gameOver() {
+    this._isMoving = false;
+    this._curSpeed = 0;
+    this._isOver = true;
     CustomEventListener.dispatchEvent(EventName.GAME_OVER);
   }
 

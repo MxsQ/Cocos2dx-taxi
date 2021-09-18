@@ -47,6 +47,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], functi
 
           _defineProperty(_assertThisInitialized(_this), "curPath", []);
 
+          _defineProperty(_assertThisInitialized(_this), "maxProgress", 0);
+
           return _this;
         }
 
@@ -57,6 +59,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], functi
             error: Error()
           }), GameMap) : GameMap);
           this.curPath = curMap.path;
+          this.maxProgress = curMap === null || curMap === void 0 ? void 0 : curMap.maxProgress;
         };
 
         return MapManager;
