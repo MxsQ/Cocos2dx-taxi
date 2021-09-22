@@ -1,7 +1,8 @@
 
-import { _decorator, Component, Node, loader, Prefab, Vec3 } from 'cc';
+import { _decorator, Component, Node, loader, Prefab, Vec3, macro } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
+import { RunTimeData } from '../data/GameData';
 import { PoolManager } from '../data/PoolManager';
 import { RoadPoint } from '../RoadPoint';
 import { Car } from "./Car";
@@ -32,6 +33,7 @@ export class CarManager extends Component {
 
   public start() {
     CustomEventListener.on(Constants.EventName.GAME_OVER, this._gameOver, this);
+    CustomEventListener.on(Constants.EventName.GAME_START, this._gameStart, this);
   }
 
   public reset(points: Node[]) {
@@ -43,7 +45,6 @@ export class CarManager extends Component {
     this._recycleAllAICar();
     this._curPath = points;
     this._createMainCar(points[0]);
-    this._startSchedule();
   }
 
   public controMoving(isRunning = true) {
@@ -60,13 +61,32 @@ export class CarManager extends Component {
     this.mainCar?.setCamera(this.camera, this.cameraPos, this.cameraRotation);
   }
 
+  private _gameStart() {
+    this.mainCar?.startWithMinSpeed();
+    this.schedule(this._checkCarIsClose, 0.2, macro.REPEAT_FOREVER);
+    this._startSchedule();
+  }
+
   private _gameOver() {
     this._stopSchedule();
-    this.mainCar?.stopImmediately();
     this.camera.setParent(this.node.parent, true);
     for (let i = 0; i < this._aiCars.length; i++) {
       const car = this._aiCars[i];
       car.stopImmediately();
+    }
+
+    this.unschedule(this._checkCarIsClose);
+  }
+
+  private _checkCarIsClose() {
+    const mainCarPos = this.mainCar?.node.worldPosition;
+    for (let i = 0; i < this._aiCars.length; i++) {
+      const aiCar = this._aiCars[i];
+      const pos = aiCar.node.worldPosition;
+      if (Math.abs(pos.x - mainCarPos!.x) <= 2 && Math.abs(pos.z - mainCarPos!.z) <= 2) {
+        this.mainCar?.tooting();
+        break;
+      }
     }
   }
 

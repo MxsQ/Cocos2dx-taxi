@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../ui/LoadingUI", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, Constants, CustomEventListener, RunTimeData, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, loader, Prefab, instantiate, Constants, CustomEventListener, RunTimeData, LoadingUI, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -29,6 +29,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
     _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfLoadingUI(extras) {
+    _reporterNs.report("LoadingUI", "../ui/LoadingUI", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfUIManager(extras) {
     _reporterNs.report("UIManager", "../ui/UIManager", _context.meta, extras);
   }
@@ -54,12 +58,17 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       Component = _cc.Component;
       Node = _cc.Node;
       BoxCollider = _cc.BoxCollider;
+      loader = _cc.loader;
+      Prefab = _cc.Prefab;
+      instantiate = _cc.instantiate;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
     }, function (_dataGameData) {
       RunTimeData = _dataGameData.RunTimeData;
+    }, function (_uiLoadingUI) {
+      LoadingUI = _uiLoadingUI.LoadingUI;
     }, function (_uiUIManager) {
       UIManager = _uiUIManager.UIManager;
     }, function (_AudioManager) {
@@ -87,6 +96,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         }), CarManager) : CarManager
       }), _dec4 = property({
         type: Node
+      }), _dec5 = property({
+        type: _crd && LoadingUI === void 0 ? (_reportPossibleCrUseOfLoadingUI({
+          error: Error()
+        }), LoadingUI) : LoadingUI
       }), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(GameCtrl, _Component);
 
@@ -105,13 +118,19 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           _initializerDefineProperty(_assertThisInitialized(_this), "group", _descriptor3, _assertThisInitialized(_this));
 
+          _initializerDefineProperty(_assertThisInitialized(_this), "loadingUI", _descriptor4, _assertThisInitialized(_this));
+
+          _defineProperty(_assertThisInitialized(_this), "_progress", 5);
+
           return _this;
         }
 
         var _proto = GameCtrl.prototype;
 
         _proto.onLoad = function onLoad() {
-          this._reset();
+          this.loadingUI.show();
+
+          this._loadMap(1);
 
           var collider = this.group.getComponent(BoxCollider);
           collider.setGroup((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
@@ -197,16 +216,72 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).UIPage.mainUI);
+          this.mapManager.recycle();
+          this.loadingUI.show();
 
-          this._reset();
+          this._loadMap(1);
         };
 
         _proto._reset = function _reset() {
           this.mapManager.resetMap();
           this.carManager.reset(this.mapManager.curPath);
-          (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+          var runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
             error: Error()
-          }), RunTimeData) : RunTimeData).instance().maxProgress = this.mapManager.maxProgress;
+          }), RunTimeData) : RunTimeData).instance();
+          runtimeData.curProgress = 0;
+          runtimeData.maxProgress = this.mapManager.maxProgress;
+        };
+
+        _proto._loadMap = function _loadMap(level, cb) {
+          var _this2 = this;
+
+          var map = "map/map";
+
+          if (level >= 100) {
+            map += "" + level;
+          } else if (level >= 10) {
+            map += "1" + level;
+          } else {
+            map += "10" + level;
+          }
+
+          loader.loadRes(map, Prefab, function (err, prefab) {
+            if (err) {
+              console.warn(err);
+              return;
+            }
+
+            _this2._progress = 5;
+
+            _this2.scheduleOnce(_this2._loadingSchedule, 0.2);
+
+            var mapNode = instantiate(prefab);
+            mapNode.parent = _this2.mapManager.node;
+
+            if (cb) {
+              cb();
+            }
+
+            _this2._progress = 0;
+
+            _this2._reset();
+
+            _this2.loadingUI.finishLoading();
+          });
+        };
+
+        _proto._loadingSchedule = function _loadingSchedule() {
+          if (this._progress < 0) {
+            return;
+          }
+
+          this._progress--;
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.UPDATE_PROGRESS, 40 / 5);
+          this.scheduleOnce(this._loadingSchedule, 0.2);
         };
 
         return GameCtrl;
@@ -225,6 +300,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           return null;
         }
       }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "group", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return null;
+        }
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "loadingUI", [_dec5], {
         configurable: true,
         enumerable: true,
         writable: true,

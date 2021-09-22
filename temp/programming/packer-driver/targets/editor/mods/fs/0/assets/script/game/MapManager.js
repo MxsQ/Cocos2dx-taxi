@@ -36,14 +36,27 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "./GameMap"], functi
           _defineProperty(this, "curPath", []);
 
           _defineProperty(this, "maxProgress", 0);
+
+          _defineProperty(this, "_curMap", null);
         }
 
         resetMap() {
-          const curMap = this.node.children[0].getComponent(_crd && GameMap === void 0 ? (_reportPossibleCrUseOfGameMap({
+          this._curMap = this.node.children[0];
+
+          const curMap = this._curMap.getComponent(_crd && GameMap === void 0 ? (_reportPossibleCrUseOfGameMap({
             error: Error()
           }), GameMap) : GameMap);
+
           this.curPath = curMap.path;
           this.maxProgress = curMap === null || curMap === void 0 ? void 0 : curMap.maxProgress;
+        }
+
+        recycle() {
+          if (this._curMap) {
+            this._curMap.destroy();
+
+            this._curMap = null;
+          }
         }
 
       }, _temp)) || _class));

@@ -1,8 +1,9 @@
 
-import { _decorator, Component, Node, EventTouch, BoxColliderComponent, BoxCollider, Vec3 } from 'cc';
+import { _decorator, Component, Node, EventTouch, BoxColliderComponent, BoxCollider, Vec3, loader, Prefab, instantiate } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
 import { RunTimeData } from '../data/GameData';
+import { LoadingUI } from '../ui/LoadingUI';
 import { UIManager } from '../ui/UIManager';
 import { AudioManager } from './AudioManager';
 import { CarManager } from './CarManager';
@@ -26,9 +27,16 @@ export class GameCtrl extends Component {
   })
   group: Node = null!;
 
-  public onLoad() {
-    this._reset();
+  @property({
+    type: LoadingUI
+  })
+  loadingUI: LoadingUI = null;
 
+  private _progress = 5;
+
+  public onLoad() {
+    this.loadingUI.show();
+    this._loadMap(1);
     const collider = this.group.getComponent(BoxCollider)!;
     collider.setGroup(Constants.CarGroup.NORMAL);
     collider.setMask(-1);
@@ -68,14 +76,59 @@ export class GameCtrl extends Component {
   private _newLevel() {
     UIManager.hidDialog(Constants.UIPage.resultUI);
     UIManager.showDialog(Constants.UIPage.mainUI);
-
-    this._reset();
+    this.mapManager.recycle();
+    this.loadingUI.show();
+    this._loadMap(1);
   }
 
   private _reset() {
     this.mapManager!.resetMap();
     this.carManager!.reset(this.mapManager!.curPath);
-    RunTimeData.instance().maxProgress = this.mapManager.maxProgress;
+    const runtimeData = RunTimeData.instance();
+    runtimeData.curProgress = 0;
+    runtimeData.maxProgress = this.mapManager.maxProgress;
   };
+
+  private _loadMap(level: number, cb?: Function) {
+    let map = `map/map`;
+    if (level >= 100) {
+      map += `${level}`;
+    } else if (level >= 10) {
+      map += `1${level}`;
+    } else {
+      map += `10${level}`;
+    }
+
+    loader.loadRes(map, Prefab, (err, prefab) => {
+      if (err) {
+        console.warn(err);
+        return;
+      }
+
+      this._progress = 5;
+      this.scheduleOnce(this._loadingSchedule, 0.2);
+      const mapNode = instantiate(prefab) as Node;
+      mapNode.parent = this.mapManager.node;
+      if (cb) {
+        cb();
+      }
+
+      this._progress = 0;
+      this._reset();
+      this.loadingUI.finishLoading();
+    })
+
+
+  }
+
+  private _loadingSchedule() {
+    if (this._progress < 0) {
+      return;
+    }
+
+    this._progress--;
+    CustomEventListener.dispatchEvent(Constants.EventName.UPDATE_PROGRESS, 40 / 5);
+    this.scheduleOnce(this._loadingSchedule, 0.2);
+  }
 }
 

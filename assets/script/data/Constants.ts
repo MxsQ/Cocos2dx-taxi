@@ -14,6 +14,7 @@ enum EventName {
   NEW_LEVEL = 'new-level',
   SHOW_TALK = 'show-talk',
   SHOW_GUIDE = 'show-guide',
+  UPDATE_PROGRESS = 'update-progress',
 }
 
 enum CustomerState {
@@ -32,7 +33,7 @@ enum AudioSource {
   START = 'start',
   STOP = 'stop',
   TOOTONG1 = 'tooting1',
-  TOOTING2 = 'tootint2',
+  TOOTING2 = 'tooting2',
   WIN = 'win',
 }
 

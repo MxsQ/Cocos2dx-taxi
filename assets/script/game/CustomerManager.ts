@@ -95,6 +95,7 @@ export class CustomerManager extends Component {
     animComp.play('walk');
 
     CustomEventListener.dispatchEvent(EventName.SHOW_TALK, this._customerID);
+    AudioManager.playSound(Constants.AudioSource.NEWORDER);
   }
 
   private _takingCustomer(...args: any[]) {
@@ -131,7 +132,6 @@ export class CustomerManager extends Component {
     AudioManager.playSound(Constants.AudioSource.GETMONEY);
 
     this._customerID = -1;
-    // CustomEventListener.dispatchEvent(EventName.SHOW_TALK, this._customerID);
   }
 }
 

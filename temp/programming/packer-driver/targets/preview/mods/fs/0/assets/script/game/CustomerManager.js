@@ -195,6 +195,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.SHOW_TALK, this._customerID);
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.NEWORDER);
         };
 
         _proto._takingCustomer = function _takingCustomer() {
@@ -239,7 +244,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).AudioSource.GETMONEY);
-          this._customerID = -1; // CustomEventListener.dispatchEvent(EventName.SHOW_TALK, this._customerID);
+          this._customerID = -1;
         };
 
         return CustomerManager;

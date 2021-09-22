@@ -5,16 +5,26 @@ import { CustomEventListener } from '../data/CustomEventListener';
 import { RunTimeData } from '../data/GameData';
 import { RoadPoint } from '../RoadPoint';
 import { AudioManager } from './AudioManager';
+import { CustomerManager } from './CustomerManager';
 const { ccclass, property } = _decorator;
-
 
 const _tempVec = new Vec3();
 const EventName = Constants.EventName;
+const TOOTING_COOL_TIME = 5;
+
+enum RunState {
+  NORMAL = 0,
+  INORDER = 1,
+  CRASH = 2,
+  OVER = 3,
+}
 
 @ccclass('Car')
 export class Car extends Component {
   @property
-  maxSpeed = 0.2
+  maxSpeed = 0.2;
+  @property
+  minSpeed = 0.02;
 
   public _currentRoadPoint: RoadPoint | null = null;
   private _pointA = new Vec3();
@@ -28,31 +38,40 @@ export class Car extends Component {
   private _rotMeasure = 0;
   private _acceleration = 0.2
   private _isMain = false;
-  private _isInOrder = false;
+
   private _isBreaking = false;
   private _gas: ParticleSystemComponent = null;
   private _overCD: Function = null;
   private _camera: Node = null;
-  private _isOver = false;
+  private _tootingCoolTime = 0;
+  private _minSpeed = 0;
+  private _maxSpeed = 0;
+  private _runState = RunState.NORMAL;
 
   public start() {
     CustomEventListener.on(EventName.FINISHID_WALK, this._finishedWalk, this);
+    this._minSpeed = this._minSpeed;
+    this._maxSpeed = this.maxSpeed;
   }
 
   public update(dt: number) {
-    if (!this._isMoving || this._isInOrder) {
+    this._tootingCoolTime = this._tootingCoolTime > dt
+      ? this._tootingCoolTime - dt
+      : 0;
+
+    if ((!this._isMoving && this._curSpeed <= 0) || this._runState === RunState.INORDER || this._runState === RunState.CRASH) {
       return;
     }
 
     this._offset.set(this.node.worldPosition);
 
     this._curSpeed += this._acceleration * dt;
-    if (this._curSpeed > this.maxSpeed) {
-      this._curSpeed = this.maxSpeed;
+    if (this._curSpeed > this._maxSpeed) {
+      this._curSpeed = this._maxSpeed;
     }
 
     if (this._curSpeed <= 0.001) {
-      this._isMoving = false;
+      this._curSpeed = this._minSpeed;
       if (this._isBreaking) {
         this._isBreaking = false;
         CustomEventListener.dispatchEvent(EventName.END_BRANING);
@@ -139,19 +158,26 @@ export class Car extends Component {
   }
 
   public startRunning() {
-    if (this._isOver) {
+    if (this._runState !== RunState.NORMAL) {
       return;
     }
 
+    this._maxSpeed = this.maxSpeed;
+    this._minSpeed = this.minSpeed;
     if (this._currentRoadPoint) {
       this._isMoving = true;
-      this._curSpeed = 0;
       this._acceleration = 0.2;
+
+    }
+
+    if (this._isBreaking) {
+      CustomEventListener.dispatchEvent(EventName.END_BRANING);
+      this._isBreaking = false;
     }
   }
 
   public stopRunning() {
-    if (this._isOver) {
+    if (this._runState !== RunState.NORMAL) {
       return;
     }
 
@@ -168,6 +194,24 @@ export class Car extends Component {
   public stopImmediately() {
     this._isMoving = false;
     this._curSpeed = 0;
+  }
+
+  public startWithMinSpeed() {
+    this._curSpeed = this.minSpeed;
+    this._maxSpeed = this._minSpeed;
+    this._isMoving = true;
+  }
+
+  public tooting() {
+    if (this._tootingCoolTime > 0) {
+      return;
+    }
+
+    this._tootingCoolTime = TOOTING_COOL_TIME;
+    const audioSource = Math.floor(Math.random() * 2) < 1
+      ? Constants.AudioSource.TOOTONG1
+      : Constants.AudioSource.TOOTING2;
+    AudioManager.playSound(audioSource);
   }
 
   public setEntry(entry: Node, isMain = false) {
@@ -191,7 +235,9 @@ export class Car extends Component {
       this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
     }
 
-    this._isOver = false;
+    this._runState = RunState.NORMAL;
+    this._curSpeed = 0;
+    this._isMoving = false;
 
     const collider = this.node.getComponent(BoxColliderComponent);
     if (this._isMain) {
@@ -235,7 +281,11 @@ export class Car extends Component {
           this._takingCustomer();
         } else if (this._currentRoadPoint.type == RoadPoint.RoadPointType.END) {
           AudioManager.playSound(Constants.AudioSource.WIN);
-          this._gameOver();
+          this._runState = RunState.OVER;
+          this._acceleration = 0;
+          this._minSpeed = this._maxSpeed = 0.2;
+          this._curSpeed = this._minSpeed;
+          CustomEventListener.dispatchEvent(EventName.GAME_OVER);
         }
       }
 
@@ -268,6 +318,7 @@ export class Car extends Component {
       }
     } else {
       this._isMoving = false;
+      this._curSpeed = 0;
       this._currentRoadPoint = null;
 
       if (this._overCD) {
@@ -292,14 +343,17 @@ export class Car extends Component {
 
     const rigidBody = this.node.getComponent(RigidBodyComponent);
     rigidBody!.useGravity = true;
-    this._gameOver();
+    this._runState = RunState.CRASH;
+    AudioManager.playSound(Constants.AudioSource.CRASH);
+    CustomEventListener.dispatchEvent(EventName.GAME_OVER);
   }
 
   private _greetingCustomer() {
     const runtimeData = RunTimeData.instance();
     runtimeData.isTakeOver = false;
-    this._isInOrder = true;
+    this._runState = RunState.INORDER;
     this._curSpeed = 0;
+    this._isMoving = false;
     this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GREETING, this.node.worldPosition, this._currentRoadPoint?.direction)
   }
@@ -308,8 +362,9 @@ export class Car extends Component {
     const runtimeData = RunTimeData.instance();
     runtimeData.isTakeOver = false;
     runtimeData.curProgress++;
-    this._isInOrder = true;
+    this._runState = RunState.INORDER;
     this._curSpeed = 0;
+    this._isMoving = false;
     this._gas.stop();
     CustomEventListener.dispatchEvent(EventName.GOODBYE, this.node.worldPosition, this._currentRoadPoint?.direction)
     CustomEventListener.dispatchEvent(EventName.SHOW_COIN, this.node.worldPosition);
@@ -319,8 +374,8 @@ export class Car extends Component {
     if (!this._isMain) {
       return;
     }
+    this._runState = RunState.NORMAL;
     this._gas.play();
-    this._isInOrder = false;
   }
 
   private _resetPhysical() {
@@ -328,13 +383,6 @@ export class Car extends Component {
     rigidBody!.useGravity = false;
     rigidBody!.sleep();
     rigidBody!.wakeUp();
-  }
-
-  private _gameOver() {
-    this._isMoving = false;
-    this._curSpeed = 0;
-    this._isOver = true;
-    CustomEventListener.dispatchEvent(EventName.GAME_OVER);
   }
 
   private _conversion(value: number) {

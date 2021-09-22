@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/PoolManager", "../RoadPoint", "./Car"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, loader, Prefab, Vec3, Constants, CustomEventListener, PoolManager, RoadPoint, Car, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, CarManager;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, loader, Prefab, Vec3, macro, Constants, CustomEventListener, PoolManager, RoadPoint, Car, _dec, _dec2, _dec3, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, CarManager;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -42,6 +42,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       loader = _cc.loader;
       Prefab = _cc.Prefab;
       Vec3 = _cc.Vec3;
+      macro = _cc.macro;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
@@ -92,6 +93,11 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).EventName.GAME_OVER, this._gameOver, this);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).on((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).EventName.GAME_START, this._gameStart, this);
         }
 
         reset(points) {
@@ -105,8 +111,6 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           this._curPath = points;
 
           this._createMainCar(points[0]);
-
-          this._startSchedule();
         }
 
         controMoving(isRunning = true) {
@@ -133,17 +137,43 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           (_this$mainCar3 = this.mainCar) === null || _this$mainCar3 === void 0 ? void 0 : _this$mainCar3.setCamera(this.camera, this.cameraPos, this.cameraRotation);
         }
 
-        _gameOver() {
+        _gameStart() {
           var _this$mainCar4;
 
+          (_this$mainCar4 = this.mainCar) === null || _this$mainCar4 === void 0 ? void 0 : _this$mainCar4.startWithMinSpeed();
+          this.schedule(this._checkCarIsClose, 0.2, macro.REPEAT_FOREVER);
+
+          this._startSchedule();
+        }
+
+        _gameOver() {
           this._stopSchedule();
 
-          (_this$mainCar4 = this.mainCar) === null || _this$mainCar4 === void 0 ? void 0 : _this$mainCar4.stopImmediately();
           this.camera.setParent(this.node.parent, true);
 
           for (let i = 0; i < this._aiCars.length; i++) {
             const car = this._aiCars[i];
             car.stopImmediately();
+          }
+
+          this.unschedule(this._checkCarIsClose);
+        }
+
+        _checkCarIsClose() {
+          var _this$mainCar5;
+
+          const mainCarPos = (_this$mainCar5 = this.mainCar) === null || _this$mainCar5 === void 0 ? void 0 : _this$mainCar5.node.worldPosition;
+
+          for (let i = 0; i < this._aiCars.length; i++) {
+            const aiCar = this._aiCars[i];
+            const pos = aiCar.node.worldPosition;
+
+            if (Math.abs(pos.x - mainCarPos.x) <= 2 && Math.abs(pos.z - mainCarPos.z) <= 2) {
+              var _this$mainCar6;
+
+              (_this$mainCar6 = this.mainCar) === null || _this$mainCar6 === void 0 ? void 0 : _this$mainCar6.tooting();
+              break;
+            }
           }
         }
 

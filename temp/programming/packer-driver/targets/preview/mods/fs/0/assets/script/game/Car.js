@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../RoadPoint", "./AudioManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, Constants, CustomEventListener, RunTimeData, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _temp, _crd, ccclass, property, _tempVec, EventName, Car;
+  var _reporterNs, _cclegacy, _decorator, Component, Vec3, ParticleSystemComponent, BoxColliderComponent, RigidBodyComponent, Constants, CustomEventListener, RunTimeData, RoadPoint, AudioManager, _dec, _class, _class2, _descriptor, _descriptor2, _temp, _crd, ccclass, property, _tempVec, EventName, TOOTING_COOL_TIME, RunState, Car;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -70,6 +70,14 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       EventName = (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
         error: Error()
       }), Constants) : Constants).EventName;
+      TOOTING_COOL_TIME = 5;
+
+      (function (RunState) {
+        RunState[RunState["NORMAL"] = 0] = "NORMAL";
+        RunState[RunState["INORDER"] = 1] = "INORDER";
+        RunState[RunState["CRASH"] = 2] = "CRASH";
+        RunState[RunState["OVER"] = 3] = "OVER";
+      })(RunState || (RunState = {}));
 
       _export("Car", Car = (_dec = ccclass('Car'), _dec(_class = (_class2 = (_temp = /*#__PURE__*/function (_Component) {
         _inheritsLoose(Car, _Component);
@@ -84,6 +92,8 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           _this = _Component.call.apply(_Component, [this].concat(args)) || this;
 
           _initializerDefineProperty(_assertThisInitialized(_this), "maxSpeed", _descriptor, _assertThisInitialized(_this));
+
+          _initializerDefineProperty(_assertThisInitialized(_this), "minSpeed", _descriptor2, _assertThisInitialized(_this));
 
           _defineProperty(_assertThisInitialized(_this), "_currentRoadPoint", null);
 
@@ -109,8 +119,6 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           _defineProperty(_assertThisInitialized(_this), "_isMain", false);
 
-          _defineProperty(_assertThisInitialized(_this), "_isInOrder", false);
-
           _defineProperty(_assertThisInitialized(_this), "_isBreaking", false);
 
           _defineProperty(_assertThisInitialized(_this), "_gas", null);
@@ -119,7 +127,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           _defineProperty(_assertThisInitialized(_this), "_camera", null);
 
-          _defineProperty(_assertThisInitialized(_this), "_isOver", false);
+          _defineProperty(_assertThisInitialized(_this), "_tootingCoolTime", 0);
+
+          _defineProperty(_assertThisInitialized(_this), "_minSpeed", 0);
+
+          _defineProperty(_assertThisInitialized(_this), "_maxSpeed", 0);
+
+          _defineProperty(_assertThisInitialized(_this), "_runState", RunState.NORMAL);
 
           return _this;
         }
@@ -130,12 +144,16 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).on(EventName.FINISHID_WALK, this._finishedWalk, this);
+          this._minSpeed = this._minSpeed;
+          this._maxSpeed = this.maxSpeed;
         };
 
         _proto.update = function update(dt) {
           var _this$_currentRoadPoi;
 
-          if (!this._isMoving || this._isInOrder) {
+          this._tootingCoolTime = this._tootingCoolTime > dt ? this._tootingCoolTime - dt : 0;
+
+          if (!this._isMoving && this._curSpeed <= 0 || this._runState === RunState.INORDER || this._runState === RunState.CRASH) {
             return;
           }
 
@@ -143,12 +161,12 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           this._curSpeed += this._acceleration * dt;
 
-          if (this._curSpeed > this.maxSpeed) {
-            this._curSpeed = this.maxSpeed;
+          if (this._curSpeed > this._maxSpeed) {
+            this._curSpeed = this._maxSpeed;
           }
 
           if (this._curSpeed <= 0.001) {
-            this._isMoving = false;
+            this._curSpeed = this._minSpeed;
 
             if (this._isBreaking) {
               this._isBreaking = false;
@@ -252,19 +270,28 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         };
 
         _proto.startRunning = function startRunning() {
-          if (this._isOver) {
+          if (this._runState !== RunState.NORMAL) {
             return;
           }
 
+          this._maxSpeed = this.maxSpeed;
+          this._minSpeed = this.minSpeed;
+
           if (this._currentRoadPoint) {
             this._isMoving = true;
-            this._curSpeed = 0;
             this._acceleration = 0.2;
+          }
+
+          if (this._isBreaking) {
+            (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+              error: Error()
+            }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.END_BRANING);
+            this._isBreaking = false;
           }
         };
 
         _proto.stopRunning = function stopRunning() {
-          if (this._isOver) {
+          if (this._runState !== RunState.NORMAL) {
             return;
           }
 
@@ -287,6 +314,28 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         _proto.stopImmediately = function stopImmediately() {
           this._isMoving = false;
           this._curSpeed = 0;
+        };
+
+        _proto.startWithMinSpeed = function startWithMinSpeed() {
+          this._curSpeed = this.minSpeed;
+          this._maxSpeed = this._minSpeed;
+          this._isMoving = true;
+        };
+
+        _proto.tooting = function tooting() {
+          if (this._tootingCoolTime > 0) {
+            return;
+          }
+
+          this._tootingCoolTime = TOOTING_COOL_TIME;
+          var audioSource = Math.floor(Math.random() * 2) < 1 ? (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.TOOTONG1 : (_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.TOOTING2;
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).playSound(audioSource);
         };
 
         _proto.setEntry = function setEntry(entry, isMain) {
@@ -319,7 +368,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             this.node.eulerAngles = x < 0 ? new Vec3(0, 90, 0) : new Vec3(0, 270, 0);
           }
 
-          this._isOver = false;
+          this._runState = RunState.NORMAL;
+          this._curSpeed = 0;
+          this._isMoving = false;
           var collider = this.node.getComponent(BoxColliderComponent);
 
           if (this._isMain) {
@@ -390,8 +441,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
                 }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
                   error: Error()
                 }), Constants) : Constants).AudioSource.WIN);
-
-                this._gameOver();
+                this._runState = RunState.OVER;
+                this._acceleration = 0;
+                this._minSpeed = this._maxSpeed = 0.2;
+                this._curSpeed = this._minSpeed;
+                (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+                  error: Error()
+                }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GAME_OVER);
               }
             } // 弯道处理
 
@@ -427,6 +483,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             }
           } else {
             this._isMoving = false;
+            this._curSpeed = 0;
             this._currentRoadPoint = null;
 
             if (this._overCD) {
@@ -454,8 +511,15 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), Constants) : Constants).CarGroup.NORMAL);
           var rigidBody = this.node.getComponent(RigidBodyComponent);
           rigidBody.useGravity = true;
-
-          this._gameOver();
+          this._runState = RunState.CRASH;
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).playSound((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
+            error: Error()
+          }), Constants) : Constants).AudioSource.CRASH);
+          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
+            error: Error()
+          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GAME_OVER);
         };
 
         _proto._greetingCustomer = function _greetingCustomer() {
@@ -465,8 +529,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             error: Error()
           }), RunTimeData) : RunTimeData).instance();
           runtimeData.isTakeOver = false;
-          this._isInOrder = true;
+          this._runState = RunState.INORDER;
           this._curSpeed = 0;
+          this._isMoving = false;
 
           this._gas.stop();
 
@@ -483,8 +548,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), RunTimeData) : RunTimeData).instance();
           runtimeData.isTakeOver = false;
           runtimeData.curProgress++;
-          this._isInOrder = true;
+          this._runState = RunState.INORDER;
           this._curSpeed = 0;
+          this._isMoving = false;
 
           this._gas.stop();
 
@@ -501,9 +567,9 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             return;
           }
 
-          this._gas.play();
+          this._runState = RunState.NORMAL;
 
-          this._isInOrder = false;
+          this._gas.play();
         };
 
         _proto._resetPhysical = function _resetPhysical() {
@@ -511,15 +577,6 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           rigidBody.useGravity = false;
           rigidBody.sleep();
           rigidBody.wakeUp();
-        };
-
-        _proto._gameOver = function _gameOver() {
-          this._isMoving = false;
-          this._curSpeed = 0;
-          this._isOver = true;
-          (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
-            error: Error()
-          }), CustomEventListener) : CustomEventListener).dispatchEvent(EventName.GAME_OVER);
         };
 
         _proto._conversion = function _conversion(value) {
@@ -539,6 +596,13 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
         writable: true,
         initializer: function initializer() {
           return 0.2;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "minSpeed", [property], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 0.02;
         }
       })), _class2)) || _class));
 

@@ -35,6 +35,7 @@ System.register(["cc"], function (_export, _context) {
         EventName["NEW_LEVEL"] = "new-level";
         EventName["SHOW_TALK"] = "show-talk";
         EventName["SHOW_GUIDE"] = "show-guide";
+        EventName["UPDATE_PROGRESS"] = "update-progress";
       })(EventName || (EventName = {}));
 
       (function (CustomerState) {
@@ -53,7 +54,7 @@ System.register(["cc"], function (_export, _context) {
         AudioSource["START"] = "start";
         AudioSource["STOP"] = "stop";
         AudioSource["TOOTONG1"] = "tooting1";
-        AudioSource["TOOTING2"] = "tootint2";
+        AudioSource["TOOTING2"] = "tooting2";
         AudioSource["WIN"] = "win";
       })(AudioSource || (AudioSource = {}));
 
