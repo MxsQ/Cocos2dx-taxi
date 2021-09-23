@@ -5341,3 +5341,905 @@ debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-t
 debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
 debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
 debug: Target(preview) ends with cost 118.2293291091919ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 09 1970 09:28:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 05:37:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 108.62516713142395ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Fri Jan 09 1970 09:28:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 05:37:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 74.3125569820404ms.
+debug: Dispatch build request for time accumulated 4 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 4
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 05:37:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 05:56:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts. Last mtime: Thu Sep 23 2021 13:48:07 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 13:57:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts. Last mtime: Wed Sep 22 2021 15:50:11 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 13:50:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Wed Sep 15 2021 13:50:36 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:04:31 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Wed Sep 22 2021 17:38:22 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:01:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(editor) ends with cost 216.70078206062317ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 05:37:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 05:56:05 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts. Last mtime: Thu Sep 23 2021 13:48:07 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 13:57:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts. Last mtime: Wed Sep 22 2021 15:50:11 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 13:50:39 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Wed Sep 15 2021 13:50:36 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:04:31 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Wed Sep 22 2021 17:38:22 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:01:22 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(preview) ends with cost 480.33072805404663ms.
+debug: Dispatch build request for time accumulated 5 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 5
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 05:56:05 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:27:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Thu Sep 23 2021 14:04:31 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:49:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts. Last mtime: Wed Sep 22 2021 14:12:51 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:49:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 14:01:22 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:50:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts. Last mtime: Thu Sep 16 2021 17:40:47 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:54:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Sat Sep 18 2021 15:24:02 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:52:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(editor) ends with cost 402.19775795936584ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 05:56:05 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:27:22 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Thu Sep 23 2021 14:04:31 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:49:59 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts. Last mtime: Wed Sep 22 2021 14:12:51 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:49:37 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 14:01:22 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:50:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts. Last mtime: Thu Sep 16 2021 17:40:47 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:54:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Sat Sep 18 2021 15:24:02 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 14:52:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(preview) ends with cost 464.142235994339ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:27:22 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:29:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts. Last mtime: Tue Sep 14 2021 15:43:27 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:39:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Thu Sep 23 2021 14:52:09 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:40:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(editor) ends with cost 89.29802012443542ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:27:22 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:29:06 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts. Last mtime: Tue Sep 14 2021 15:43:27 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:39:57 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Thu Sep 23 2021 14:52:09 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:40:00 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(preview) ends with cost 140.88412809371948ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:29:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:33:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts. Last mtime: Thu Sep 23 2021 15:39:57 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:44:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(editor) ends with cost 56.23905396461487ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:29:06 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:33:18 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts. Last mtime: Thu Sep 23 2021 15:39:57 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:44:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(preview) ends with cost 77.30218696594238ms.
+debug: Dispatch build request for time accumulated 5 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 5
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:33:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:58:38 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts. Last mtime: Thu Sep 23 2021 13:57:15 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:54:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Thu Sep 23 2021 14:49:59 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:55:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts. Last mtime: Thu Sep 23 2021 14:49:37 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:48:03 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 14:50:18 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:05:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Thu Sep 23 2021 15:40:00 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:08:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Target(editor) ends with cost 249.75370597839355ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:33:18 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 07:58:38 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts. Last mtime: Thu Sep 23 2021 14:49:59 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:55:30 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 14:50:18 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:05:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts. Last mtime: Thu Sep 23 2021 14:49:37 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:48:03 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts. Last mtime: Thu Sep 23 2021 15:40:00 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:08:55 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts. Last mtime: Thu Sep 23 2021 13:57:15 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 15:54:15 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as cce:/internal/x/cc.
+debug: Resolve ./Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Target(preview) ends with cost 408.3087420463562ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:58:38 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:08:41 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:05:46 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:19:41 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(editor) ends with cost 94.18479704856873ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 07:58:38 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:08:41 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:05:46 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:19:41 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(preview) ends with cost 119.15078616142273ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 08:08:41 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:26:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:19:41 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:37:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(editor) ends with cost 89.83521795272827ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 08:08:41 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:26:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:19:41 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:37:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Target(preview) ends with cost 154.04640817642212ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 08:26:25 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:27:14 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:37:25 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:38:14 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(editor) ends with cost 77.18273782730103ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Sat Jan 10 1970 08:26:25 GMT+0800 (中国标准时间), Current mtime: Sat Jan 10 1970 08:27:14 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/UpdateLabelValue.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/Car.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CustomerManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/EffectManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameMap.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameRoot.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/typescript.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/BtnAdapter.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/GameUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/MainUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/ResultUI.ts.
+debug: Resolve file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Detected change: file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts. Last mtime: Thu Sep 23 2021 16:37:25 GMT+0800 (中国标准时间), Current mtime: Thu Sep 23 2021 16:38:14 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as cce:/internal/x/cc.
+debug: Resolve ../data/Constants from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts.
+debug: Resolve ../data/Configuration from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts.
+debug: Resolve ../data/CustomEventListener from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts.
+debug: Resolve ../data/GameData from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts.
+debug: Resolve ../ui/LoadingUI from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/LoadingUI.ts.
+debug: Resolve ../ui/UIManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/ui/UIManager.ts.
+debug: Resolve ./AudioManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/AudioManager.ts.
+debug: Resolve ./CarManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/CarManager.ts.
+debug: Resolve ./MapManager from file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts as file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/MapManager.ts.
+debug: Target(preview) ends with cost 127.51669597625732ms.

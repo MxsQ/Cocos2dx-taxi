@@ -1,7 +1,7 @@
-System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../ui/LoadingUI", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
+System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Configuration", "../data/Constants", "../data/CustomEventListener", "../data/GameData", "../ui/LoadingUI", "../ui/UIManager", "./AudioManager", "./CarManager", "./MapManager"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, loader, Prefab, instantiate, Constants, CustomEventListener, RunTimeData, LoadingUI, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, GameCtrl;
+  var _reporterNs, _cclegacy, _decorator, Component, Node, BoxCollider, loader, Prefab, instantiate, Configuration, Constants, CustomEventListener, PlayerData, RunTimeData, LoadingUI, UIManager, AudioManager, CarManager, MapManager, _dec, _dec2, _dec3, _dec4, _dec5, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _temp, _crd, ccclass, property, GameCtrl;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -17,12 +17,20 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
   function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'proposal-class-properties is enabled and runs after the decorators transform.'); }
 
+  function _reportPossibleCrUseOfConfiguration(extras) {
+    _reporterNs.report("Configuration", "../data/Configuration", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfConstants(extras) {
     _reporterNs.report("Constants", "../data/Constants", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfCustomEventListener(extras) {
     _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfPlayerData(extras) {
+    _reporterNs.report("PlayerData", "../data/GameData", _context.meta, extras);
   }
 
   function _reportPossibleCrUseOfRunTimeData(extras) {
@@ -61,11 +69,14 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
       loader = _cc.loader;
       Prefab = _cc.Prefab;
       instantiate = _cc.instantiate;
+    }, function (_dataConfiguration) {
+      Configuration = _dataConfiguration.Configuration;
     }, function (_dataConstants) {
       Constants = _dataConstants.Constants;
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
     }, function (_dataGameData) {
+      PlayerData = _dataGameData.PlayerData;
       RunTimeData = _dataGameData.RunTimeData;
     }, function (_uiLoadingUI) {
       LoadingUI = _uiLoadingUI.LoadingUI;
@@ -122,13 +133,27 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
 
           _defineProperty(_assertThisInitialized(_this), "_progress", 5);
 
+          _defineProperty(_assertThisInitialized(_this), "_runtimeData", null);
+
+          _defineProperty(_assertThisInitialized(_this), "_lastMapID", 0);
+
           return _this;
         }
 
         var _proto = GameCtrl.prototype;
 
         _proto.onLoad = function onLoad() {
+          this._runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
+          (_crd && Configuration === void 0 ? (_reportPossibleCrUseOfConfiguration({
+            error: Error()
+          }), Configuration) : Configuration).instance().init();
+          (_crd && PlayerData === void 0 ? (_reportPossibleCrUseOfPlayerData({
+            error: Error()
+          }), PlayerData) : PlayerData).instance().loadFromCache();
           this.loadingUI.show();
+          this._lastMapID == this._runtimeData.currLevel;
 
           this._loadMap(1);
 
@@ -216,36 +241,41 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           }), UIManager) : UIManager).showDialog((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).UIPage.mainUI);
+
+          if (this._lastMapID === this._runtimeData.currLevel) {
+            this._reset();
+
+            return;
+          }
+
           this.mapManager.recycle();
           this.loadingUI.show();
+          this._lastMapID = this._runtimeData.currLevel;
 
-          this._loadMap(1);
+          this._loadMap(this._lastMapID);
         };
 
         _proto._reset = function _reset() {
           this.mapManager.resetMap();
           this.carManager.reset(this.mapManager.curPath);
-          var runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
-            error: Error()
-          }), RunTimeData) : RunTimeData).instance();
+          var runtimeData = this._runtimeData;
           runtimeData.curProgress = 0;
           runtimeData.maxProgress = this.mapManager.maxProgress;
+          runtimeData.money = 0;
         };
 
         _proto._loadMap = function _loadMap(level, cb) {
           var _this2 = this;
 
-          var map = "map/map";
+          var map = "map/map"; // if (level >= 100) {
+          //   map += `${level}`;
+          // } else if (level >= 10) {
+          //   map += `1${level}`;
+          // } else {
+          //   map += `10${level}`;
+          // }
 
-          if (level >= 100) {
-            map += "" + level;
-          } else if (level >= 10) {
-            map += "1" + level;
-          } else {
-            map += "10" + level;
-          }
-
-          loader.loadRes(map, Prefab, function (err, prefab) {
+          loader.loadRes(map + "101", Prefab, function (err, prefab) {
             if (err) {
               console.warn(err);
               return;

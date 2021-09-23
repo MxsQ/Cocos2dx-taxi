@@ -2,7 +2,7 @@
 import { _decorator, Component, Node, Label, Sprite, SpriteFrame, sys } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
-import { RunTimeData } from '../data/GameData';
+import { PlayerData, RunTimeData } from '../data/GameData';
 const { ccclass, property } = _decorator;
 
 @ccclass('ResultUI')
@@ -108,6 +108,10 @@ export class ResultUI extends Component {
       ? this.levelFinished
       : this.levelUnFinished;
     this.progressLabel.string = `你完成了${curProgress}个订单`;
+    const level = runtimeData.currLevel;
+    this.srcLevel.string = `${level}`;
+    this.targetLevel.string = `${level + 1}`
+    this.moneyLabel.string = `${runtimeData.money}`;
   }
 
   public hide() {
@@ -115,7 +119,11 @@ export class ResultUI extends Component {
   }
 
   public clictBtnNormal() {
+    const runtimeData = RunTimeData.instance();
+    if (runtimeData.curProgress === runtimeData.maxProgress) {
+      PlayerData.instance().passLevel(RunTimeData.instance().money);
+    }
     CustomEventListener.dispatchEvent(Constants.EventName.NEW_LEVEL);
-    console.log("确实点到了")
+
   }
 }

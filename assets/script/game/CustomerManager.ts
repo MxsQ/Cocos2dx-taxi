@@ -2,6 +2,7 @@
 import { _decorator, Component, Node, Vec3, AnimationComponent, TERRAIN_HEIGHT_BASE } from 'cc';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
+import { RunTimeData } from '../data/GameData';
 import { AudioManager } from './AudioManager';
 const { ccclass, property } = _decorator;
 
@@ -109,25 +110,28 @@ export class CustomerManager extends Component {
     Vec3.multiplyScalar(this._endPos, direction, 1.4);
     this._endPos.add(carPos)
 
-    this._curCustomer.setWorldPosition(this._startPos);
-    this._curCustomer.active = true
+    this._curCustomer!.setWorldPosition(this._startPos);
+    this._curCustomer!.active = true
+    const runtimeData = RunTimeData.instance();
+    const money = Math.floor(30 + (runtimeData.currLevel / 2) + (Math.random() * 10));
+    runtimeData.money += money;
 
     if (direction.x !== 0) {
       // 设置朝向
       if (direction.x > 0) {
-        this._curCustomer.eulerAngles = new Vec3(0, 90, 0);
+        this._curCustomer!.eulerAngles = new Vec3(0, 90, 0);
       } else {
-        this._curCustomer.eulerAngles = new Vec3(0, -90, 0);
+        this._curCustomer!.eulerAngles = new Vec3(0, -90, 0);
       }
     } else {
       if (direction.z > 0) {
-        this._curCustomer.eulerAngles = new Vec3();
+        this._curCustomer!.eulerAngles = new Vec3();
       } else {
-        this._curCustomer.eulerAngles = new Vec3(0, 180, 0);
+        this._curCustomer!.eulerAngles = new Vec3(0, 180, 0);
       }
     }
 
-    const animComp = this._curCustomer.getComponent(AnimationComponent);
+    const animComp = this._curCustomer!.getComponent(AnimationComponent);
     animComp.play('walk');
     AudioManager.playSound(Constants.AudioSource.GETMONEY);
 

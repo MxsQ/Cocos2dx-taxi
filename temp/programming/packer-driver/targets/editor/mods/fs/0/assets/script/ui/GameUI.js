@@ -239,6 +239,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
             }
           }
 
+          const level = this._runtimeData.currLevel;
           this.srcLevel.string = '1';
           this.targetLevel.string = '2';
           this.srcSp.spriteFrame = this.levelFinished;

@@ -66,7 +66,7 @@ System.register(["cc"], function (_export, _context) {
         mainUI: 'mainUI',
         gameUI: 'gameUI',
         resultUI: 'resultUI'
-      }), _temp)) || _class));
+      }), _defineProperty(_class2, "GameConfigID", 'TAXI_GAME_CACHE'), _defineProperty(_class2, "PlayerConfigID", 'playerInfo'), _defineProperty(_class2, "MaxLevel", 20), _temp)) || _class));
 
       _cclegacy._RF.pop();
 

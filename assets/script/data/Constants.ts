@@ -59,4 +59,8 @@ export class Constants extends Component {
     gameUI: 'gameUI',
     resultUI: 'resultUI',
   }
+
+  public static GameConfigID = 'TAXI_GAME_CACHE';
+  public static PlayerConfigID = 'playerInfo';
+  public static MaxLevel = 20;
 }

@@ -1,8 +1,9 @@
 
 import { _decorator, Component, Node, EventTouch, BoxColliderComponent, BoxCollider, Vec3, loader, Prefab, instantiate } from 'cc';
+import { Configuration } from '../data/Configuration';
 import { Constants } from '../data/Constants';
 import { CustomEventListener } from '../data/CustomEventListener';
-import { RunTimeData } from '../data/GameData';
+import { PlayerData, RunTimeData } from '../data/GameData';
 import { LoadingUI } from '../ui/LoadingUI';
 import { UIManager } from '../ui/UIManager';
 import { AudioManager } from './AudioManager';
@@ -33,9 +34,15 @@ export class GameCtrl extends Component {
   loadingUI: LoadingUI = null;
 
   private _progress = 5;
+  private _runtimeData: RunTimeData = null;
+  private _lastMapID = 0;
 
   public onLoad() {
+    this._runtimeData = RunTimeData.instance();
+    Configuration.instance().init();
+    PlayerData.instance().loadFromCache();
     this.loadingUI.show();
+    this._lastMapID == this._runtimeData.currLevel
     this._loadMap(1);
     const collider = this.group.getComponent(BoxCollider)!;
     collider.setGroup(Constants.CarGroup.NORMAL);
@@ -76,30 +83,37 @@ export class GameCtrl extends Component {
   private _newLevel() {
     UIManager.hidDialog(Constants.UIPage.resultUI);
     UIManager.showDialog(Constants.UIPage.mainUI);
+    if (this._lastMapID === this._runtimeData.currLevel) {
+      this._reset();
+      return;
+    }
+
     this.mapManager.recycle();
     this.loadingUI.show();
-    this._loadMap(1);
+    this._lastMapID = this._runtimeData.currLevel;
+    this._loadMap(this._lastMapID);
   }
 
   private _reset() {
     this.mapManager!.resetMap();
     this.carManager!.reset(this.mapManager!.curPath);
-    const runtimeData = RunTimeData.instance();
+    const runtimeData = this._runtimeData;
     runtimeData.curProgress = 0;
     runtimeData.maxProgress = this.mapManager.maxProgress;
+    runtimeData.money = 0;
   };
 
   private _loadMap(level: number, cb?: Function) {
     let map = `map/map`;
-    if (level >= 100) {
-      map += `${level}`;
-    } else if (level >= 10) {
-      map += `1${level}`;
-    } else {
-      map += `10${level}`;
-    }
+    // if (level >= 100) {
+    //   map += `${level}`;
+    // } else if (level >= 10) {
+    //   map += `1${level}`;
+    // } else {
+    //   map += `10${level}`;
+    // }
 
-    loader.loadRes(map, Prefab, (err, prefab) => {
+    loader.loadRes(`${map}101`, Prefab, (err, prefab) => {
       if (err) {
         console.warn(err);
         return;

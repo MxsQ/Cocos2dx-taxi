@@ -1,7 +1,7 @@
 System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants", "../data/CustomEventListener", "../data/GameData"], function (_export, _context) {
   "use strict";
 
-  var _reporterNs, _cclegacy, _decorator, Component, Label, Sprite, SpriteFrame, Constants, CustomEventListener, RunTimeData, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, ResultUI;
+  var _reporterNs, _cclegacy, _decorator, Component, Label, Sprite, SpriteFrame, Constants, CustomEventListener, PlayerData, RunTimeData, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _dec10, _dec11, _dec12, _dec13, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _descriptor9, _descriptor10, _descriptor11, _descriptor12, _temp, _crd, ccclass, property, ResultUI;
 
   function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
 
@@ -25,6 +25,10 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
     _reporterNs.report("CustomEventListener", "../data/CustomEventListener", _context.meta, extras);
   }
 
+  function _reportPossibleCrUseOfPlayerData(extras) {
+    _reporterNs.report("PlayerData", "../data/GameData", _context.meta, extras);
+  }
+
   function _reportPossibleCrUseOfRunTimeData(extras) {
     _reporterNs.report("RunTimeData", "../data/GameData", _context.meta, extras);
   }
@@ -44,6 +48,7 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
     }, function (_dataCustomEventListener) {
       CustomEventListener = _dataCustomEventListener.CustomEventListener;
     }, function (_dataGameData) {
+      PlayerData = _dataGameData.PlayerData;
       RunTimeData = _dataGameData.RunTimeData;
     }],
     execute: function () {
@@ -159,17 +164,32 @@ System.register(["cce:/internal/code-quality/cr.mjs", "cc", "../data/Constants",
           this.srcSp.spriteFrame = this.levelFinished;
           this.targetSp.spriteFrame = curProgress === maxProgress ? this.levelFinished : this.levelUnFinished;
           this.progressLabel.string = "\u4F60\u5B8C\u6210\u4E86" + curProgress + "\u4E2A\u8BA2\u5355";
+          var level = runtimeData.currLevel;
+          this.srcLevel.string = "" + level;
+          this.targetLevel.string = "" + (level + 1);
+          this.moneyLabel.string = "" + runtimeData.money;
         };
 
         _proto.hide = function hide() {};
 
         _proto.clictBtnNormal = function clictBtnNormal() {
+          var runtimeData = (_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+            error: Error()
+          }), RunTimeData) : RunTimeData).instance();
+
+          if (runtimeData.curProgress === runtimeData.maxProgress) {
+            (_crd && PlayerData === void 0 ? (_reportPossibleCrUseOfPlayerData({
+              error: Error()
+            }), PlayerData) : PlayerData).instance().passLevel((_crd && RunTimeData === void 0 ? (_reportPossibleCrUseOfRunTimeData({
+              error: Error()
+            }), RunTimeData) : RunTimeData).instance().money);
+          }
+
           (_crd && CustomEventListener === void 0 ? (_reportPossibleCrUseOfCustomEventListener({
             error: Error()
           }), CustomEventListener) : CustomEventListener).dispatchEvent((_crd && Constants === void 0 ? (_reportPossibleCrUseOfConstants({
             error: Error()
           }), Constants) : Constants).EventName.NEW_LEVEL);
-          console.log("确实点到了");
         };
 
         return ResultUI;

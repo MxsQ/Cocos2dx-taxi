@@ -96,16 +96,6 @@
     "physicalLocation": "fs/0/assets/script/ui/resultUI.js",
     "mTimestamp": 1631590770048
   },
-  "assets/script/ui/MainUI.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "../data/Constants": "assets/script/data/Constants.js",
-      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js"
-    },
-    "physicalLocation": "fs/0/assets/script/ui/MainUI.js",
-    "mTimestamp": 1631605956176
-  },
   "quick-pack:/cce/internal/x/cc.js": {
     "imports": {},
     "physicalLocation": "cce/internal/x/cc.js",
@@ -118,41 +108,12 @@
     "physicalLocation": "cce/internal/code-quality/cr.js",
     "mTimestamp": 1631607050963
   },
-  "assets/script/data/GameData.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/data/GameData.js",
-    "mTimestamp": 1631685231197
-  },
   "assets/script/game/GameMap.js": {
     "imports": {
       "cc": "quick-pack:/cce/internal/x/cc.js"
     },
     "physicalLocation": "fs/0/assets/script/game/GameMap.js",
     "mTimestamp": 1631685231554
-  },
-  "assets/script/ui/GameUI.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "../data/Constants": "assets/script/data/Constants.js",
-      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
-      "../data/GameData": "assets/script/data/GameData.js"
-    },
-    "physicalLocation": "fs/0/assets/script/ui/GameUI.js",
-    "mTimestamp": 1631785249873
-  },
-  "assets/script/ui/ResultUI.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "../data/Constants": "assets/script/data/Constants.js",
-      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
-      "../data/GameData": "assets/script/data/GameData.js"
-    },
-    "physicalLocation": "fs/0/assets/script/ui/ResultUI.js",
-    "mTimestamp": 1631949843927
   },
   "assets/script/ui/UIManager.js": {
     "imports": {
@@ -169,17 +130,6 @@
     },
     "physicalLocation": "fs/0/assets/script/ui/BtnAdapter.js",
     "mTimestamp": 1632290192475
-  },
-  "assets/script/game/CustomerManager.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js",
-      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
-      "../data/Constants": "assets/script/data/Constants.js",
-      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
-      "./AudioManager": "assets/script/game/AudioManager.js"
-    },
-    "physicalLocation": "fs/0/assets/script/game/CustomerManager.js",
-    "mTimestamp": 1632291175698
   },
   "assets/script/game/Car.js": {
     "imports": {
@@ -206,13 +156,6 @@
     },
     "physicalLocation": "fs/0/assets/script/game/CarManager.js",
     "mTimestamp": 1632294584796
-  },
-  "assets/script/data/Constants.js": {
-    "imports": {
-      "cc": "quick-pack:/cce/internal/x/cc.js"
-    },
-    "physicalLocation": "fs/0/assets/script/data/Constants.js",
-    "mTimestamp": 1632297541014
   },
   "assets/script/game/MapManager.js": {
     "imports": {
@@ -241,10 +184,82 @@
     "physicalLocation": "fs/0/assets/script/ui/LoadingUI.js",
     "mTimestamp": 1632303478626
   },
+  "assets/script/data/Constants.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/script/data/Constants.js",
+    "mTimestamp": 1632377226948
+  },
+  "assets/script/ui/GameUI.js": {
+    "imports": {
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../data/GameData": "assets/script/data/GameData.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/GameUI.js",
+    "mTimestamp": 1632382704639
+  },
+  "assets/script/ui/MainUI.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../data/GameData": "assets/script/data/GameData.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/MainUI.js",
+    "mTimestamp": 1632383059716
+  },
+  "assets/script/data/GameData.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./Configuration": "assets/script/data/Configuration.js",
+      "./Constants": "assets/script/data/Constants.js"
+    },
+    "physicalLocation": "fs/0/assets/script/data/GameData.js",
+    "mTimestamp": 1632384580053
+  },
+  "assets/script/game/CustomerManager.js": {
+    "imports": {
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../data/GameData": "assets/script/data/GameData.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "./AudioManager": "assets/script/game/AudioManager.js"
+    },
+    "physicalLocation": "fs/0/assets/script/game/CustomerManager.js",
+    "mTimestamp": 1632384580149
+  },
+  "assets/script/ui/ResultUI.js": {
+    "imports": {
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "../data/Constants": "assets/script/data/Constants.js",
+      "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
+      "../data/GameData": "assets/script/data/GameData.js"
+    },
+    "physicalLocation": "fs/0/assets/script/ui/ResultUI.js",
+    "mTimestamp": 1632384580237
+  },
+  "assets/script/data/Configuration.js": {
+    "imports": {
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "./Constants": "assets/script/data/Constants.js"
+    },
+    "physicalLocation": "fs/0/assets/script/data/Configuration.js",
+    "mTimestamp": 1632384580352
+  },
   "quick-pack:/cce/internal/x/prerequisite-imports.js": {
     "imports": {
-      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js",
+      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Configuration.ts": "assets/script/data/Configuration.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/Constants.ts": "assets/script/data/Constants.js",
+      "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/RoadPoint.ts": "assets/script/RoadPoint.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/CustomEventListener.ts": "assets/script/data/CustomEventListener.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/GameData.ts": "assets/script/data/GameData.js",
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/data/PoolManager.ts": "assets/script/data/PoolManager.js",
@@ -267,7 +282,7 @@
       "file:///Users/qinx/coding/cocos2dx/Cocos2dx-taxi/assets/script/game/GameCtrl.ts": "assets/script/game/GameCtrl.js"
     },
     "physicalLocation": "cce/internal/x/prerequisite-imports.js",
-    "mTimestamp": 1632303557976,
+    "mTimestamp": 1632386296015,
     "isEntry": true,
     "exposeAs": "cce:/internal/x/prerequisite-imports"
   },
@@ -276,6 +291,7 @@
       "cc": "quick-pack:/cce/internal/x/cc.js",
       "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
       "../data/Constants": "assets/script/data/Constants.js",
+      "../data/Configuration": "assets/script/data/Configuration.js",
       "../data/CustomEventListener": "assets/script/data/CustomEventListener.js",
       "../data/GameData": "assets/script/data/GameData.js",
       "../ui/LoadingUI": "assets/script/ui/LoadingUI.js",
@@ -285,6 +301,6 @@
       "./MapManager": "assets/script/game/MapManager.js"
     },
     "physicalLocation": "fs/0/assets/script/game/GameCtrl.js",
-    "mTimestamp": 1632303558069
+    "mTimestamp": 1632386296119
   }
 }
